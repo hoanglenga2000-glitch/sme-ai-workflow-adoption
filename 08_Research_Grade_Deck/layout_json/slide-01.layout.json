@@ -1,0 +1,743 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/s9x13f",
+    "id": "s9x13f",
+    "slide": 1,
+    "layoutId": "19f49680-fc30-41d1-b378-7fd067ce482a",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "378f6be9-3152-46ae-9087-340ec5f4f555",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Cascadia Mono",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "19f49680-fc30-41d1-b378-7fd067ce482a",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "378f6be9-3152-46ae-9087-340ec5f4f555",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "378f6be9-3152-46ae-9087-340ec5f4f555",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ex0nuxc",
+      "id": "2",
+      "bbox": [
+        64,
+        44,
+        300,
+        22
+      ],
+      "geometry": "rect",
+      "text": "RESEARCH DEFENSE",
+      "textPreview": "RESEARCH DEFENSE",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "RESEARCH DEFENSE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RESEARCH DEFENSE",
+          "runs": [
+            {
+              "index": 1,
+              "text": "RESEARCH DEFENSE",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#0B1F3A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at47y1kr",
+      "id": "3",
+      "bbox": [
+        64,
+        76,
+        64,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#0B1F3A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l87ed8ba",
+      "id": "4",
+      "bbox": [
+        64,
+        128,
+        620,
+        142
+      ],
+      "geometry": "rect",
+      "text": "AI 流程自动化采纳不是技术选择，而是中小企业的组织决策。",
+      "textPreview": "AI 流程自动化采纳不是技术选择，而是中小企业的组织决策。",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "fontSize": 34,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI"
+          },
+          {
+            "index": 2,
+            "text": "流程自动化采纳不是技术选择，而是中小"
+          },
+          {
+            "index": 3,
+            "text": "企业的组织决策。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI 流程自动化采纳不是技术选择，而是中小企业的组织决策。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI 流程自动化采纳不是技术选择，而是中小企业的组织决策。",
+              "fontSize": 34,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sneloj2t",
+      "id": "5",
+      "bbox": [
+        66,
+        292,
+        620,
+        36
+      ],
+      "geometry": "rect",
+      "text": "基于效率需求、安全顾虑与部署偏好的实证分析",
+      "textPreview": "基于效率需求、安全顾虑与部署偏好的实证分析",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "基于效率需求、安全顾虑与部署偏好的实证分析"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "基于效率需求、安全顾虑与部署偏好的实证分析",
+          "runs": [
+            {
+              "index": 1,
+              "text": "基于效率需求、安全顾虑与部署偏好的实证分析",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ixczed8v",
+      "id": "6",
+      "bbox": [
+        758,
+        106,
+        438,
+        300
+      ],
+      "alt": "mechanism",
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "7b571ecb-6d3d-4bcc-9aa0-d48d9e0ff2be",
+        "contentType": "image/png",
+        "byteLength": 1535870
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahoza1gv",
+      "id": "7",
+      "bbox": [
+        66,
+        454,
+        180,
+        46
+      ],
+      "geometry": "rect",
+      "text": "12.77M",
+      "textPreview": "12.77M",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "fontSize": 29,
+        "typeface": "Cascadia Mono",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12.77M"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12.77M",
+          "runs": [
+            {
+              "index": 1,
+              "text": "12.77M",
+              "fontSize": 29,
+              "typeface": "Cascadia Mono",
+              "color": "#0B1F3A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lwval87e",
+      "id": "8",
+      "bbox": [
+        66,
+        502,
+        192,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Stage 2 官方行数画像",
+      "textPreview": "Stage 2 官方行数画像",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Stage 2 官方行数画像"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Stage 2 官方行数画像",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Stage 2 官方行数画像",
+              "fontSize": 11,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wb2hwfyx",
+      "id": "9",
+      "bbox": [
+        278,
+        454,
+        180,
+        46
+      ],
+      "geometry": "rect",
+      "text": "0.850",
+      "textPreview": "0.850",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "fontSize": 29,
+        "typeface": "Cascadia Mono",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.850"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.850",
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.850",
+              "fontSize": 29,
+              "typeface": "Cascadia Mono",
+              "color": "#0B1F3A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lszqtcj",
+      "id": "10",
+      "bbox": [
+        278,
+        502,
+        192,
+        38
+      ],
+      "geometry": "rect",
+      "text": "SME GroupKFold R²",
+      "textPreview": "SME GroupKFold R²",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SME GroupKFold R²"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SME GroupKFold R²",
+          "runs": [
+            {
+              "index": 1,
+              "text": "SME GroupKFold R²",
+              "fontSize": 11,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6psfil0",
+      "id": "11",
+      "bbox": [
+        490,
+        454,
+        190,
+        46
+      ],
+      "geometry": "rect",
+      "text": "0.724",
+      "textPreview": "0.724",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "fontSize": 29,
+        "typeface": "Cascadia Mono",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.724"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.724",
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.724",
+              "fontSize": 29,
+              "typeface": "Cascadia Mono",
+              "color": "#0B1F3A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/knih4byh",
+      "id": "12",
+      "bbox": [
+        490,
+        502,
+        202,
+        38
+      ],
+      "geometry": "rect",
+      "text": "GE10 外部验证 R²",
+      "textPreview": "GE10 外部验证 R²",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GE10 外部验证 R²"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GE10 外部验证 R²",
+          "runs": [
+            {
+              "index": 1,
+              "text": "GE10 外部验证 R²",
+              "fontSize": 11,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8bat47y",
+      "id": "13",
+      "bbox": [
+        66,
+        604,
+        780,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Official Eurostat data · SHA256 validation · GroupKFold by country · NVIDIA A10 MLP baseline",
+      "textPreview": "Official Eurostat data · SHA256 validation · GroupKFold by country · NVIDIA A10 MLP baseline",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Official Eurostat data · SHA256 validation · GroupKFold by country · NVIDIA A10 MLP baseline"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Official Eurostat data · SHA256 validation · GroupKFold by country · NVIDIA A10 MLP baseline",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Official Eurostat data · SHA256 validation · GroupKFold by country · NVIDIA A10 MLP baseline",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#111827"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29gr2p8n",
+      "id": "14",
+      "bbox": [
+        64,
+        670,
+        1152,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#E5E7EB",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vu9knih4",
+      "id": "15",
+      "bbox": [
+        64,
+        682,
+        900,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Data: Eurostat SDMX-CSV; Evidence tables: outputs/tables/enhanced_*.csv",
+      "textPreview": "Data: Eurostat SDMX-CSV; Evidence tables: outputs/tables/enhanced_*.csv",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "fontSize": 9,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Data: Eurostat SDMX-CSV; Evidence tables: outputs/tables/enhanced_*.csv"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Data: Eurostat SDMX-CSV; Evidence tables: outputs/tables/enhanced_*.csv",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Data: Eurostat SDMX-CSV; Evidence tables: outputs/tables/enhanced_*.csv",
+              "fontSize": 9,
+              "typeface": "Aptos",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kf6dcbul",
+      "id": "16",
+      "bbox": [
+        1170,
+        680,
+        48,
+        24
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Cascadia Mono",
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 13,
+              "typeface": "Cascadia Mono",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

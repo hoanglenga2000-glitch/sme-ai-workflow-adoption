@@ -1,0 +1,40 @@
+{
+  "stage1_rf_r2": 0.8495172115199375,
+  "stage1_rf_mae": 1.7899876665858987,
+  "stage2_et_r2": 0.7238307880159607,
+  "stage2_et_mae": 1.9670936511619748,
+  "stage1_mlp_r2": 0.8060439229011536,
+  "stage2_mlp_r2": 0.6620737314224243,
+  "stage1_rows": 544,
+  "stage2_rows": 5814,
+  "stage1_geo_count": 36,
+  "stage2_geo_count": 36,
+  "stage2_nace_count": 50,
+  "stage2_raw_rows": 12770332,
+  "stage2_nonnull": 10453354,
+  "stage2_retained": 856880,
+  "max_vif": 14.402622093622549,
+  "top_persona_cluster": 3,
+  "top_persona_workflow": 13.36,
+  "top_persona_readiness": 54.72,
+  "stage1_top_importance": "ML capability",
+  "stage2_top_importance": "ML capability",
+  "manifest_stage1": {
+    "manifest": "data/raw/manifest.jsonl",
+    "records": 14,
+    "hash_ok": 10,
+    "hash_bad": 0,
+    "missing": 0,
+    "failed_status_records": 0,
+    "verified_bytes": 41504788
+  },
+  "manifest_stage2": {
+    "manifest": "data/raw/manifest_stage2.jsonl",
+    "records": 17,
+    "hash_ok": 17,
+    "hash_bad": 0,
+    "missing": 0,
+    "failed_status_records": 0,
+    "verified_bytes": 75115663
+  }
+}

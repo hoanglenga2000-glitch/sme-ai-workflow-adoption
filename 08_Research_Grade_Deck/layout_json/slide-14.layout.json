@@ -1,0 +1,699 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/45ns18",
+    "id": "45ns18",
+    "slide": 14,
+    "layoutId": "19f49680-fc30-41d1-b378-7fd067ce482a",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "378f6be9-3152-46ae-9087-340ec5f4f555",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Cascadia Mono",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "19f49680-fc30-41d1-b378-7fd067ce482a",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "378f6be9-3152-46ae-9087-340ec5f4f555",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "378f6be9-3152-46ae-9087-340ec5f4f555",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ylc7u",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlkjm1cf",
+      "id": "2",
+      "bbox": [
+        64,
+        36,
+        360,
+        24
+      ],
+      "geometry": "rect",
+      "text": "PRODUCT LANDING",
+      "textPreview": "PRODUCT LANDING",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PRODUCT LANDING"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PRODUCT LANDING",
+          "runs": [
+            {
+              "index": 1,
+              "text": "PRODUCT LANDING",
+              "fontSize": 10,
+              "typeface": "Aptos",
+              "color": "#0B1F3A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6dcbulw",
+      "id": "3",
+      "bbox": [
+        64,
+        66,
+        64,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#0B1F3A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zidonyd",
+      "id": "4",
+      "bbox": [
+        64,
+        84,
+        1040,
+        74
+      ],
+      "geometry": "rect",
+      "text": "ai.zhjjq.tech 是把研究机制落到真实 AI 办公流程的操作层。",
+      "textPreview": "ai.zhjjq.tech 是把研究机制落到真实 AI 办公流程的操作层。",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ai.zhjjq.tech 是把研究机制落到真实 AI 办公流程的操作层。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ai.zhjjq.tech 是把研究机制落到真实 AI 办公流程的操作层。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "ai.zhjjq.tech 是把研究机制落到真实 AI 办公流程的操作层。",
+              "fontSize": 28,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkf6dcbu",
+      "id": "5",
+      "bbox": [
+        64,
+        670,
+        1152,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#E5E7EB",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtwra5gb",
+      "id": "6",
+      "bbox": [
+        64,
+        682,
+        900,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Product visual: ai.zhjjq.tech workstation screenshot and research operating model.",
+      "textPreview": "Product visual: ai.zhjjq.tech workstation screenshot and research operating model.",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "fontSize": 9,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Product visual: ai.zhjjq.tech workstation screenshot and research operating model."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Product visual: ai.zhjjq.tech workstation screenshot and research operating model.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Product visual: ai.zhjjq.tech workstation screenshot and research operating model.",
+              "fontSize": 9,
+              "typeface": "Aptos",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fepkzupw",
+      "id": "7",
+      "bbox": [
+        1170,
+        680,
+        48,
+        24
+      ],
+      "geometry": "rect",
+      "text": "14",
+      "textPreview": "14",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Cascadia Mono",
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "14"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "14",
+          "runs": [
+            {
+              "index": 1,
+              "text": "14",
+              "fontSize": 13,
+              "typeface": "Cascadia Mono",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/5wjudg7a",
+      "id": "8",
+      "bbox": [
+        66,
+        184,
+        470,
+        286
+      ],
+      "alt": "workstation-model",
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "89169689-9460-462d-94a7-689d14f2cab2",
+        "contentType": "image/png",
+        "byteLength": 1464362
+      }
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/gbq1oryt",
+      "id": "9",
+      "bbox": [
+        598,
+        188,
+        560,
+        290
+      ],
+      "alt": "ai-workstation-screenshot",
+      "contentType": "image/jpeg",
+      "asset": {
+        "assetId": "017fb5bd-7ccd-43c6-b2dc-8390fda9c53a",
+        "contentType": "image/jpeg",
+        "byteLength": 51412
+      }
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcbulwva",
+      "id": "10",
+      "bbox": [
+        146,
+        520,
+        293.33,
+        20
+      ],
+      "geometry": "rect",
+      "text": "What the chart shows",
+      "textPreview": "What the chart shows",
+      "resolvedFontSize": 9.51,
+      "resolvedTextStyle": {
+        "fontSize": 9.51,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "What the chart shows"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "What the chart shows",
+          "runs": [
+            {
+              "index": 1,
+              "text": "What the chart shows",
+              "fontSize": 9.51,
+              "typeface": "Aptos",
+              "color": "#0B1F3A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kre1w7mp",
+      "id": "11",
+      "bbox": [
+        146,
+        548,
+        293.33,
+        54
+      ],
+      "geometry": "rect",
+      "text": "研究模型判断企业效率需求、安全顾虑和部署准备度。",
+      "textPreview": "研究模型判断企业效率需求、安全顾虑和部署准备度。",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "研究模型判断企业效率需求、安全顾虑和部署准备度。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "研究模型判断企业效率需求、安全顾虑和部署准备度。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "研究模型判断企业效率需求、安全顾虑和部署准备度。",
+              "fontSize": 12.2,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/val87ed8",
+      "id": "12",
+      "bbox": [
+        454.33,
+        524,
+        1,
+        72
+      ],
+      "geometry": "rect",
+      "fillColor": "#E5E7EB",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6psfil0r",
+      "id": "13",
+      "bbox": [
+        469.33,
+        520,
+        293.33,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Why it matters",
+      "textPreview": "Why it matters",
+      "resolvedFontSize": 9.51,
+      "resolvedTextStyle": {
+        "fontSize": 9.51,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Why it matters"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Why it matters",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Why it matters",
+              "fontSize": 9.51,
+              "typeface": "Aptos",
+              "color": "#0B1F3A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/donyd0z6",
+      "id": "14",
+      "bbox": [
+        469.33,
+        548,
+        293.33,
+        54
+      ],
+      "geometry": "rect",
+      "text": "AI 工作站承接智能体、组织知识、流程任务和治理反馈。",
+      "textPreview": "AI 工作站承接智能体、组织知识、流程任务和治理反馈。",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI"
+          },
+          {
+            "index": 2,
+            "text": "工作站承接智能体、组织知识、流程任务和治理反馈。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI 工作站承接智能体、组织知识、流程任务和治理反馈。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI 工作站承接智能体、组织知识、流程任务和治理反馈。",
+              "fontSize": 12.2,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3q5o7qp",
+      "id": "15",
+      "bbox": [
+        777.67,
+        524,
+        1,
+        72
+      ],
+      "geometry": "rect",
+      "fillColor": "#E5E7EB",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vixczed8",
+      "id": "16",
+      "bbox": [
+        792.67,
+        520,
+        293.33,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Decision it supports",
+      "textPreview": "Decision it supports",
+      "resolvedFontSize": 9.51,
+      "resolvedTextStyle": {
+        "fontSize": 9.51,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Decision it supports"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Decision it supports",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Decision it supports",
+              "fontSize": 9.51,
+              "typeface": "Aptos",
+              "color": "#0B1F3A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x4nap4r",
+      "id": "17",
+      "bbox": [
+        792.67,
+        548,
+        293.33,
+        54
+      ],
+      "geometry": "rect",
+      "text": "产品落地让课程模型从预测结果走向可执行的 AI 办公部署方案。",
+      "textPreview": "产品落地让课程模型从预测结果走向可执行的 AI 办公部署方案。",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "产品落地让课程模型从预测结果走向可执行的 AI"
+          },
+          {
+            "index": 2,
+            "text": "办公部署方案。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "产品落地让课程模型从预测结果走向可执行的 AI 办公部署方案。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "产品落地让课程模型从预测结果走向可执行的 AI 办公部署方案。",
+              "fontSize": 12.2,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

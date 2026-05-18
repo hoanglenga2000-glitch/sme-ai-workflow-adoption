@@ -1,0 +1,871 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/hccq9i",
+    "id": "hccq9i",
+    "slide": 13,
+    "layoutId": "19f49680-fc30-41d1-b378-7fd067ce482a",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "378f6be9-3152-46ae-9087-340ec5f4f555",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Cascadia Mono",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "19f49680-fc30-41d1-b378-7fd067ce482a",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "378f6be9-3152-46ae-9087-340ec5f4f555",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "378f6be9-3152-46ae-9087-340ec5f4f555",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqh0fepk",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bat47y1",
+      "id": "2",
+      "bbox": [
+        64,
+        36,
+        360,
+        24
+      ],
+      "geometry": "rect",
+      "text": "SEGMENTATION",
+      "textPreview": "SEGMENTATION",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SEGMENTATION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SEGMENTATION",
+          "runs": [
+            {
+              "index": 1,
+              "text": "SEGMENTATION",
+              "fontSize": 10,
+              "typeface": "Aptos",
+              "color": "#0B1F3A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1w7mp0bi",
+      "id": "3",
+      "bbox": [
+        64,
+        66,
+        64,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#0B1F3A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qh0fepkz",
+      "id": "4",
+      "bbox": [
+        64,
+        84,
+        1040,
+        74
+      ],
+      "geometry": "rect",
+      "text": "客户画像把模型结果转化为可落地的企业部署策略。",
+      "textPreview": "客户画像把模型结果转化为可落地的企业部署策略。",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "客户画像把模型结果转化为可落地的企业部署策略。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "客户画像把模型结果转化为可落地的企业部署策略。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "客户画像把模型结果转化为可落地的企业部署策略。",
+              "fontSize": 28,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2t83itg",
+      "id": "5",
+      "bbox": [
+        64,
+        670,
+        1152,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#E5E7EB",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nqxs72x",
+      "id": "6",
+      "bbox": [
+        64,
+        682,
+        900,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Source: outputs/tables/sme_persona_clusters_multisource.csv.",
+      "textPreview": "Source: outputs/tables/sme_persona_clusters_multisource.csv.",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "fontSize": 9,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source: outputs/tables/sme_persona_clusters_multisource.csv."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source: outputs/tables/sme_persona_clusters_multisource.csv.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source: outputs/tables/sme_persona_clusters_multisource.csv.",
+              "fontSize": 9,
+              "typeface": "Aptos",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18jqh0fe",
+      "id": "7",
+      "bbox": [
+        1170,
+        680,
+        48,
+        24
+      ],
+      "geometry": "rect",
+      "text": "13",
+      "textPreview": "13",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Cascadia Mono",
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "13"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "13",
+          "runs": [
+            {
+              "index": 1,
+              "text": "13",
+              "fontSize": 13,
+              "typeface": "Cascadia Mono",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/fepkzupw",
+      "id": "8",
+      "bbox": [
+        76,
+        170,
+        590,
+        386
+      ],
+      "alt": "persona-chart",
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "2b590ca0-f930-49da-83a5-aca9efe5d597",
+        "contentType": "image/png",
+        "byteLength": 74444
+      }
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6tovaho",
+      "id": "9",
+      "bbox": [
+        742,
+        176,
+        160,
+        46
+      ],
+      "geometry": "rect",
+      "text": "C3",
+      "textPreview": "C3",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "fontSize": 29,
+        "typeface": "Cascadia Mono",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "C3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "C3",
+          "runs": [
+            {
+              "index": 1,
+              "text": "C3",
+              "fontSize": 29,
+              "typeface": "Cascadia Mono",
+              "color": "#0B1F3A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2t83itg",
+      "id": "10",
+      "bbox": [
+        742,
+        224,
+        172,
+        38
+      ],
+      "geometry": "rect",
+      "text": "最高流程自动化采纳画像",
+      "textPreview": "最高流程自动化采纳画像",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "最高流程自动化采纳画像"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "最高流程自动化采纳画像",
+          "runs": [
+            {
+              "index": 1,
+              "text": "最高流程自动化采纳画像",
+              "fontSize": 11,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qh0fepkz",
+      "id": "11",
+      "bbox": [
+        990,
+        176,
+        190,
+        46
+      ],
+      "geometry": "rect",
+      "text": "13.36%",
+      "textPreview": "13.36%",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "fontSize": 29,
+        "typeface": "Cascadia Mono",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "13.36%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "13.36%",
+          "runs": [
+            {
+              "index": 1,
+              "text": "13.36%",
+              "fontSize": 29,
+              "typeface": "Cascadia Mono",
+              "color": "#0B1F3A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18jqh0fe",
+      "id": "12",
+      "bbox": [
+        990,
+        224,
+        202,
+        38
+      ],
+      "geometry": "rect",
+      "text": "workflow automation mean",
+      "textPreview": "workflow automation mean",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "workflow automation mean"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "workflow automation mean",
+          "runs": [
+            {
+              "index": 1,
+              "text": "workflow automation mean",
+              "fontSize": 11,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nqxs72x",
+      "id": "13",
+      "bbox": [
+        760,
+        314,
+        380,
+        18
+      ],
+      "geometry": "rect",
+      "text": "What the chart shows",
+      "textPreview": "What the chart shows",
+      "resolvedFontSize": 9.2,
+      "resolvedTextStyle": {
+        "fontSize": 9.2,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "What the chart shows"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "What the chart shows",
+          "runs": [
+            {
+              "index": 1,
+              "text": "What the chart shows",
+              "fontSize": 9.2,
+              "typeface": "Aptos",
+              "color": "#0B1F3A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqh0fepk",
+      "id": "14",
+      "bbox": [
+        760,
+        338,
+        380,
+        40
+      ],
+      "geometry": "rect",
+      "text": "不同画像在部署准备度和安全顾虑上存在结构性差异。",
+      "textPreview": "不同画像在部署准备度和安全顾虑上存在结构性差异。",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "fontSize": 11.51,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "不同画像在部署准备度和安全顾虑上存在结构性差异。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "不同画像在部署准备度和安全顾虑上存在结构性差异。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "不同画像在部署准备度和安全顾虑上存在结构性差异。",
+              "fontSize": 11.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5o7qpg3",
+      "id": "15",
+      "bbox": [
+        760,
+        378,
+        380,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#E5E7EB",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1w7mp0bi",
+      "id": "16",
+      "bbox": [
+        760,
+        386,
+        380,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Why it matters",
+      "textPreview": "Why it matters",
+      "resolvedFontSize": 9.2,
+      "resolvedTextStyle": {
+        "fontSize": 9.2,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Why it matters"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Why it matters",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Why it matters",
+              "fontSize": 9.2,
+              "typeface": "Aptos",
+              "color": "#0B1F3A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bat47y1",
+      "id": "17",
+      "bbox": [
+        760,
+        410,
+        380,
+        40
+      ],
+      "geometry": "rect",
+      "text": "同一套 AI 功能不能用单一部署方案覆盖所有中小企业。",
+      "textPreview": "同一套 AI 功能不能用单一部署方案覆盖所有中小企业。",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "fontSize": 11.51,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "同一套 AI 功能不能用单一部署方案覆盖所有中小企业。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "同一套 AI 功能不能用单一部署方案覆盖所有中小企业。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "同一套 AI 功能不能用单一部署方案覆盖所有中小企业。",
+              "fontSize": 11.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "18",
+      "bbox": [
+        760,
+        450,
+        380,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#E5E7EB",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxc3ylc7",
+      "id": "19",
+      "bbox": [
+        760,
+        458,
+        380,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Decision it supports",
+      "textPreview": "Decision it supports",
+      "resolvedFontSize": 9.2,
+      "resolvedTextStyle": {
+        "fontSize": 9.2,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Decision it supports"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Decision it supports",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Decision it supports",
+              "fontSize": 9.2,
+              "typeface": "Aptos",
+              "color": "#0B1F3A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2t83itgf",
+      "id": "20",
+      "bbox": [
+        760,
+        482,
+        380,
+        40
+      ],
+      "geometry": "rect",
+      "text": "画像结果可直接服务于销售、交付和部署方案推荐。",
+      "textPreview": "画像结果可直接服务于销售、交付和部署方案推荐。",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "fontSize": 11.51,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "画像结果可直接服务于销售、交付和部署方案推荐。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "画像结果可直接服务于销售、交付和部署方案推荐。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "画像结果可直接服务于销售、交付和部署方案推荐。",
+              "fontSize": 11.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
