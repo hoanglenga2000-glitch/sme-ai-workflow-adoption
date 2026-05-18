@@ -1,0 +1,28 @@
+# Large or reproducible data artifacts
+data/raw/
+data/interim/
+data/processed/
+data/external/
+outputs/*
+!outputs/figures/
+!outputs/figures/.gitkeep
+!outputs/tables/
+!outputs/tables/.gitkeep
+!outputs/reports/
+!outputs/reports/.gitkeep
+logs/
+
+# Local environments
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+*.log
+
+# Keep lightweight documentation/samples in git
+!data/samples/
+!data/samples/**
+!outputs/reports/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
