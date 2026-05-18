@@ -2,7 +2,7 @@
 
 研究主题：基于中小企业 AI 流程自动化采纳机制研究：效率需求、安全顾虑与部署偏好的实证分析。
 
-本项目将课程中的数据挖掘与机器学习流程落到真实公开数据：数据获取、生命周期治理、清洗、特征工程、建模、解释、可视化与复现实验。大体量原始数据保存在 A10 GPU 服务器，不直接下载到本地电脑；GitHub 仓库计划保存代码、数据来源、元数据、哈希、轻量样本和结果图表。
+本项目将课程中的数据挖掘与机器学习流程落到真实公开数据：数据获取、生命周期治理、清洗、特征工程、建模、解释、可视化与复现实验。大体量原始数据保存在 A10 GPU 服务器；GitHub 仓库保存代码、数据来源、元数据、哈希、可复现处理后面板、轻量样本和结果图表。
 
 ## 核心研究问题
 
@@ -13,16 +13,23 @@
 
 ## 数据源路线
 
-- 官方主数据：U.S. Census Bureau Business Trends and Outlook Survey (BTOS) AI 相关表。
-- 官方验证数据：Eurostat 企业 AI 技术使用数据，按国家、行业、规模等维度提供对照。
+- 官方主数据：Eurostat 企业 AI 技术使用、云计算、数字强度、数据分析、电子商务、ICT技能等数据，按国家、年份、企业规模组构建 SME 机制层。
+- 官方验证数据：Eurostat 行业、区域、结构性商业统计和高增长企业数据，构建 GE10 行业/区域外部验证层。
+- 未采用数据：U.S. Census Bureau BTOS AI 相关表曾尝试补充，但服务器访问出现 HTTP 403，因此不作为最终训练主体。
 - 治理框架：NIST AI Risk Management Framework，用于构造治理/安全解释框架。
-- 原问卷与 Kaggle 数据：仅作为辅助对照，不作为唯一证据来源。
+- 原问卷与 Kaggle 数据：仅作为辅助对照，不作为最终模型的唯一证据来源。
 
 ## 运行入口
 
 ```bash
 python3 src/acquisition/download_sources.py
 python3 src/pipeline.py
+python3 src/pipeline_multisource.py
+python3 src/acquisition/download_stage2_large_sources.py
+python3 src/pipeline_stage2_large.py
+python3 src/evaluation/validate_research_quality.py
+python3 src/enhanced_training_gpu.py
+python3 src/render_academic_figures.py
 ```
 
 
@@ -71,3 +78,31 @@ The upgraded research run adds 17 larger official Eurostat datasets covering ind
 - Best model: ExtraTreesRegressor, R2=0.833, MAE=1.457 percentage points.
 
 Interpretation note: stage-2 industry tables use `GE10` rather than SME size splits, so they complement rather than replace the SME size-class model. The final report should present stage 1 as SME size-class adoption modeling and stage 2 as industry/region large-scale validation.
+
+## Enhanced Training Run With A10 GPU (2026-05-18)
+
+The enhanced run adds stricter validation and academic-style figures:
+
+- Leakage-controlled feature selection excludes direct target fields and target-derived gap variables.
+- Country-group 5-fold cross-validation is used to test cross-country generalization.
+- A PyTorch MLP baseline is trained on the NVIDIA A10 GPU and evaluated with country-group holdout.
+- Academic figures are rendered with `SciencePlots`/matplotlib style and exported as PNG + SVG.
+
+Main enhanced results:
+
+- Stage 1 SME size-class layer: best GroupKFold model = RandomForest, mean R²=0.850, MAE=1.790.
+- Stage 2 GE10 industry/region validation layer: best GroupKFold model = ExtraTrees, mean R²=0.724, MAE=1.967.
+- A10 GPU MLP baseline under country-group holdout: Stage 1 R²=0.806, Stage 2 R²=0.662.
+
+These numbers are more conservative than the earlier random holdout results and should be preferred in the final academic discussion because they better reflect external generalization.
+
+## What Is Stored In GitHub
+
+- `data/raw/manifest*.jsonl`: source URL, timestamp, bytes and SHA256 hashes.
+- `data/processed/*.csv`: processed modeling panels and persona assignments, small enough for course review.
+- `data/samples/*.csv`: lightweight samples for quick inspection.
+- `outputs/tables/*.csv`: model metrics, feature importance, quality audit and GPU baseline.
+- `outputs/reports/*.md`: reproducible result reports.
+- `outputs/figures/academic/*`: publication-style figures for PPT/report.
+
+Large compressed raw Eurostat files remain on the A10 server under `/root/research/sme-ai-workflow-adoption/data/raw/` to avoid bloating the repository. They can be reproduced from the manifests and acquisition scripts.

@@ -1,4 +1,4 @@
-﻿# Stage 2 Large-Scale Data Mining Results
+# Stage 2 Large-Scale Data Mining Results
 
 Official stage-2 source rows profiled: 12,770,332; non-null observations: 10,453,354; source files: 17.
 

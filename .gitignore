@@ -1,7 +1,8 @@
 # Large or reproducible data artifacts
-data/raw/
+data/raw/*
+!data/raw/manifest*.jsonl
+!data/raw/.gitkeep
 data/interim/
-data/processed/
 data/external/
 outputs/*
 !outputs/figures/
@@ -23,6 +24,8 @@ __pycache__/
 # Keep lightweight documentation/samples in git
 !data/samples/
 !data/samples/**
+!data/processed/
+!data/processed/*.csv
 !outputs/reports/.gitkeep
 !outputs/figures/.gitkeep
 !outputs/tables/.gitkeep

@@ -182,7 +182,10 @@ def main():
         fitted[name]=pipe
     best_name=max(results, key=lambda k: results[k]['r2'])
     best=fitted[best_name]
-    perm=permutation_importance(best, vx, vy, scoring='r2', n_repeats=12, random_state=42, n_jobs=-1)
+    # Use single-process permutation importance so the pipeline also reruns from
+    # Windows folders with non-ASCII names; joblib's memmap tracker can fail
+    # there before model evaluation finishes.
+    perm=permutation_importance(best, vx, vy, scoring='r2', n_repeats=12, random_state=42, n_jobs=1)
     imp=pd.DataFrame({'feature':features,'importance_mean':perm.importances_mean,'importance_std':perm.importances_std}).sort_values('importance_mean', ascending=False)
     imp.to_csv(TAB/'stage2_feature_importance.csv', index=False)
 

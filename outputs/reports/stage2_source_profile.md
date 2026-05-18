@@ -1,4 +1,4 @@
-﻿# Stage 2 Source Profile
+# Stage 2 Source Profile
 
 | file | gz MB | rows | non-null obs | size classes | NACE | indicators | geo | years |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
