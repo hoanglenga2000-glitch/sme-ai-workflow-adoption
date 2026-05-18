@@ -1,4 +1,4 @@
-# SME AI Workflow Automation Adoption Research
+﻿# SME AI Workflow Automation Adoption Research
 
 研究主题：基于中小企业 AI 流程自动化采纳机制研究：效率需求、安全顾虑与部署偏好的实证分析。
 
@@ -54,3 +54,20 @@ The current main result uses 10 verified Eurostat official datasets: AI adoption
 - Best leakage-controlled model: Ridge regression, R2=0.889, MAE=1.636 percentage points.
 
 This is the recommended version for the final course report because it is both richer and more defensible than the earlier single-table model.
+
+
+## Stage 2 Large-Scale Data Mining Run (2026-05-18)
+
+The upgraded research run adds 17 larger official Eurostat datasets covering industry, regional, structural business statistics, and high-growth enterprise dimensions. Raw stage-2 files remain on the A10 server and are not committed to GitHub.
+
+- Stage-2 official source files: 17.
+- Profiled source rows: 12,770,332.
+- Non-null observations: 10,453,354.
+- Rows scanned for feature extraction: 12,341,630.
+- Rows retained after indicator filtering: 856,880.
+- Integrated GE10 industry panel rows: 5,814.
+- Modeling rows: 5,814.
+- Leakage-controlled feature count: 66.
+- Best model: ExtraTreesRegressor, R2=0.833, MAE=1.457 percentage points.
+
+Interpretation note: stage-2 industry tables use `GE10` rather than SME size splits, so they complement rather than replace the SME size-class model. The final report should present stage 1 as SME size-class adoption modeling and stage 2 as industry/region large-scale validation.

@@ -1,4 +1,4 @@
-# Data Sources And Provenance
+﻿# Data Sources And Provenance
 
 本文件记录数据来源、下载 URL、下载时间、文件哈希、用途与限制。所有来源均要求可追溯，禁止伪造数据。
 
@@ -78,3 +78,12 @@ Successful official Eurostat datasets on the A10 server:
 10. `isoc_ske_itrcrs`: Enterprises that recruited or tried to recruit ICT specialists by size class.
 
 Each file is downloaded by `src/acquisition/download_sources.py`; `data/raw/manifest.jsonl` records URL, title, HTTP status, bytes, SHA256 and timestamp. Raw files remain on the A10 server and are excluded from git by default.
+
+
+## Stage 2 Large-Scale Official Sources
+
+Stage 2 adds 17 compressed Eurostat SDMX-CSV datasets. The download script is `src/acquisition/download_stage2_large_sources.py`; the profiling script is `src/cleaning/profile_stage2_sources.py`; the modeling script is `src/pipeline_stage2_large.py`.
+
+The stage-2 source profile is stored in `outputs/reports/stage2_source_profile.md` and records 12,770,332 source rows with 10,453,354 non-null observations. Each downloaded raw file is recorded in `data/raw/manifest_stage2.jsonl` on the A10 server with URL, timestamp, byte size, and SHA256.
+
+Important data semantics: industry-level AI datasets use `GE10` (enterprises with 10 persons employed or more). They are used for industry and regional validation. SME size-specific conclusions come from the size-class Eurostat datasets in stage 1.
