@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "source_rows_scanned": 12341630,
+    "feature_rows_kept": 856880
+  },
+  "model_rows": 5814,
+  "panel_rows": 5814,
+  "feature_count": 66,
+  "metrics": {
+    "ridge": {
+      "r2": 0.7460266453095041,
+      "mae": 1.919438238871909,
+      "n_test": 1454
+    },
+    "random_forest": {
+      "r2": 0.8011369927675606,
+      "mae": 1.6421094301937138,
+      "n_test": 1454
+    },
+    "extra_trees": {
+      "r2": 0.8328772280691408,
+      "mae": 1.4573016489916975,
+      "n_test": 1454
+    },
+    "hist_gradient_boosting": {
+      "r2": 0.8229676979252458,
+      "mae": 1.5613216493246838,
+      "n_test": 1454
+    }
+  },
+  "best_model": "extra_trees"
+}

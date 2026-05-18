@@ -1,7 +1,4 @@
 # Large or reproducible data artifacts
-data/raw/*
-!data/raw/manifest*.jsonl
-!data/raw/.gitkeep
 data/interim/
 data/external/
 outputs/*

@@ -1,0 +1,3 @@
+dataset,gpu_model,status,device,gpu_name,r2,mae,best_epoch,train_seconds,max_gpu_memory_mb,n_features_after_encoding,split
+stage1_sme_size_class,torch_mlp,ok,cuda,NVIDIA A10,0.8060439229011536,2.522688627243042,20,1.8043498992919922,18.337890625,114,group_holdout_by_geo
+stage2_industry_region_GE10,torch_mlp,ok,cuda,NVIDIA A10,0.6620737314224243,2.5287415981292725,60,8.666134357452393,21.86376953125,140,group_holdout_by_geo

@@ -1,0 +1,42 @@
+{
+  "best_model": "ridge",
+  "metrics": {
+    "ridge": {
+      "r2": 0.9122342282993033,
+      "mae": 1.4583812260309994,
+      "n_test": 136
+    },
+    "random_forest": {
+      "r2": 0.8355377913638828,
+      "mae": 1.722349376192416,
+      "n_test": 136
+    },
+    "hist_gradient_boosting": {
+      "r2": 0.796833903994042,
+      "mae": 1.8255419428623252,
+      "n_test": 136
+    }
+  },
+  "features": [
+    "year",
+    "size_emp",
+    "geo",
+    "target_any_ai",
+    "E_AI_TNLG",
+    "E_AI_TML",
+    "E_AI_PBAM",
+    "E_AI_PITS",
+    "E_AI_CC",
+    "E_AI_DA",
+    "security_concern_index",
+    "deployment_readiness_index",
+    "governance_maturity_proxy",
+    "E_AI_BLE",
+    "E_AI_BCST",
+    "E_AI_BDDT",
+    "E_AI_BCDP",
+    "E_AI_BLEG",
+    "security_x_efficiency"
+  ],
+  "model_rows": 544
+}

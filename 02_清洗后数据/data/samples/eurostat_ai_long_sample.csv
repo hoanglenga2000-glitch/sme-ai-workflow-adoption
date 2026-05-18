@@ -1,0 +1,1001 @@
+dataflow,last update,freq,size_emp,nace_r2,indic_is,unit,geo,year,value,obs_flag,conf_status,indicator_label,country
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT,ES,2021,0.84,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT,ES,2023,1.11,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT,ES,2024,1.64,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT,ES,2025,2.43,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT,PT,2021,1.07,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT,PT,2023,1.53,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT,PT,2024,2.98,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,ES,2021,52.22,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,ES,2023,59.42,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,ES,2024,56.62,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,ES,2025,51.98,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,PT,2021,48.48,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,PT,2023,52.3,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,PT,2024,56.15,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,ES,2021,1.08,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,ES,2023,1.41,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,ES,2024,2.16,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,ES,2025,3.54,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,PT,2021,1.32,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,PT,2023,1.8,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,PT,2024,3.6,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,ES,2021,1.03,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,ES,2023,1.33,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,ES,2024,2.01,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,ES,2025,3.09,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,PT,2021,1.26,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,PT,2023,1.75,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,PT,2024,3.43,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT,ES,2021,1.24,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT,ES,2023,1.29,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT,ES,2024,1.39,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT,ES,2025,2.32,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT,PT,2021,1.89,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT,PT,2023,2.06,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT,PT,2024,3.2,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_EC,ES,2021,76.64,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_EC,ES,2023,68.9,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_EC,ES,2024,48.11,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_EC,ES,2025,49.6,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_EC,PT,2021,86.18,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_EC,PT,2023,70.29,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_EC,PT,2024,60.44,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_TX,ES,2021,1.58,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_TX,ES,2023,1.64,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_TX,ES,2024,1.83,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_TX,ES,2025,3.38,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_TX,PT,2021,2.35,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_TX,PT,2023,2.41,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_TX,PT,2024,3.88,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_IUSE,ES,2021,1.52,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_IUSE,ES,2023,1.55,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_IUSE,ES,2024,1.7,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_IUSE,ES,2025,2.94,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_IUSE,PT,2021,2.25,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_IUSE,PT,2023,2.35,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BCST,PC_ENT_IUSE,PT,2024,3.7,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT,ES,2021,0.77,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT,ES,2023,0.96,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT,ES,2024,1.21,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT,ES,2025,2.57,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT,PT,2021,1.2,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT,PT,2023,1.57,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT,PT,2024,2.54,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_EC,ES,2021,47.94,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_EC,ES,2023,51.15,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_EC,ES,2024,41.95,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_EC,ES,2025,54.88,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_EC,PT,2021,54.61,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_EC,PT,2023,53.57,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_EC,PT,2024,47.93,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_TX,ES,2021,0.99,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_TX,ES,2023,1.21,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_TX,ES,2024,1.6,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_TX,ES,2025,3.74,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_TX,PT,2021,1.49,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_TX,PT,2023,1.84,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_TX,PT,2024,3.07,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_IUSE,ES,2021,0.95,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_IUSE,ES,2023,1.15,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_IUSE,ES,2024,1.49,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_IUSE,ES,2025,3.26,,,Barrier: data availability or quality,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_IUSE,PT,2021,1.42,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_IUSE,PT,2023,1.79,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BDDT,PC_ENT_IUSE,PT,2024,2.93,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT,ES,2021,0.42,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT,ES,2023,0.5,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT,ES,2024,0.81,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT,ES,2025,1.36,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT,PT,2021,0.79,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT,PT,2023,1.02,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT,PT,2024,2.16,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_EC,ES,2021,26.0,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_EC,ES,2023,26.54,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_EC,ES,2024,28.18,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_EC,ES,2025,28.99,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_EC,PT,2021,35.7,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_EC,PT,2023,34.81,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_EC,PT,2024,40.77,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_TX,ES,2021,0.54,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_TX,ES,2023,0.63,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_TX,ES,2024,1.07,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_TX,ES,2025,1.97,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_TX,PT,2021,0.97,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_TX,PT,2023,1.2,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_TX,PT,2024,2.61,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_IUSE,ES,2021,0.51,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_IUSE,ES,2023,0.6,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_IUSE,ES,2024,1.0,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_IUSE,ES,2025,1.72,,,Barrier: ethical considerations,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_IUSE,PT,2021,0.93,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_IUSE,PT,2023,1.16,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BEC,PC_ENT_IUSE,PT,2024,2.49,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BIAS,PC_ENT,ES,2024,0.05,,,Governance: bias checking measures,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BIAS,PC_ENT,PT,2024,0.08,,,Governance: bias checking measures,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BIAS,PC_ENT_AI_PDI,ES,2024,46.29,,,Governance: bias checking measures,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BIAS,PC_ENT_AI_PDI,PT,2024,64.48,,,Governance: bias checking measures,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BIAS,PC_ENT_AI_TANY,ES,2024,0.88,,,Governance: bias checking measures,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BIAS,PC_ENT_AI_TANY,PT,2024,2.1,,,Governance: bias checking measures,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT,ES,2021,0.63,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT,ES,2023,0.83,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT,ES,2024,0.56,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT,ES,2025,1.55,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT,PT,2021,1.18,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT,PT,2023,1.18,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT,PT,2024,2.14,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_EC,ES,2021,39.05,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_EC,ES,2023,44.16,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_EC,ES,2024,19.45,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_EC,ES,2025,33.22,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_EC,PT,2021,53.86,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_EC,PT,2023,40.17,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_EC,PT,2024,40.38,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_TX,ES,2021,0.81,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_TX,ES,2023,1.05,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_TX,ES,2024,0.74,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_TX,ES,2025,2.26,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_TX,PT,2021,1.47,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_TX,PT,2023,1.38,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_TX,PT,2024,2.59,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_IUSE,ES,2021,0.77,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_IUSE,ES,2023,0.99,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_IUSE,ES,2024,0.69,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_IUSE,ES,2025,1.97,,,Barrier: incompatibility with existing systems,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_IUSE,PT,2021,1.4,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_IUSE,PT,2023,1.34,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BINC,PC_ENT_IUSE,PT,2024,2.47,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT,ES,2021,1.36,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT,ES,2023,1.54,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT,ES,2024,2.24,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT,ES,2025,3.7,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT,PT,2021,1.48,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT,PT,2023,1.96,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT,PT,2024,3.83,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_EC,ES,2021,84.01,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_EC,ES,2023,82.18,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_EC,ES,2024,77.4,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_EC,ES,2025,79.13,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_EC,PT,2021,67.44,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_EC,PT,2023,66.99,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_EC,PT,2024,72.2,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_TX,ES,2021,1.74,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_TX,ES,2023,1.95,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_TX,ES,2024,2.95,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_TX,ES,2025,5.39,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_TX,PT,2021,1.84,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_TX,PT,2023,2.3,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_TX,PT,2024,4.63,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_IUSE,ES,2021,1.66,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_IUSE,ES,2023,1.85,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_IUSE,ES,2024,2.74,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_IUSE,ES,2025,4.7,,,Barrier: lack of expertise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_IUSE,PT,2021,1.76,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_IUSE,PT,2023,2.24,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLE,PC_ENT_IUSE,PT,2024,4.42,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT,ES,2021,1.02,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT,ES,2023,1.11,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT,ES,2024,1.72,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT,ES,2025,2.64,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT,PT,2021,1.18,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT,PT,2023,1.58,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT,PT,2024,3.67,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_EC,ES,2021,63.41,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_EC,ES,2023,58.97,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_EC,ES,2024,59.37,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_EC,ES,2025,56.46,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_EC,PT,2021,53.68,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_EC,PT,2023,53.83,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_EC,PT,2024,69.22,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_TX,ES,2021,1.31,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_TX,ES,2023,1.4,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_TX,ES,2024,2.26,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_TX,ES,2025,3.84,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_TX,PT,2021,1.46,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_TX,PT,2023,1.85,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_TX,PT,2024,4.44,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_IUSE,ES,2021,1.26,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_IUSE,ES,2023,1.32,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_IUSE,ES,2024,2.1,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_IUSE,ES,2025,3.35,,,Barrier: unclear legal consequences,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_IUSE,PT,2021,1.4,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_IUSE,PT,2023,1.8,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BLEG,PC_ENT_IUSE,PT,2024,4.23,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT,ES,2021,0.53,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT,ES,2023,0.3,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT,ES,2024,0.48,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT,ES,2025,0.93,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT,PT,2021,0.68,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT,PT,2023,0.89,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT,PT,2024,1.24,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_EC,ES,2021,33.07,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_EC,ES,2023,16.11,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_EC,ES,2024,16.57,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_EC,ES,2025,19.82,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_EC,PT,2021,31.01,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_EC,PT,2023,30.2,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_EC,PT,2024,23.34,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_TX,ES,2021,0.68,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_TX,ES,2023,0.38,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_TX,ES,2024,0.63,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_TX,ES,2025,1.35,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_TX,PT,2021,0.85,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_TX,PT,2023,1.04,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_TX,PT,2024,1.5,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_IUSE,ES,2021,0.65,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_IUSE,ES,2023,0.36,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_IUSE,ES,2024,0.59,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_IUSE,ES,2025,1.18,,,Barrier: AI not useful for enterprise,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_IUSE,PT,2021,0.81,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_IUSE,PT,2023,1.01,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_BNU,PC_ENT_IUSE,PT,2024,1.43,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC,PC_ENT,ES,2023,1.26,,,AI plus cloud computing services,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC,PC_ENT,ES,2024,2.41,,,AI plus cloud computing services,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC,PC_ENT,ES,2025,3.59,,,AI plus cloud computing services,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC,PC_ENT,PT,2023,1.34,,,AI plus cloud computing services,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC,PC_ENT_IUSE,ES,2023,1.51,,,AI plus cloud computing services,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC,PC_ENT_IUSE,ES,2024,2.95,,,AI plus cloud computing services,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC,PC_ENT_IUSE,ES,2025,4.56,,,AI plus cloud computing services,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC,PC_ENT_IUSE,PT,2023,1.53,,,AI plus cloud computing services,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC1SI_DA,PC_ENT,ES,2023,0.52,,,AI + cloud + data analytics,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC1SI_DA,PC_ENT,ES,2024,0.87,,,AI + cloud + data analytics,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC1SI_DA,PC_ENT,ES,2025,1.26,,,AI + cloud + data analytics,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC1SI_DA,PC_ENT,PT,2023,0.79,,,AI + cloud + data analytics,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC1SI_DA,PC_ENT_IUSE,ES,2023,0.62,,,AI + cloud + data analytics,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC1SI_DA,PC_ENT_IUSE,ES,2024,1.06,,,AI + cloud + data analytics,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC1SI_DA,PC_ENT_IUSE,ES,2025,1.6,,,AI + cloud + data analytics,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_CC1SI_DA,PC_ENT_IUSE,PT,2023,0.9,,,AI + cloud + data analytics,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_DA,PC_ENT,ES,2023,1.37,,,AI plus data analytics,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_DA,PC_ENT,ES,2024,1.79,,,AI plus data analytics,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_DA,PC_ENT,ES,2025,3.16,,,AI plus data analytics,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_DA,PC_ENT,PT,2023,1.46,,,AI plus data analytics,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_DA,PC_ENT_IUSE,ES,2023,1.64,,,AI plus data analytics,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_DA,PC_ENT_IUSE,ES,2024,2.2,,,AI plus data analytics,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_DA,PC_ENT_IUSE,ES,2025,4.01,,,AI plus data analytics,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_DA,PC_ENT_IUSE,PT,2023,1.67,,,AI plus data analytics,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT,ES,2021,1.61,,,Ever considered using AI,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT,ES,2023,1.88,,,Ever considered using AI,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT,ES,2024,2.89,,,Ever considered using AI,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT,ES,2025,4.68,,,Ever considered using AI,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT,PT,2021,2.2,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT,PT,2023,2.93,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT,PT,2024,5.3,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT_AI_TX,ES,2021,2.07,,,Ever considered using AI,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT_AI_TX,ES,2023,2.37,,,Ever considered using AI,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT_AI_TX,ES,2024,3.81,,,Ever considered using AI,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT_AI_TX,ES,2025,6.81,,,Ever considered using AI,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT_AI_TX,PT,2021,2.72,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT_AI_TX,PT,2023,3.43,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT_AI_TX,PT,2024,6.41,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT_IUSE,ES,2021,1.98,,,Ever considered using AI,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT_IUSE,ES,2023,2.25,,,Ever considered using AI,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT_IUSE,ES,2024,3.54,,,Ever considered using AI,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT_IUSE,ES,2025,5.94,,,Ever considered using AI,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT_IUSE,PT,2021,2.61,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT_IUSE,PT,2023,3.34,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_EC,PC_ENT_IUSE,PT,2024,6.12,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT,ES,2023,0.99,,,Business administration or management use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT,ES,2024,0.84,,,Business administration or management use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT,ES,2025,1.84,,,Business administration or management use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT,PT,2023,0.8,,,Business administration or management use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT,PT,2024,0.88,,,Business administration or management use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT_AI_TANY,ES,2023,21.95,,,Business administration or management use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT_AI_TANY,ES,2024,14.7,,,Business administration or management use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT_AI_TANY,ES,2025,18.3,,,Business administration or management use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT_AI_TANY,PT,2023,32.88,,,Business administration or management use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT_AI_TANY,PT,2024,21.75,,,Business administration or management use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT_IUSE,ES,2023,1.19,,,Business administration or management use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT_IUSE,ES,2024,1.03,,,Business administration or management use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT_IUSE,ES,2025,2.34,,,Business administration or management use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT_IUSE,PT,2023,0.91,,,Business administration or management use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PBAM,PC_ENT_IUSE,PT,2024,1.01,,,Business administration or management use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT,ES,2021,0.38,,,ICT security use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT,ES,2023,0.43,,,ICT security use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT,ES,2024,0.58,,,ICT security use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT,ES,2025,0.73,,,ICT security use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT,PT,2021,1.01,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT,PT,2023,0.44,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT,PT,2024,0.85,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT_AI_TANY,ES,2021,11.09,,,ICT security use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT_AI_TANY,ES,2023,9.53,,,ICT security use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT_AI_TANY,ES,2024,10.13,,,ICT security use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT_AI_TANY,ES,2025,7.2,,,ICT security use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT_AI_TANY,PT,2021,27.55,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT_AI_TANY,PT,2023,17.99,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT_AI_TANY,PT,2024,21.15,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT_IUSE,ES,2021,0.47,,,ICT security use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT_IUSE,ES,2023,0.52,,,ICT security use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT_IUSE,ES,2024,0.71,,,ICT security use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT_IUSE,ES,2025,0.92,,,ICT security use,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT_IUSE,PT,2021,1.2,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT_IUSE,PT,2023,0.5,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_PITS,PC_ENT_IUSE,PT,2024,0.98,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT,ES,2021,3.42,,,Any AI technology adoption,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT,ES,2023,4.52,,,Any AI technology adoption,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT,ES,2024,5.72,,,Any AI technology adoption,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT,ES,2025,10.08,,,Any AI technology adoption,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT,PT,2021,3.66,,,Any AI technology adoption,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT,PT,2023,2.42,,,Any AI technology adoption,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT,PT,2024,4.03,,,Any AI technology adoption,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT,SE,2024,10.84,,,Any AI technology adoption,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT,SE,2025,17.12,,,Any AI technology adoption,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT_IUSE,ES,2021,4.19,,,Any AI technology adoption,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT_IUSE,ES,2023,5.41,,,Any AI technology adoption,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT_IUSE,ES,2024,7.01,,,Any AI technology adoption,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT_IUSE,ES,2025,12.79,,,Any AI technology adoption,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT_IUSE,PT,2021,4.34,,,Any AI technology adoption,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT_IUSE,PT,2023,2.76,,,Any AI technology adoption,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT_IUSE,PT,2024,4.65,,,Any AI technology adoption,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT_IUSE,SE,2024,11.92,,,Any AI technology adoption,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TANY,PC_ENT_IUSE,SE,2025,19.02,,,Any AI technology adoption,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT,ES,2021,0.49,,,Machine learning for data analysis,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT,ES,2023,0.5,,,Machine learning for data analysis,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT,ES,2024,0.84,,,Machine learning for data analysis,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT,ES,2025,1.13,,,Machine learning for data analysis,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT,PT,2021,0.56,,,Machine learning for data analysis,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT,PT,2023,0.92,,,Machine learning for data analysis,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT,PT,2024,0.81,,,Machine learning for data analysis,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT,SE,2024,1.82,,,Machine learning for data analysis,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT,SE,2025,2.36,,,Machine learning for data analysis,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT_IUSE,ES,2021,0.6,,,Machine learning for data analysis,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT_IUSE,ES,2023,0.6,,,Machine learning for data analysis,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT_IUSE,ES,2024,1.02,,,Machine learning for data analysis,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT_IUSE,ES,2025,1.44,,,Machine learning for data analysis,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT_IUSE,PT,2021,0.66,,,Machine learning for data analysis,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT_IUSE,PT,2023,1.04,,,Machine learning for data analysis,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT_IUSE,PT,2024,0.94,,,Machine learning for data analysis,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT_IUSE,SE,2024,2.0,,,Machine learning for data analysis,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TML,PC_ENT_IUSE,SE,2025,2.63,,,Machine learning for data analysis,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT,ES,2021,1.03,,,Natural language generation / code generation,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT,ES,2023,1.82,,,Natural language generation / code generation,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT,ES,2024,2.11,,,Natural language generation / code generation,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT,ES,2025,4.12,,,Natural language generation / code generation,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT,PT,2021,0.69,,,Natural language generation / code generation,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT,PT,2023,0.66,,,Natural language generation / code generation,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT,PT,2024,1.67,,,Natural language generation / code generation,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT,SE,2024,5.99,,,Natural language generation / code generation,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT,SE,2025,10.02,,,Natural language generation / code generation,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT_IUSE,ES,2021,1.27,,,Natural language generation / code generation,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT_IUSE,ES,2023,2.18,,,Natural language generation / code generation,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT_IUSE,ES,2024,2.59,,,Natural language generation / code generation,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT_IUSE,ES,2025,5.23,,,Natural language generation / code generation,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT_IUSE,PT,2021,0.82,,,Natural language generation / code generation,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT_IUSE,PT,2023,0.75,,,Natural language generation / code generation,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT_IUSE,PT,2024,1.93,,,Natural language generation / code generation,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT_IUSE,SE,2024,6.59,,,Natural language generation / code generation,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TNLG,PC_ENT_IUSE,SE,2025,11.13,,,Natural language generation / code generation,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT,ES,2021,0.54,,,AI workflow automation / decision assistance,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT,ES,2023,0.99,,,AI workflow automation / decision assistance,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT,ES,2024,1.26,,,AI workflow automation / decision assistance,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT,ES,2025,1.37,,,AI workflow automation / decision assistance,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT,PT,2021,1.02,,,AI workflow automation / decision assistance,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT,PT,2023,0.8,,,AI workflow automation / decision assistance,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT,PT,2024,1.09,,,AI workflow automation / decision assistance,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT,SE,2024,3.03,,,AI workflow automation / decision assistance,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT,SE,2025,3.72,,,AI workflow automation / decision assistance,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT_IUSE,ES,2021,0.66,,,AI workflow automation / decision assistance,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT_IUSE,ES,2023,1.18,,,AI workflow automation / decision assistance,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT_IUSE,ES,2024,1.54,,,AI workflow automation / decision assistance,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT_IUSE,ES,2025,1.74,,,AI workflow automation / decision assistance,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT_IUSE,PT,2021,1.21,,,AI workflow automation / decision assistance,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT_IUSE,PT,2023,0.91,,,AI workflow automation / decision assistance,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT_IUSE,PT,2024,1.25,,,AI workflow automation / decision assistance,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT_IUSE,SE,2024,3.33,,,AI workflow automation / decision assistance,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0-9,C10-S951_X_K,E_AI_TPA,PC_ENT_IUSE,SE,2025,4.14,,,AI workflow automation / decision assistance,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCDP,PC_ENT,PT,2021,1.23,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCDP,PC_ENT,PT,2023,1.52,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCDP,PC_ENT,PT,2024,0.72,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,PT,2021,100.0,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,PT,2023,84.33,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,PT,2024,50.86,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,PT,2021,2.24,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,PT,2023,2.35,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,PT,2024,1.27,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,PT,2021,2.22,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,PT,2023,2.31,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,PT,2024,1.22,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCST,PC_ENT,PT,2021,1.2,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCST,PC_ENT,PT,2023,0.03,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCST,PC_ENT,PT,2024,1.19,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_EC,PT,2021,97.96,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_EC,PT,2023,1.66,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_EC,PT,2024,83.84,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_TX,PT,2021,2.2,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_TX,PT,2023,0.05,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCST,PC_ENT_AI_TX,PT,2024,2.1,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCST,PC_ENT_IUSE,PT,2021,2.17,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCST,PC_ENT_IUSE,PT,2023,0.05,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BCST,PC_ENT_IUSE,PT,2024,2.02,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BDDT,PC_ENT,PT,2021,1.02,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BDDT,PC_ENT,PT,2023,1.49,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BDDT,PC_ENT,PT,2024,0.93,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_EC,PT,2021,82.75,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_EC,PT,2023,82.67,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_EC,PT,2024,65.25,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_TX,PT,2021,1.86,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_TX,PT,2023,2.3,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BDDT,PC_ENT_AI_TX,PT,2024,1.63,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BDDT,PC_ENT_IUSE,PT,2021,1.84,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BDDT,PC_ENT_IUSE,PT,2023,2.26,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BDDT,PC_ENT_IUSE,PT,2024,1.57,,,Barrier: data availability or quality,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BEC,PC_ENT,PT,2021,0.99,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BEC,PC_ENT,PT,2023,1.47,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BEC,PC_ENT,PT,2024,0.16,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_EC,PT,2021,80.71,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_EC,PT,2023,81.56,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_EC,PT,2024,10.91,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_TX,PT,2021,1.81,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_TX,PT,2023,2.27,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BEC,PC_ENT_AI_TX,PT,2024,0.27,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BEC,PC_ENT_IUSE,PT,2021,1.79,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BEC,PC_ENT_IUSE,PT,2023,2.23,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BEC,PC_ENT_IUSE,PT,2024,0.26,,,Barrier: ethical considerations,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BIAS,PC_ENT,PT,2024,0.0,,,Governance: bias checking measures,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BIAS,PC_ENT_AI_TANY,PT,2024,0.0,,,Governance: bias checking measures,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BINC,PC_ENT,PT,2021,0.23,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BINC,PC_ENT,PT,2023,0.08,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BINC,PC_ENT,PT,2024,0.51,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_EC,PT,2021,18.78,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_EC,PT,2023,4.43,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_EC,PT,2024,35.54,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_TX,PT,2021,0.42,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_TX,PT,2023,0.12,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BINC,PC_ENT_AI_TX,PT,2024,0.89,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BINC,PC_ENT_IUSE,PT,2021,0.42,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BINC,PC_ENT_IUSE,PT,2023,0.12,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BINC,PC_ENT_IUSE,PT,2024,0.86,,,Barrier: incompatibility with existing systems,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLE,PC_ENT,PT,2021,1.02,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLE,PC_ENT,PT,2023,0.35,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLE,PC_ENT,PT,2024,1.13,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_EC,PT,2021,82.75,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_EC,PT,2023,19.55,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_EC,PT,2024,79.39,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_TX,PT,2021,1.86,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_TX,PT,2023,0.54,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLE,PC_ENT_AI_TX,PT,2024,1.99,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLE,PC_ENT_IUSE,PT,2021,1.84,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLE,PC_ENT_IUSE,PT,2023,0.54,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLE,PC_ENT_IUSE,PT,2024,1.91,,,Barrier: lack of expertise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLEG,PC_ENT,PT,2021,1.2,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLEG,PC_ENT,PT,2023,1.51,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLEG,PC_ENT,PT,2024,1.13,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_EC,PT,2021,97.96,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_EC,PT,2023,83.77,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_EC,PT,2024,79.01,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_TX,PT,2021,2.2,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_TX,PT,2023,2.33,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLEG,PC_ENT_AI_TX,PT,2024,1.98,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLEG,PC_ENT_IUSE,PT,2021,2.17,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLEG,PC_ENT_IUSE,PT,2023,2.29,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BLEG,PC_ENT_IUSE,PT,2024,1.9,,,Barrier: unclear legal consequences,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BNU,PC_ENT,PT,2021,0.0,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BNU,PC_ENT,PT,2023,0.31,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BNU,PC_ENT,PT,2024,0.17,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_EC,PT,2021,0.0,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_EC,PT,2023,17.33,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_EC,PT,2024,11.73,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_TX,PT,2021,0.0,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_TX,PT,2023,0.48,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BNU,PC_ENT_AI_TX,PT,2024,0.29,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BNU,PC_ENT_IUSE,PT,2021,0.0,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BNU,PC_ENT_IUSE,PT,2023,0.47,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_BNU,PC_ENT_IUSE,PT,2024,0.28,,,Barrier: AI not useful for enterprise,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_CC,PC_ENT,PT,2023,0.97,,,AI plus cloud computing services,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_CC,PC_ENT_IUSE,PT,2023,1.47,,,AI plus cloud computing services,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_CC1SI_DA,PC_ENT,PT,2023,0.78,,,AI + cloud + data analytics,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_CC1SI_DA,PC_ENT_IUSE,PT,2023,1.18,,,AI + cloud + data analytics,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_DA,PC_ENT,PT,2023,0.82,,,AI plus data analytics,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_DA,PC_ENT_IUSE,PT,2023,1.24,,,AI plus data analytics,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_EC,PC_ENT,PT,2021,1.23,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_EC,PC_ENT,PT,2023,1.8,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_EC,PC_ENT,PT,2024,1.43,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_EC,PC_ENT_AI_TX,PT,2021,2.24,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_EC,PC_ENT_AI_TX,PT,2023,2.78,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_EC,PC_ENT_AI_TX,PT,2024,2.5,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_EC,PC_ENT_IUSE,PT,2021,2.22,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_EC,PC_ENT_IUSE,PT,2023,2.74,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_EC,PC_ENT_IUSE,PT,2024,2.41,,,Ever considered using AI,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PBAM,PC_ENT,PT,2023,0.04,,,Business administration or management use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PBAM,PC_ENT,PT,2024,0.06,,,Business administration or management use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PBAM,PC_ENT_AI_TANY,PT,2023,4.19,,,Business administration or management use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PBAM,PC_ENT_AI_TANY,PT,2024,2.59,,,Business administration or management use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PBAM,PC_ENT_IUSE,PT,2023,0.06,,,Business administration or management use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PBAM,PC_ENT_IUSE,PT,2024,0.1,,,Business administration or management use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PITS,PC_ENT,PT,2021,0.23,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PITS,PC_ENT,PT,2023,0.0,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PITS,PC_ENT,PT,2024,0.5,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PITS,PC_ENT_AI_TANY,PT,2021,34.72,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PITS,PC_ENT_AI_TANY,PT,2023,0.0,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PITS,PC_ENT_AI_TANY,PT,2024,22.23,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PITS,PC_ENT_IUSE,PT,2021,0.41,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PITS,PC_ENT_IUSE,PT,2023,0.0,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_PITS,PC_ENT_IUSE,PT,2024,0.84,,,ICT security use,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TANY,PC_ENT,PT,2021,0.65,,,Any AI technology adoption,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TANY,PC_ENT,PT,2023,1.0,,,Any AI technology adoption,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TANY,PC_ENT,PT,2024,2.24,,,Any AI technology adoption,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TANY,PC_ENT,SE,2024,10.26,,,Any AI technology adoption,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TANY,PC_ENT,SE,2025,16.57,,,Any AI technology adoption,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TANY,PC_ENT_IUSE,PT,2021,1.17,,,Any AI technology adoption,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TANY,PC_ENT_IUSE,PT,2023,1.52,,,Any AI technology adoption,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TANY,PC_ENT_IUSE,PT,2024,3.78,,,Any AI technology adoption,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TANY,PC_ENT_IUSE,SE,2024,11.52,,,Any AI technology adoption,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TANY,PC_ENT_IUSE,SE,2025,18.86,,,Any AI technology adoption,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TML,PC_ENT,PT,2021,0.06,,,Machine learning for data analysis,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TML,PC_ENT,PT,2023,0.75,,,Machine learning for data analysis,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TML,PC_ENT,PT,2024,0.25,,,Machine learning for data analysis,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TML,PC_ENT,SE,2024,1.94,,,Machine learning for data analysis,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TML,PC_ENT,SE,2025,1.93,,,Machine learning for data analysis,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TML,PC_ENT_IUSE,PT,2021,0.1,,,Machine learning for data analysis,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TML,PC_ENT_IUSE,PT,2023,1.14,,,Machine learning for data analysis,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TML,PC_ENT_IUSE,PT,2024,0.43,,,Machine learning for data analysis,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TML,PC_ENT_IUSE,SE,2024,2.18,,,Machine learning for data analysis,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TML,PC_ENT_IUSE,SE,2025,2.2,,,Machine learning for data analysis,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TNLG,PC_ENT,PT,2021,0.02,,,Natural language generation / code generation,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TNLG,PC_ENT,PT,2023,0.0,,,Natural language generation / code generation,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TNLG,PC_ENT,PT,2024,1.56,,,Natural language generation / code generation,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TNLG,PC_ENT,SE,2024,5.83,,,Natural language generation / code generation,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TNLG,PC_ENT,SE,2025,9.66,,,Natural language generation / code generation,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TNLG,PC_ENT_IUSE,PT,2021,0.04,,,Natural language generation / code generation,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TNLG,PC_ENT_IUSE,PT,2023,0.0,,,Natural language generation / code generation,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TNLG,PC_ENT_IUSE,PT,2024,2.63,,,Natural language generation / code generation,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TNLG,PC_ENT_IUSE,SE,2024,6.54,,,Natural language generation / code generation,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TNLG,PC_ENT_IUSE,SE,2025,11.0,,,Natural language generation / code generation,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TPA,PC_ENT,PT,2021,0.18,,,AI workflow automation / decision assistance,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TPA,PC_ENT,PT,2023,0.21,,,AI workflow automation / decision assistance,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TPA,PC_ENT,PT,2024,0.23,,,AI workflow automation / decision assistance,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TPA,PC_ENT,SE,2024,2.76,,,AI workflow automation / decision assistance,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TPA,PC_ENT,SE,2025,3.42,,,AI workflow automation / decision assistance,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TPA,PC_ENT_IUSE,PT,2021,0.33,,,AI workflow automation / decision assistance,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TPA,PC_ENT_IUSE,PT,2023,0.32,,,AI workflow automation / decision assistance,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TPA,PC_ENT_IUSE,PT,2024,0.39,,,AI workflow automation / decision assistance,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TPA,PC_ENT_IUSE,SE,2024,3.09,,,AI workflow automation / decision assistance,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,0_1,C10-S951_X_K,E_AI_TPA,PC_ENT_IUSE,SE,2025,3.89,,,AI workflow automation / decision assistance,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,AT,2021,2.02,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,AT,2023,3.99,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,AT,2024,7.06,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,AT,2025,7.47,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,BE,2021,1.51,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,BE,2023,1.98,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,BE,2024,3.29,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,BE,2025,4.98,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,BG,2021,0.9,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,BG,2023,1.25,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,BG,2024,1.29,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,BG,2025,2.28,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,CY,2021,1.37,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,CY,2023,2.65,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,CY,2024,2.91,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,CY,2025,3.61,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,DE,2025,8.79,,,Barrier: data protection and privacy concerns,Germany
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,DK,2021,1.69,,,Barrier: data protection and privacy concerns,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,DK,2024,7.54,,,Barrier: data protection and privacy concerns,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,DK,2025,7.36,,,Barrier: data protection and privacy concerns,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,EA,2023,2.95,,,Barrier: data protection and privacy concerns,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,EA,2024,5.39,,,Barrier: data protection and privacy concerns,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,EA,2025,6.36,,,Barrier: data protection and privacy concerns,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,EE,2021,2.56,,,Barrier: data protection and privacy concerns,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,EE,2023,0.96,,,Barrier: data protection and privacy concerns,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,EE,2024,3.02,,,Barrier: data protection and privacy concerns,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,EL,2021,0.99,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,EL,2023,3.03,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,EL,2024,1.99,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,EL,2025,5.01,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,ES,2021,1.42,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,ES,2023,1.94,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,ES,2024,2.86,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,ES,2025,5.88,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,EU27_2020,2023,2.66,,,Barrier: data protection and privacy concerns,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,EU27_2020,2024,4.74,,,Barrier: data protection and privacy concerns,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,EU27_2020,2025,5.72,,,Barrier: data protection and privacy concerns,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,FI,2021,3.16,,,Barrier: data protection and privacy concerns,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,FI,2023,6.15,,,Barrier: data protection and privacy concerns,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,FI,2025,9.01,,,Barrier: data protection and privacy concerns,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,HR,2021,1.45,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,HR,2023,1.62,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,HR,2024,2.41,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,HR,2025,2.25,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,HU,2021,0.78,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,HU,2023,1.46,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,HU,2024,2.44,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,HU,2025,3.68,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,IT,2023,1.56,,,Barrier: data protection and privacy concerns,Italy
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,IT,2025,4.04,,,Barrier: data protection and privacy concerns,Italy
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,LT,2021,3.39,,,Barrier: data protection and privacy concerns,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,LT,2023,3.69,,,Barrier: data protection and privacy concerns,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,LT,2024,5.73,,,Barrier: data protection and privacy concerns,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,LU,2024,3.55,,,Barrier: data protection and privacy concerns,Luxembourg
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,LU,2025,5.39,,,Barrier: data protection and privacy concerns,Luxembourg
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,LV,2021,1.48,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,LV,2023,1.95,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,LV,2024,2.71,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,LV,2025,5.76,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,MT,2021,3.69,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,MT,2023,4.7,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,MT,2024,5.41,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,MT,2025,4.03,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,NL,2021,1.15,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,NL,2023,2.06,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,NL,2024,3.61,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,NL,2025,4.59,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,NO,2021,1.48,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,NO,2023,3.12,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,NO,2024,2.4,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,NO,2025,4.33,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,PL,2021,0.62,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,PL,2023,0.78,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,PL,2024,1.36,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,PL,2025,1.81,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,PT,2021,1.36,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,PT,2023,2.77,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,PT,2024,5.14,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,PT,2025,6.78,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,SE,2021,1.83,,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,SE,2023,2.42,b,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,SE,2024,4.3,,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,SE,2025,3.45,,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,SI,2021,1.32,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,SI,2023,2.88,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,SI,2024,4.99,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,SI,2025,5.46,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,SK,2021,2.91,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,SK,2023,1.77,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,SK,2024,2.65,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,SK,2025,4.38,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,TR,2024,4.74,,,Barrier: data protection and privacy concerns,T?rkiye
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT,TR,2025,5.32,,,Barrier: data protection and privacy concerns,T?rkiye
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,AT,2021,28.96,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,AT,2023,40.54,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,AT,2024,46.27,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,AT,2025,50.02,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,BE,2021,28.53,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,BE,2023,33.97,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,BE,2024,36.69,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,BE,2025,50.7,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,BG,2021,32.04,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,BG,2023,40.44,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,BG,2024,38.75,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,BG,2025,47.71,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,CY,2021,31.46,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,CY,2023,47.26,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,CY,2024,41.66,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,CY,2025,48.13,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,DE,2025,59.86,,,Barrier: data protection and privacy concerns,Germany
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,DK,2021,19.48,,,Barrier: data protection and privacy concerns,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,DK,2024,40.67,,,Barrier: data protection and privacy concerns,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,DK,2025,45.13,,,Barrier: data protection and privacy concerns,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,EA,2023,43.0,,,Barrier: data protection and privacy concerns,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,EA,2024,49.51,,,Barrier: data protection and privacy concerns,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,EA,2025,52.93,,,Barrier: data protection and privacy concerns,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,EE,2021,41.66,,,Barrier: data protection and privacy concerns,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,EE,2023,30.74,,,Barrier: data protection and privacy concerns,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,EE,2024,56.45,,,Barrier: data protection and privacy concerns,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,EL,2021,25.29,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,EL,2023,36.85,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,EL,2024,37.18,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,EL,2025,45.93,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,ES,2021,35.02,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,ES,2023,40.03,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,ES,2024,43.36,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,ES,2025,53.64,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,EU27_2020,2023,42.65,,,Barrier: data protection and privacy concerns,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,EU27_2020,2024,48.63,,,Barrier: data protection and privacy concerns,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,EU27_2020,2025,52.46,,,Barrier: data protection and privacy concerns,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,FI,2021,24.1,,,Barrier: data protection and privacy concerns,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,FI,2023,36.82,,,Barrier: data protection and privacy concerns,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,FI,2025,45.67,,,Barrier: data protection and privacy concerns,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,HR,2021,28.09,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,HR,2023,25.6,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,HR,2024,37.75,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,HR,2025,35.6,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,HU,2021,25.62,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,HU,2023,41.06,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,HU,2024,46.04,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,HU,2025,51.04,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,IT,2023,37.7,,,Barrier: data protection and privacy concerns,Italy
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,IT,2025,43.1,,,Barrier: data protection and privacy concerns,Italy
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,LT,2021,49.66,,,Barrier: data protection and privacy concerns,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,LT,2023,51.12,,,Barrier: data protection and privacy concerns,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,LT,2024,54.31,,,Barrier: data protection and privacy concerns,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,LU,2024,47.52,,,Barrier: data protection and privacy concerns,Luxembourg
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,LU,2025,54.48,,,Barrier: data protection and privacy concerns,Luxembourg
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,LV,2021,24.62,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,LV,2023,36.97,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,LV,2024,39.5,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,LV,2025,57.86,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,MT,2021,37.85,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,MT,2023,32.82,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,MT,2024,35.76,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,MT,2025,27.34,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,NL,2021,24.17,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,NL,2023,34.58,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,NL,2024,41.58,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,NL,2025,46.64,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,NO,2021,24.09,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,NO,2023,38.61,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,NO,2024,31.33,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,NO,2025,39.96,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,PL,2021,37.88,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,PL,2023,43.25,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,PL,2024,46.3,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,PL,2025,48.75,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,PT,2021,34.11,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,PT,2023,45.02,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,PT,2024,55.23,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,PT,2025,55.31,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,SE,2021,27.77,,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,SE,2023,34.47,b,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,SE,2024,41.56,,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,SE,2025,48.9,,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,SI,2021,23.13,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,SI,2023,43.11,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,SI,2024,56.66,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,SI,2025,50.33,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,SK,2021,43.12,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,SK,2023,33.87,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,SK,2024,44.07,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,SK,2025,51.23,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,TR,2024,57.73,,,Barrier: data protection and privacy concerns,T?rkiye
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_EC,TR,2025,61.37,,,Barrier: data protection and privacy concerns,T?rkiye
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,AT,2021,2.22,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,AT,2023,4.49,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,AT,2024,8.83,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,AT,2025,10.53,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,BE,2021,1.66,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,BE,2023,2.26,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,BE,2024,4.28,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,BE,2025,7.43,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,BG,2021,0.97,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,BG,2023,1.35,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,BG,2024,1.43,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,BG,2025,2.59,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,CY,2021,1.42,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,CY,2023,2.82,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,CY,2024,3.16,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,CY,2025,3.97,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,DE,2025,11.76,,,Barrier: data protection and privacy concerns,Germany
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,DK,2021,2.18,,,Barrier: data protection and privacy concerns,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,DK,2024,10.25,,,Barrier: data protection and privacy concerns,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,DK,2025,12.48,,,Barrier: data protection and privacy concerns,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,EA,2023,3.3,,,Barrier: data protection and privacy concerns,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,EA,2024,6.6,,,Barrier: data protection and privacy concerns,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,EA,2025,8.12,,,Barrier: data protection and privacy concerns,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,EE,2021,2.71,,,Barrier: data protection and privacy concerns,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,EE,2023,1.03,,,Barrier: data protection and privacy concerns,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,EE,2024,3.56,,,Barrier: data protection and privacy concerns,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,EL,2021,1.03,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,EL,2023,3.21,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,EL,2024,2.27,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,EL,2025,5.55,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,ES,2021,1.55,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,ES,2023,2.14,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,ES,2024,3.22,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,ES,2025,7.36,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,EU27_2020,2023,2.95,,,Barrier: data protection and privacy concerns,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,EU27_2020,2024,5.71,,,Barrier: data protection and privacy concerns,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,EU27_2020,2025,7.23,,,Barrier: data protection and privacy concerns,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,FI,2021,3.71,,,Barrier: data protection and privacy concerns,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,FI,2023,7.13,,,Barrier: data protection and privacy concerns,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,FI,2025,14.16,,,Barrier: data protection and privacy concerns,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,HR,2021,1.66,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,HR,2023,1.82,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,HR,2024,2.75,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,HR,2025,2.65,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,HU,2021,0.86,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,HU,2023,1.58,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,HU,2024,2.74,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,HU,2025,4.38,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,IT,2023,1.65,,,Barrier: data protection and privacy concerns,Italy
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,IT,2025,4.87,,,Barrier: data protection and privacy concerns,Italy
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,LT,2021,3.53,,,Barrier: data protection and privacy concerns,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,LT,2023,3.86,,,Barrier: data protection and privacy concerns,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,LT,2024,6.23,,,Barrier: data protection and privacy concerns,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,LU,2024,4.67,,,Barrier: data protection and privacy concerns,Luxembourg
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,LU,2025,8.14,,,Barrier: data protection and privacy concerns,Luxembourg
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,LV,2021,1.53,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,LV,2023,2.04,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,LV,2024,2.95,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,LV,2025,6.5,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,MT,2021,4.22,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,MT,2023,5.5,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,MT,2024,6.63,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,MT,2025,5.16,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,NL,2021,1.31,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,NL,2023,2.37,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,NL,2024,4.62,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,NL,2025,6.74,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,NO,2021,1.68,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,NO,2023,3.46,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,NO,2024,3.09,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,NO,2025,6.15,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,PL,2021,0.65,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,PL,2023,0.81,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,PL,2024,1.45,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,PL,2025,1.98,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,PT,2021,1.51,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,PT,2023,3.09,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,PT,2024,5.71,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,PT,2025,7.69,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,SE,2021,2.03,,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,SE,2023,2.68,b,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,SE,2024,5.71,,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,SE,2025,5.22,,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,SI,2021,1.49,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,SI,2023,3.31,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,SI,2024,6.39,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,SI,2025,6.94,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,SK,2021,3.23,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,SK,2023,2.04,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,SK,2024,3.1,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,SK,2025,5.51,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,TR,2024,5.25,,,Barrier: data protection and privacy concerns,T?rkiye
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_AI_TX,TR,2025,5.9,,,Barrier: data protection and privacy concerns,T?rkiye
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,AT,2021,2.03,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,AT,2023,4.03,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,AT,2024,7.09,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,AT,2025,7.49,,,Barrier: data protection and privacy concerns,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,BE,2021,1.51,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,BE,2023,1.98,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,BE,2024,3.29,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,BE,2025,4.98,,,Barrier: data protection and privacy concerns,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,BG,2021,0.94,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,BG,2023,1.3,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,BG,2024,1.34,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,BG,2025,2.37,,,Barrier: data protection and privacy concerns,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,CY,2021,1.39,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,CY,2023,2.69,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,CY,2024,2.93,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,CY,2025,3.62,,,Barrier: data protection and privacy concerns,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,DE,2025,8.82,,,Barrier: data protection and privacy concerns,Germany
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,DK,2021,1.69,,,Barrier: data protection and privacy concerns,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,DK,2024,7.54,,,Barrier: data protection and privacy concerns,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,DK,2025,7.36,,,Barrier: data protection and privacy concerns,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,EA,2023,2.97,,,Barrier: data protection and privacy concerns,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,EA,2024,5.44,,,Barrier: data protection and privacy concerns,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,EA,2025,6.4,,,Barrier: data protection and privacy concerns,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,EE,2021,2.64,,,Barrier: data protection and privacy concerns,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,EE,2023,0.98,,,Barrier: data protection and privacy concerns,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,EE,2024,3.08,,,Barrier: data protection and privacy concerns,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,EL,2021,1.0,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,EL,2023,3.08,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,EL,2024,2.05,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,EL,2025,5.07,,,Barrier: data protection and privacy concerns,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,ES,2021,1.44,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,ES,2023,1.96,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,ES,2024,2.89,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,ES,2025,5.94,,,Barrier: data protection and privacy concerns,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,EU27_2020,2023,2.68,,,Barrier: data protection and privacy concerns,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,EU27_2020,2024,4.79,,,Barrier: data protection and privacy concerns,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,EU27_2020,2025,5.78,,,Barrier: data protection and privacy concerns,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,FI,2021,3.16,,,Barrier: data protection and privacy concerns,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,FI,2023,6.15,,,Barrier: data protection and privacy concerns,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,FI,2025,9.01,,,Barrier: data protection and privacy concerns,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,HR,2021,1.51,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,HR,2023,1.68,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,HR,2024,2.43,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,HR,2025,2.26,,,Barrier: data protection and privacy concerns,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,HU,2021,0.84,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,HU,2023,1.53,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,HU,2024,2.54,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,HU,2025,3.93,,,Barrier: data protection and privacy concerns,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,IT,2023,1.57,,,Barrier: data protection and privacy concerns,Italy
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,IT,2025,4.1,,,Barrier: data protection and privacy concerns,Italy
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,LT,2021,3.39,,,Barrier: data protection and privacy concerns,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,LT,2023,3.69,,,Barrier: data protection and privacy concerns,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,LT,2024,5.73,,,Barrier: data protection and privacy concerns,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,LU,2024,3.59,,,Barrier: data protection and privacy concerns,Luxembourg
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,LU,2025,5.44,,,Barrier: data protection and privacy concerns,Luxembourg
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,LV,2021,1.48,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,LV,2023,1.95,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,LV,2024,2.71,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,LV,2025,5.76,,,Barrier: data protection and privacy concerns,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,MT,2021,3.79,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,MT,2023,4.8,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,MT,2024,5.53,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,MT,2025,4.09,,,Barrier: data protection and privacy concerns,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,NL,2021,1.15,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,NL,2023,2.06,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,NL,2024,3.61,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,NL,2025,4.59,,,Barrier: data protection and privacy concerns,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,NO,2021,1.5,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,NO,2023,3.16,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,NO,2024,2.46,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,NO,2025,4.4,,,Barrier: data protection and privacy concerns,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,PL,2021,0.63,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,PL,2023,0.79,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,PL,2024,1.38,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,PL,2025,1.84,,,Barrier: data protection and privacy concerns,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,PT,2021,1.41,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,PT,2023,2.86,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,PT,2024,5.25,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,PT,2025,6.86,,,Barrier: data protection and privacy concerns,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,SE,2021,1.84,,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,SE,2023,2.43,b,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,SE,2024,4.33,,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,SE,2025,3.46,,,Barrier: data protection and privacy concerns,Sweden
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,SI,2021,1.33,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,SI,2023,2.97,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,SI,2024,5.1,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,SI,2025,5.52,,,Barrier: data protection and privacy concerns,Slovenia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,SK,2021,3.08,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,SK,2023,1.9,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,SK,2024,2.78,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,SK,2025,4.54,,,Barrier: data protection and privacy concerns,Slovakia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,TR,2024,5.03,,,Barrier: data protection and privacy concerns,T?rkiye
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCDP,PC_ENT_IUSE,TR,2025,5.48,,,Barrier: data protection and privacy concerns,T?rkiye
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,AT,2021,3.53,,,Barrier: high costs,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,AT,2023,3.17,,,Barrier: high costs,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,AT,2024,4.25,,,Barrier: high costs,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,AT,2025,4.09,,,Barrier: high costs,Austria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,BE,2021,2.64,,,Barrier: high costs,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,BE,2023,2.22,,,Barrier: high costs,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,BE,2024,3.21,,,Barrier: high costs,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,BE,2025,3.44,,,Barrier: high costs,Belgium
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,BG,2021,1.92,,,Barrier: high costs,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,BG,2023,1.5,,,Barrier: high costs,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,BG,2024,1.48,,,Barrier: high costs,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,BG,2025,2.66,,,Barrier: high costs,Bulgaria
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,CY,2021,2.58,,,Barrier: high costs,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,CY,2023,3.33,,,Barrier: high costs,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,CY,2024,3.31,,,Barrier: high costs,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,CY,2025,3.06,,,Barrier: high costs,Cyprus
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,DE,2025,4.8,,,Barrier: high costs,Germany
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,DK,2021,2.82,,,Barrier: high costs,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,DK,2024,3.29,,,Barrier: high costs,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,DK,2025,2.93,,,Barrier: high costs,Denmark
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,EA,2023,3.19,,,Barrier: high costs,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,EA,2024,3.67,,,Barrier: high costs,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,EA,2025,4.62,,,Barrier: high costs,Euro area
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,EE,2021,3.34,,,Barrier: high costs,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,EE,2023,1.68,,,Barrier: high costs,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,EE,2024,2.34,,,Barrier: high costs,Estonia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,EL,2021,2.49,,,Barrier: high costs,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,EL,2023,3.73,,,Barrier: high costs,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,EL,2024,2.32,,,Barrier: high costs,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,EL,2025,5.94,,,Barrier: high costs,Greece
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,ES,2021,2.56,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,ES,2023,3.27,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,ES,2024,3.09,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,ES,2025,5.22,,,Barrier: high costs,Spain
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,EU27_2020,2023,2.89,,,Barrier: high costs,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,EU27_2020,2024,3.26,,,Barrier: high costs,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,EU27_2020,2025,4.2,,,Barrier: high costs,EU-27
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,FI,2021,5.3,,,Barrier: high costs,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,FI,2023,4.91,,,Barrier: high costs,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,FI,2025,5.16,,,Barrier: high costs,Finland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,HR,2021,3.53,,,Barrier: high costs,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,HR,2023,4.27,,,Barrier: high costs,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,HR,2024,3.92,,,Barrier: high costs,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,HR,2025,4.16,,,Barrier: high costs,Croatia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,HU,2021,1.86,,,Barrier: high costs,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,HU,2023,1.96,,,Barrier: high costs,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,HU,2024,2.25,,,Barrier: high costs,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,HU,2025,3.11,,,Barrier: high costs,Hungary
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,IT,2023,2.1,,,Barrier: high costs,Italy
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,IT,2025,4.05,,,Barrier: high costs,Italy
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,LT,2021,5.19,,,Barrier: high costs,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,LT,2023,5.33,,,Barrier: high costs,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,LT,2024,5.85,,,Barrier: high costs,Lithuania
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,LU,2024,2.94,,,Barrier: high costs,Luxembourg
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,LU,2025,3.88,,,Barrier: high costs,Luxembourg
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,LV,2021,3.4,,,Barrier: high costs,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,LV,2023,3.26,,,Barrier: high costs,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,LV,2024,3.01,,,Barrier: high costs,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,LV,2025,4.12,,,Barrier: high costs,Latvia
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,MT,2021,5.28,,,Barrier: high costs,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,MT,2023,6.9,,,Barrier: high costs,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,MT,2024,8.13,,,Barrier: high costs,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,MT,2025,5.7,,,Barrier: high costs,Malta
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,NL,2021,2.12,,,Barrier: high costs,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,NL,2023,2.16,,,Barrier: high costs,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,NL,2024,1.78,,,Barrier: high costs,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,NL,2025,2.11,,,Barrier: high costs,Netherlands
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,NO,2021,2.52,,,Barrier: high costs,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,NO,2023,2.63,,,Barrier: high costs,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,NO,2024,1.8,,,Barrier: high costs,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,NO,2025,2.27,,,Barrier: high costs,Norway
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,PL,2021,1.29,,,Barrier: high costs,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,PL,2023,1.09,,,Barrier: high costs,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,PL,2024,1.56,,,Barrier: high costs,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,PL,2025,2.04,,,Barrier: high costs,Poland
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,PT,2021,2.67,,,Barrier: high costs,Portugal
+ESTAT:ISOC_EB_AI(1.0),27/02/26 11:00:00,A,10-249,C10-S951_X_K,E_AI_BCST,PC_ENT,PT,2023,4.02,,,Barrier: high costs,Portugal
