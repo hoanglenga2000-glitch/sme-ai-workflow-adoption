@@ -1,0 +1,74 @@
+{
+  "deck": "07_PPT\u6b63\u5f0f\u7248/\u4e2d\u5c0f\u4f01\u4e1aAI\u6d41\u7a0b\u81ea\u52a8\u5316\u91c7\u7eb3\u673a\u5236\u7814\u7a76_\u673a\u5668\u5b66\u4e60\u5b66\u672f\u6c47\u62a5_\u6b63\u5f0f\u7248.pptx",
+  "pdf": "07_PPT\u6b63\u5f0f\u7248/\u4e2d\u5c0f\u4f01\u4e1aAI\u6d41\u7a0b\u81ea\u52a8\u5316\u91c7\u7eb3\u673a\u5236\u7814\u7a76_\u673a\u5668\u5b66\u4e60\u5b66\u672f\u6c47\u62a5_\u6b63\u5f0f\u7248.pdf",
+  "speaker_notes": "07_PPT\u6b63\u5f0f\u7248/\u8bb2\u7a3f/\u7b54\u8fa9\u8bb2\u7a3f_\u7b2c\u4e00\u4eba\u79f0.md",
+  "preview_contact_sheet": "07_PPT\u6b63\u5f0f\u7248/\u9884\u89c8\u56fe/\u6b63\u5f0f\u7248PPT\u9884\u89c8\u603b\u89c8_contact_sheet.png",
+  "visual_qa": "07_PPT\u6b63\u5f0f\u7248/\u9884\u89c8\u56fe/\u6b63\u5f0f\u7248PPT\u89c6\u89c9QA.json",
+  "slide_count": 18,
+  "key_metrics": {
+    "stage1_best_groupkfold_model": "RandomForest",
+    "stage1_groupkfold_r2": 0.849517,
+    "stage1_groupkfold_mae": 1.789988,
+    "stage2_best_groupkfold_model": "ExtraTrees",
+    "stage2_groupkfold_r2": 0.723831,
+    "stage2_groupkfold_mae": 1.967094,
+    "stage1_gpu_mlp_r2": 0.806044,
+    "stage2_gpu_mlp_r2": 0.662074,
+    "stage2_raw_rows_profiled": 12770332,
+    "stage2_non_null_observations": 10453354
+  },
+  "imagegen_backgrounds": [
+    "07_PPT\u6b63\u5f0f\u7248/assets/imagegen/01_\u5c01\u9762\u80cc\u666f_gpt_image_2.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/imagegen/02_\u6d45\u8272\u6570\u636e\u9875\u80cc\u666f_gpt_image_2.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/imagegen/03_\u7ed3\u8bba\u90e8\u7f72\u80cc\u666f_gpt_image_2.png"
+  ],
+  "deterministic_chart_assets": [
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/fig1_academic_validation_clean.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/fig1_enhanced_validation_panel.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/fig1a_model_comparison_ppt.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/fig1b_sme_importance_ppt.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/fig1c_gpu_baseline_ppt.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/fig2_stage2_external_importance.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/fig2_stage2_importance_clean.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/\u56fe01_\u6570\u636e\u751f\u547d\u5468\u671f\u6f0f\u6597.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/\u56fe02_\u6a21\u578b\u4ea4\u53c9\u9a8c\u8bc1\u6bd4\u8f83.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/\u56fe03_\u591a\u5143\u56de\u5f52\u6807\u51c6\u5316\u7cfb\u6570.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/\u56fe04_\u7279\u5f81\u91cd\u8981\u6027\u53cc\u9762\u677f.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/\u56fe05_A10_GPU_MLP\u57fa\u7ebf.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/\u56fe06_\u6570\u636e\u8d28\u91cf\u5ba1\u8ba1\u8868.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/\u56fe07_\u90e8\u7f72\u504f\u597d\u7b56\u7565\u77e9\u9635.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/\u56fe08_\u6e90\u6570\u636e\u771f\u5b9e\u6027\u6838\u9a8c.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/\u56fe09_\u7f3a\u5931\u7387\u8986\u76d6\u5ba1\u8ba1.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/\u56fe10_VIF\u591a\u91cd\u5171\u7ebf\u6027\u8bca\u65ad.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/\u56fe11_\u56fd\u5bb6\u7ec4\u7559\u51fa\u9a8c\u8bc1.png",
+    "07_PPT\u6b63\u5f0f\u7248/assets/\u56fe\u8868\u767d\u5e95RGB/\u56fe12_\u5ba2\u6237\u753b\u50cf\u805a\u7c7b.png"
+  ],
+  "reproducible_tables": [
+    "outputs/tables/enhanced_cv_results.csv",
+    "outputs/tables/enhanced_gpu_baseline.csv",
+    "outputs/tables/enhanced_data_quality_audit.csv",
+    "outputs/tables/course_ols_coefficients.csv",
+    "outputs/tables/course_vif_diagnostics.csv",
+    "outputs/tables/cleaning_retention_summary.csv",
+    "outputs/tables/research_quality_summary.csv"
+  ],
+  "source_links": [
+    "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/isoc_eb_ai?format=SDMX-CSV",
+    "https://ec.europa.eu/eurostat/databrowser/view/isoc_eb_ai/default/table?lang=en",
+    "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GroupKFold.html",
+    "https://www.nist.gov/itl/ai-risk-management-framework",
+    "https://www.nature.com/nature/for-authors/final-submission"
+  ],
+  "verification": {
+    "powerpoint_opened": true,
+    "powerpoint_exported_png_slides": 18,
+    "powerpoint_exported_pdf": true,
+    "visual_qa_all_nonblank": true,
+    "visual_qa_slide_size": "1920x1080"
+  },
+  "artifact_hashes": {
+    "07_PPT\u6b63\u5f0f\u7248/\u4e2d\u5c0f\u4f01\u4e1aAI\u6d41\u7a0b\u81ea\u52a8\u5316\u91c7\u7eb3\u673a\u5236\u7814\u7a76_\u673a\u5668\u5b66\u4e60\u5b66\u672f\u6c47\u62a5_\u6b63\u5f0f\u7248.pptx": "a20501c15444bee17d865f148d008e5760ccad88bd3b230095b4e5320b95853d",
+    "07_PPT\u6b63\u5f0f\u7248/\u4e2d\u5c0f\u4f01\u4e1aAI\u6d41\u7a0b\u81ea\u52a8\u5316\u91c7\u7eb3\u673a\u5236\u7814\u7a76_\u673a\u5668\u5b66\u4e60\u5b66\u672f\u6c47\u62a5_\u6b63\u5f0f\u7248.pdf": "f003b1740bf804eaa57b9da291460b9045e653284218e8b312e65a925830f24c",
+    "07_PPT\u6b63\u5f0f\u7248/\u9884\u89c8\u56fe/\u6b63\u5f0f\u7248PPT\u9884\u89c8\u603b\u89c8_contact_sheet.png": "0ecb2e4a368576702880f95281f05db18821e895763422033887489fb22712d2"
+  }
+}
