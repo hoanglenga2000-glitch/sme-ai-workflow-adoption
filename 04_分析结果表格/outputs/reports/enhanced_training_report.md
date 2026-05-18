@@ -13,15 +13,15 @@ This run strengthens the course project from a single train/test result into a r
 
 | dataset                     | model         | cv_type         |   r2_mean |    r2_std |   mae_mean |   mae_std |   train_r2_mean |   fit_time_sec |
 |:----------------------------|:--------------|:----------------|----------:|----------:|-----------:|----------:|----------------:|---------------:|
-| stage1_sme_size_class       | random_forest | GroupKFold(geo) |  0.849517 | 0.0535711 |    1.78999 |  0.307158 |        0.974832 |       0.608908 |
-| stage2_industry_region_GE10 | extra_trees   | GroupKFold(geo) |  0.723831 | 0.0364802 |    1.96709 |  0.279117 |        0.990665 |       1.93295  |
+| stage1_sme_size_class       | random_forest | GroupKFold(geo) |  0.849517 | 0.0535711 |    1.78999 |  0.307158 |        0.974832 |       0.620401 |
+| stage2_industry_region_GE10 | extra_trees   | GroupKFold(geo) |  0.723831 | 0.0364802 |    1.96709 |  0.279117 |        0.990665 |       1.95067  |
 
 ## GPU Baseline
 
 | dataset                     | gpu_model   | status   | device   | gpu_name   |       r2 |     mae |   best_epoch |   train_seconds |   max_gpu_memory_mb |   n_features_after_encoding | split                |
 |:----------------------------|:------------|:---------|:---------|:-----------|---------:|--------:|-------------:|----------------:|--------------------:|----------------------------:|:---------------------|
-| stage1_sme_size_class       | torch_mlp   | ok       | cuda     | NVIDIA A10 | 0.806044 | 2.52269 |           20 |         1.80435 |             18.3379 |                         114 | group_holdout_by_geo |
-| stage2_industry_region_GE10 | torch_mlp   | ok       | cuda     | NVIDIA A10 | 0.662074 | 2.52874 |           60 |         8.66613 |             21.8638 |                         140 | group_holdout_by_geo |
+| stage1_sme_size_class       | torch_mlp   | ok       | cuda     | NVIDIA A10 | 0.806044 | 2.52269 |           20 |         1.98143 |             18.3379 |                         114 | group_holdout_by_geo |
+| stage2_industry_region_GE10 | torch_mlp   | ok       | cuda     | NVIDIA A10 | 0.662074 | 2.52874 |           60 |         8.1749  |             21.8638 |                         140 | group_holdout_by_geo |
 
 ## Data Quality Audit
 

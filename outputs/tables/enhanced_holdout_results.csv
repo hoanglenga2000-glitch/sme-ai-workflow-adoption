@@ -1,7 +1,7 @@
 dataset,model,holdout_r2,holdout_mae,n_train,n_test,split
 stage1_sme_size_class,ridge,0.8887830431578064,1.8897391536241046,406,138,group_holdout_by_geo
-stage1_sme_size_class,random_forest,0.8685178452042852,1.80705845529955,406,138,group_holdout_by_geo
-stage1_sme_size_class,extra_trees,0.8845448299022198,1.7205310990338167,406,138,group_holdout_by_geo
+stage1_sme_size_class,random_forest,0.8685178452042852,1.807058455299549,406,138,group_holdout_by_geo
+stage1_sme_size_class,extra_trees,0.8845448299022197,1.720531099033817,406,138,group_holdout_by_geo
 stage1_sme_size_class,hist_gradient_boosting,0.791406601559425,2.0279734802123675,406,138,group_holdout_by_geo
 stage2_industry_region_GE10,ridge,0.6804203430268472,2.3153164449017902,4342,1472,group_holdout_by_geo
 stage2_industry_region_GE10,random_forest,0.66544421298997,2.1930985018645517,4342,1472,group_holdout_by_geo

@@ -1,151 +1,151 @@
 dataset,feature,feature_label,importance_mean,importance_std
-stage1_sme_size_class,ai__E_AI_TML,ML capability,1.1764342438660567,0.09506453464023329
-stage1_sme_size_class,ecommerce_sales__E_AWS_COWN,ecommerce sales  E AWS COWN,0.013457421167874064,0.0016231096683227426
-stage1_sme_size_class,deployment_readiness_index,Deployment readiness,0.008550820060686646,0.0015732433096328935
-stage1_sme_size_class,ecommerce_sales__E_AWSELL,ecommerce sales  E AWSELL,0.005452166930435247,0.0005545649089114494
-stage1_sme_size_class,digital_intensity__E_DI3_VHI,digital intensity  E DI3 VHI,0.003047193146939964,0.0006630269030106038
-stage1_sme_size_class,ecommerce_value__E_AWSVAL_B2BG,ecommerce value  E AWSVAL B2BG,0.00214259303255838,0.001051103028709932
-stage1_sme_size_class,cloud__E_CC_PDEV,Cloud development,0.00192186004390744,0.0005548936383031164
-stage1_sme_size_class,ecommerce_sales__E_AWSFOR,ecommerce sales  E AWSFOR,0.0015349476281157903,0.0002612180571458275
-stage1_sme_size_class,ai__E_AI_BNU,ai  E AI BNU,0.0013583199344377184,0.0009462191212088961
-stage1_sme_size_class,digital_foundation_index,Digital foundation,0.0012367598761050906,0.0023530782508192783
-stage1_sme_size_class,ecommerce_value__E_AWSVAL_GT1_B2C_GT10WS,ecommerce value  E AWSVAL GT1 B2C GT10WS,0.000925834006363239,0.00014993268757938012
-stage1_sme_size_class,ecommerce_value__E_AWSVAL_COWN,ecommerce value  E AWSVAL COWN,0.0009101467511854014,0.00020716584607221122
-stage1_sme_size_class,ai__E_AI_TNLG,Natural language generation,0.00088783699054699,0.000429232995637274
-stage1_sme_size_class,cloud__E_CC_PCPU,cloud  E CC PCPU,0.0008569037953822337,0.00023209927341806322
-stage1_sme_size_class,ecommerce_sales__E_AESELL,ecommerce sales  E AESELL,0.000846994648293603,0.0005435322477846415
-stage1_sme_size_class,ai__E_AI_BEC,ai  E AI BEC,0.0008147238153974704,0.0005044291683383465
-stage1_sme_size_class,market_digitization_index,market digitization index,0.0007834022639540325,0.00018685864977889305
-stage1_sme_size_class,ai__E_AI_BCST,ai  E AI BCST,0.000748823014732373,0.00018435697109599224
-stage1_sme_size_class,ai__E_AI_BINC,ai  E AI BINC,0.0007139809290530134,0.00016208752038485497
-stage1_sme_size_class,ecommerce_sales__E_AWS_CMP,ecommerce sales  E AWS CMP,0.0007054354791310447,0.00034440654910217856
-stage1_sme_size_class,ecommerce_value__E_AWSVAL,ecommerce value  E AWSVAL,0.0006713088730555076,0.00019825915115444657
-stage1_sme_size_class,ecommerce_value__E_AWSVAL_B2C,ecommerce value  E AWSVAL B2C,0.0006063484835883981,0.00010767991841768179
-stage1_sme_size_class,ecommerce_value__T_AWS_CMP_GE20,ecommerce value  T AWS CMP GE20,0.0005837550397818173,0.0001972166920750559
-stage1_sme_size_class,ai__E_AI_BLE,ai  E AI BLE,0.0005582228244276899,0.00010430960222105226
-stage1_sme_size_class,cloud__E_CC_PDB,cloud  E CC PDB,0.0005199585197762832,0.0007783734123265712
-stage1_sme_size_class,ai__E_AI_PITS,ai  E AI PITS,0.0005068701605832523,0.0006486803992598258
-stage1_sme_size_class,cloud__E_CC_PCRM,cloud  E CC PCRM,0.0004611480657141139,0.00021767319073615283
-stage1_sme_size_class,ecommerce_value__E_ETURN,ecommerce value  E ETURN,0.0003310412748527558,0.0001471732303474659
-stage1_sme_size_class,ecommerce_value__E_AWSVAL_CMP,ecommerce value  E AWSVAL CMP,0.00031997770126464725,0.00022474218039377725
-stage1_sme_size_class,size_emp,size emp,0.00024357098886396145,0.0001186245054989283
-stage1_sme_size_class,data_analytics__E_DAEXT,data analytics  E DAEXT,0.00024161564162627122,9.124438696062738e-05
-stage1_sme_size_class,ecommerce_value__E_AWSVAL_CMPQ,ecommerce value  E AWSVAL CMPQ,0.00023771769533350215,0.0003709874147124664
-stage1_sme_size_class,data_analytics__E_DASWEB,data analytics  E DASWEB,0.00021911860330876368,0.00010252139257418083
-stage1_sme_size_class,ecommerce_value__E_AWSVAL_EU,ecommerce value  E AWSVAL EU,0.00021356950673356856,9.738399067367848e-05
-stage1_sme_size_class,ecommerce_value__E_AXSVAL,ecommerce value  E AXSVAL,0.00021053661675822047,0.00013365420618137867
-stage1_sme_size_class,cloud__E_CC_DA,Cloud data analytics,0.00020942211722072002,4.015759934849847e-05
-stage1_sme_size_class,governance_maturity_proxy,governance maturity proxy,0.0001982553147095075,0.00012737778540421388
-stage1_sme_size_class,data_maturity_index,Data maturity,0.00018231724812335184,6.58070841750664e-05
-stage1_sme_size_class,ecommerce_value__T_AWS_GT1_B2C_GT10WS,ecommerce value  T AWS GT1 B2C GT10WS,0.00017715378851234273,0.00020074779163552992
-stage1_sme_size_class,cloud__E_CC,cloud  E CC,0.00016170030625411078,4.232291052367752e-05
-stage1_sme_size_class,ai__E_AI_CC,ai  E AI CC,0.00016103442261649245,1.9514277449599197e-05
-stage1_sme_size_class,ict_recruitment__E_ITSPDLA,ict recruitment  E ITSPDLA,0.0001590780087823244,1.9562808855376185e-05
-stage1_sme_size_class,ecommerce_value__E_AWSVAL_WW,ecommerce value  E AWSVAL WW,0.00014539988623347525,5.126575952009754e-05
-stage1_sme_size_class,geo,Country heterogeneity,0.00014535077680816189,6.491026485552629e-05
-stage1_sme_size_class,deployment_x_data_maturity,deployment x data maturity,0.0001412333406632845,8.771865366976773e-05
-stage1_sme_size_class,data_analytics__E_DASGE3,data analytics  E DASGE3,0.0001404905289168664,8.447034083206892e-05
-stage1_sme_size_class,cloud__E_CC_PFIL,cloud  E CC PFIL,0.00010336176139064124,0.00015880532305074477
-stage1_sme_size_class,data_analytics__E_DA,data analytics  E DA,9.361820645798861e-05,4.101239206124267e-05
-stage1_sme_size_class,security_x_efficiency,security x efficiency,8.041123420795178e-05,4.3157440405104583e-05
-stage1_sme_size_class,data_analytics__E_DASSDS,data analytics  E DASSDS,7.989677731879789e-05,3.190475891102922e-05
-stage1_sme_size_class,ai__E_AI_CC1SI_DA,ai  E AI CC1SI DA,7.728233296588893e-05,5.6930189906207166e-05
-stage1_sme_size_class,data_analytics__E_DASERP,data analytics  E DASERP,7.299311652299763e-05,2.05404747923549e-05
-stage1_sme_size_class,data_analytics__E_DASANY,Data analytics use,6.825378494710692e-05,3.4154698286234464e-05
-stage1_sme_size_class,cloud__E_CC_PSEC,cloud  E CC PSEC,6.073627457806041e-05,5.471822155038e-05
-stage1_sme_size_class,ict_recruitment__E_ITSPDLWE,ict recruitment  E ITSPDLWE,5.7734382675746675e-05,9.080867270243136e-06
-stage1_sme_size_class,ai__E_AI_BDDT,ai  E AI BDDT,5.216568010459518e-05,0.00014007848489342147
-stage1_sme_size_class,data_analytics__E_DAOWN,data analytics  E DAOWN,4.9410675409875905e-05,2.5402902488224775e-05
-stage1_sme_size_class,ai__E_AI_DA,ai  E AI DA,4.8348927870247214e-05,3.74567746125982e-05
-stage1_sme_size_class,is_sme,is sme,4.70718330968789e-05,3.760508160582021e-05
-stage1_sme_size_class,ai__E_AI_BLEG,ai  E AI BLEG,4.562369022678703e-05,0.00011300528365884307
-stage1_sme_size_class,digital_intensity__E_DI4_HI,digital intensity  E DI4 HI,3.605469738067931e-05,2.1837070893123567e-05
-stage1_sme_size_class,ict_recruitment__E_ITSPDSAL,ict recruitment  E ITSPDSAL,3.3143585535642485e-05,5.5800678515870986e-06
-stage1_sme_size_class,year,Year,3.069042597014793e-05,3.4321135391682565e-05
-stage1_sme_size_class,ict_recruitment__E_ITSPVAC2,ict recruitment  E ITSPVAC2,2.9857454449574068e-05,4.472272447117289e-06
-stage1_sme_size_class,data_analytics__E_DASCRM,data analytics  E DASCRM,1.859873002176456e-05,4.023633975820453e-05
-stage1_sme_size_class,ict_recruitment__E_ITSPDLET,ict recruitment  E ITSPDLET,1.1003978383402243e-05,4.60575958166363e-06
-stage1_sme_size_class,ict_constraint_index,ict constraint index,9.164364873128402e-06,4.265160710215575e-06
-stage1_sme_size_class,ict_training__E_ITSPT2,ict training  E ITSPT2,-1.145882053673238e-05,1.067257676716136e-05
-stage1_sme_size_class,ict_training__E_ITT2,ict training  E ITT2,-1.2168141573065672e-05,5.751396117873877e-06
-stage1_sme_size_class,cloud__E_CC_PERP,cloud  E CC PERP,-1.3022007575238156e-05,7.691423564239053e-05
-stage1_sme_size_class,cloud__E_CC1_SI,cloud  E CC1 SI,-1.3718544489125609e-05,0.0003500792067825331
-stage1_sme_size_class,ecommerce_value__E_AWSVAL_HM,ecommerce value  E AWSVAL HM,-1.700258620488763e-05,0.0001414078363670973
-stage1_sme_size_class,security_concern_index,Security concern,-1.9208600277838734e-05,7.542094765018294e-05
-stage1_sme_size_class,ict_recruitment__E_ITSPRCR2,ict recruitment  E ITSPRCR2,-2.6420029082920477e-05,2.38502747870818e-05
-stage1_sme_size_class,digital_intensity__E_DI4_VHI,digital intensity  E DI4 VHI,-2.9355186345669804e-05,2.1061064203540552e-05
-stage1_sme_size_class,ict_training__E_ITUST2,ict training  E ITUST2,-4.3159896155137156e-05,3.514439443845309e-06
-stage1_sme_size_class,digital_intensity__E_DI3_HI,digital intensity  E DI3 HI,-4.351932048936765e-05,0.00036947725540015046
-stage1_sme_size_class,ecommerce_sales__E_ESELL,ecommerce sales  E ESELL,-5.0436154229856665e-05,0.00021068314749102178
-stage1_sme_size_class,ai__E_AI_BCDP,ai  E AI BCDP,-7.335364673275817e-05,0.00010596882499350149
-stage1_sme_size_class,digital_intensity__E_DI4_GELO,digital intensity  E DI4 GELO,-7.670614572357255e-05,1.1996975513683111e-05
-stage1_sme_size_class,ict_capability_index,ict capability index,-7.95763726142984e-05,3.489201025090678e-06
-stage1_sme_size_class,digital_intensity__E_DI3_GELO,digital intensity  E DI3 GELO,-0.0002348673679683777,0.00014671544838401563
-stage1_sme_size_class,cloud__E_CC1_S,cloud  E CC1 S,-0.00028008165597609436,0.000526665891185139
-stage1_sme_size_class,efficiency_need_proxy,efficiency need proxy,-0.0005656045806037199,0.0015272914020558308
-stage1_sme_size_class,ai__E_AI_PBAM,ai  E AI PBAM,-0.0006456874825297073,0.0003307772813835742
-stage2_industry_region_GE10,ai_industry__E_AI_TML,ML capability,0.48786332814095784,0.025074978004164045
-stage2_industry_region_GE10,ai_industry__E_AI_TNLG,Natural language generation,0.07057580964287437,0.002597442011092398
-stage2_industry_region_GE10,geo,Country heterogeneity,0.05728725878728954,0.0030460825381787185
+stage1_sme_size_class,ai__E_AI_TML,ML capability,1.1764342438660567,0.0950645346402332
+stage1_sme_size_class,ecommerce_sales__E_AWS_COWN,ecommerce sales  E AWS COWN,0.013457421167873943,0.0016231096683227816
+stage1_sme_size_class,deployment_readiness_index,Deployment readiness,0.008550820060686526,0.0015732433096329256
+stage1_sme_size_class,ecommerce_sales__E_AWSELL,ecommerce sales  E AWSELL,0.005452166930435144,0.0005545649089114281
+stage1_sme_size_class,digital_intensity__E_DI3_VHI,digital intensity  E DI3 VHI,0.003047193146939834,0.0006630269030106256
+stage1_sme_size_class,ecommerce_value__E_AWSVAL_B2BG,ecommerce value  E AWSVAL B2BG,0.0021425930325582967,0.0010511030287099572
+stage1_sme_size_class,cloud__E_CC_PDEV,Cloud development,0.0019218600439073381,0.0005548936383031315
+stage1_sme_size_class,ecommerce_sales__E_AWSFOR,ecommerce sales  E AWSFOR,0.00153494762811567,0.0002612180571458154
+stage1_sme_size_class,ai__E_AI_BNU,ai  E AI BNU,0.001358319934437589,0.000946219121208875
+stage1_sme_size_class,digital_foundation_index,Digital foundation,0.0012367598761050074,0.002353078250819267
+stage1_sme_size_class,ecommerce_value__E_AWSVAL_GT1_B2C_GT10WS,ecommerce value  E AWSVAL GT1 B2C GT10WS,0.000925834006363128,0.00014993268757940766
+stage1_sme_size_class,ecommerce_value__E_AWSVAL_COWN,ecommerce value  E AWSVAL COWN,0.000910146751185309,0.00020716584607222488
+stage1_sme_size_class,ai__E_AI_TNLG,Natural language generation,0.0008878369905468882,0.00042923299563726397
+stage1_sme_size_class,cloud__E_CC_PCPU,cloud  E CC PCPU,0.0008569037953821227,0.00023209927341806915
+stage1_sme_size_class,ecommerce_sales__E_AESELL,ecommerce sales  E AESELL,0.0008469946482935106,0.0005435322477846382
+stage1_sme_size_class,ai__E_AI_BEC,ai  E AI BEC,0.000814723815397341,0.0005044291683383686
+stage1_sme_size_class,market_digitization_index,market digitization index,0.0007834022639539584,0.00018685864977888974
+stage1_sme_size_class,ai__E_AI_BCST,ai  E AI BCST,0.000748823014732262,0.0001843569710960047
+stage1_sme_size_class,ai__E_AI_BINC,ai  E AI BINC,0.0007139809290529023,0.00016208752038485754
+stage1_sme_size_class,ecommerce_sales__E_AWS_CMP,ecommerce sales  E AWS CMP,0.0007054354791309336,0.0003444065491021698
+stage1_sme_size_class,ecommerce_value__E_AWSVAL,ecommerce value  E AWSVAL,0.0006713088730553873,0.00019825915115445267
+stage1_sme_size_class,ecommerce_value__E_AWSVAL_B2C,ecommerce value  E AWSVAL B2C,0.0006063484835882963,0.00010767991841769644
+stage1_sme_size_class,ecommerce_value__T_AWS_CMP_GE20,ecommerce value  T AWS CMP GE20,0.0005837550397816785,0.00019721669207503495
+stage1_sme_size_class,ai__E_AI_BLE,ai  E AI BLE,0.0005582228244275789,0.00010430960222111901
+stage1_sme_size_class,cloud__E_CC_PDB,cloud  E CC PDB,0.0005199585197761444,0.0007783734123266146
+stage1_sme_size_class,ai__E_AI_PITS,ai  E AI PITS,0.0005068701605831227,0.0006486803992598362
+stage1_sme_size_class,cloud__E_CC_PCRM,cloud  E CC PCRM,0.00046114806571398437,0.00021767319073616394
+stage1_sme_size_class,ecommerce_value__E_ETURN,ecommerce value  E ETURN,0.00033104127485260776,0.000147173230347509
+stage1_sme_size_class,ecommerce_value__E_AWSVAL_CMP,ecommerce value  E AWSVAL CMP,0.00031997770126451774,0.00022474218039380406
+stage1_sme_size_class,size_emp,size emp,0.00024357098886385042,0.00011862450549890866
+stage1_sme_size_class,data_analytics__E_DAEXT,data analytics  E DAEXT,0.0002416156416261602,9.124438696062975e-05
+stage1_sme_size_class,ecommerce_value__E_AWSVAL_CMPQ,ecommerce value  E AWSVAL CMPQ,0.0002377176953333541,0.00037098741471248135
+stage1_sme_size_class,data_analytics__E_DASWEB,data analytics  E DASWEB,0.00021911860330865265,0.00010252139257417593
+stage1_sme_size_class,ecommerce_value__E_AWSVAL_EU,ecommerce value  E AWSVAL EU,0.0002135695067334483,9.738399067369142e-05
+stage1_sme_size_class,ecommerce_value__E_AXSVAL,ecommerce value  E AXSVAL,0.0002105366167581002,0.0001336542061813564
+stage1_sme_size_class,cloud__E_CC_DA,Cloud data analytics,0.000209422117220646,4.0157599348516606e-05
+stage1_sme_size_class,governance_maturity_proxy,governance maturity proxy,0.00019825531470940572,0.0001273777854042089
+stage1_sme_size_class,data_maturity_index,Data maturity,0.00018231724812323158,6.580708417506982e-05
+stage1_sme_size_class,ecommerce_value__T_AWS_GT1_B2C_GT10WS,ecommerce value  T AWS GT1 B2C GT10WS,0.0001771537885122687,0.0002007477916355126
+stage1_sme_size_class,cloud__E_CC,cloud  E CC,0.00016170030625398124,4.2322910523658883e-05
+stage1_sme_size_class,ai__E_AI_CC,ai  E AI CC,0.00016103442261638143,1.9514277449606302e-05
+stage1_sme_size_class,ict_recruitment__E_ITSPDLA,ict recruitment  E ITSPDLA,0.00015907800878219488,1.9562808855404666e-05
+stage1_sme_size_class,ecommerce_value__E_AWSVAL_WW,ecommerce value  E AWSVAL WW,0.0001453998862333735,5.126575952010641e-05
+stage1_sme_size_class,geo,Country heterogeneity,0.00014535077680805086,6.491026485552813e-05
+stage1_sme_size_class,deployment_x_data_maturity,deployment x data maturity,0.00014123334066314572,8.771865366977443e-05
+stage1_sme_size_class,data_analytics__E_DASGE3,data analytics  E DASGE3,0.0001404905289167646,8.447034083206774e-05
+stage1_sme_size_class,cloud__E_CC_PFIL,cloud  E CC PFIL,0.00010336176139052096,0.00015880532305076337
+stage1_sme_size_class,data_analytics__E_DA,data analytics  E DA,9.361820645787759e-05,4.1012392061264164e-05
+stage1_sme_size_class,security_x_efficiency,security x efficiency,8.041123420783151e-05,4.3157440405093104e-05
+stage1_sme_size_class,data_analytics__E_DASSDS,data analytics  E DASSDS,7.989677731866836e-05,3.1904758911053444e-05
+stage1_sme_size_class,ai__E_AI_CC1SI_DA,ai  E AI CC1SI DA,7.728233296577791e-05,5.69301899061971e-05
+stage1_sme_size_class,data_analytics__E_DASERP,data analytics  E DASERP,7.299311652287736e-05,2.054047479235734e-05
+stage1_sme_size_class,data_analytics__E_DASANY,Data analytics use,6.82537849470144e-05,3.415469828623595e-05
+stage1_sme_size_class,cloud__E_CC_PSEC,cloud  E CC PSEC,6.073627457795864e-05,5.471822155038161e-05
+stage1_sme_size_class,ict_recruitment__E_ITSPDLWE,ict recruitment  E ITSPDLWE,5.7734382675617146e-05,9.080867270251079e-06
+stage1_sme_size_class,ai__E_AI_BDDT,ai  E AI BDDT,5.2165680104502656e-05,0.0001400784848934229
+stage1_sme_size_class,data_analytics__E_DAOWN,data analytics  E DAOWN,4.941067540972788e-05,2.5402902488168722e-05
+stage1_sme_size_class,ai__E_AI_DA,ai  E AI DA,4.8348927870126936e-05,3.745677461256547e-05
+stage1_sme_size_class,is_sme,is sme,4.707183309675863e-05,3.760508160583479e-05
+stage1_sme_size_class,ai__E_AI_BLEG,ai  E AI BLEG,4.562369022669451e-05,0.00011300528365887073
+stage1_sme_size_class,digital_intensity__E_DI4_HI,digital intensity  E DI4 HI,3.605469738055903e-05,2.183707089312779e-05
+stage1_sme_size_class,ict_recruitment__E_ITSPDSAL,ict recruitment  E ITSPDSAL,3.314358553552221e-05,5.580067851618005e-06
+stage1_sme_size_class,year,Year,3.0690425970027656e-05,3.4321135391699336e-05
+stage1_sme_size_class,ict_recruitment__E_ITSPVAC2,ict recruitment  E ITSPVAC2,2.985745444948155e-05,4.4722724471091445e-06
+stage1_sme_size_class,data_analytics__E_DASCRM,data analytics  E DASCRM,1.8598730021681293e-05,4.023633975820105e-05
+stage1_sme_size_class,ict_recruitment__E_ITSPDLET,ict recruitment  E ITSPDLET,1.1003978383291221e-05,4.605759581656413e-06
+stage1_sme_size_class,ict_constraint_index,ict constraint index,9.164364872989625e-06,4.265160710218505e-06
+stage1_sme_size_class,ict_training__E_ITSPT2,ict training  E ITSPT2,-1.145882053683415e-05,1.0672576767140564e-05
+stage1_sme_size_class,ict_training__E_ITT2,ict training  E ITT2,-1.2168141573176694e-05,5.751396117871767e-06
+stage1_sme_size_class,cloud__E_CC_PERP,cloud  E CC PERP,-1.302200757535843e-05,7.691423564238123e-05
+stage1_sme_size_class,cloud__E_CC1_SI,cloud  E CC1 SI,-1.371854448922738e-05,0.0003500792067825351
+stage1_sme_size_class,ecommerce_value__E_AWSVAL_HM,ecommerce value  E AWSVAL HM,-1.7002586205007903e-05,0.00014140783636707512
+stage1_sme_size_class,security_concern_index,Security concern,-1.9208600277949756e-05,7.542094765020228e-05
+stage1_sme_size_class,ict_recruitment__E_ITSPRCR2,ict recruitment  E ITSPRCR2,-2.6420029083003744e-05,2.3850274787063445e-05
+stage1_sme_size_class,digital_intensity__E_DI4_VHI,digital intensity  E DI4 VHI,-2.9355186345780826e-05,2.1061064203540552e-05
+stage1_sme_size_class,ict_training__E_ITUST2,ict training  E ITUST2,-4.315989615525743e-05,3.5144394438404682e-06
+stage1_sme_size_class,digital_intensity__E_DI3_HI,digital intensity  E DI3 HI,-4.351932048947867e-05,0.0003694772554001871
+stage1_sme_size_class,ecommerce_sales__E_ESELL,ecommerce sales  E ESELL,-5.043615422994918e-05,0.00021068314749103
+stage1_sme_size_class,ai__E_AI_BCDP,ai  E AI BCDP,-7.335364673286919e-05,0.00010596882499350496
+stage1_sme_size_class,digital_intensity__E_DI4_GELO,digital intensity  E DI4 GELO,-7.670614572369283e-05,1.1996975513721156e-05
+stage1_sme_size_class,ict_capability_index,ict capability index,-7.957637261441867e-05,3.4892010250698004e-06
+stage1_sme_size_class,digital_intensity__E_DI3_GELO,digital intensity  E DI3 GELO,-0.00023486736796850724,0.00014671544838401303
+stage1_sme_size_class,cloud__E_CC1_S,cloud  E CC1 S,-0.00028008165597621465,0.0005266658911851639
+stage1_sme_size_class,efficiency_need_proxy,efficiency need proxy,-0.0005656045806038216,0.0015272914020558373
+stage1_sme_size_class,ai__E_AI_PBAM,ai  E AI PBAM,-0.0006456874825298461,0.0003307772813835792
+stage2_industry_region_GE10,ai_industry__E_AI_TML,ML capability,0.48786332814095784,0.025074978004164056
+stage2_industry_region_GE10,ai_industry__E_AI_TNLG,Natural language generation,0.07057580964287437,0.0025974420110923806
+stage2_industry_region_GE10,geo,Country heterogeneity,0.05728725878728955,0.003046082538178714
 stage2_industry_region_GE10,digital_foundation_index,Digital foundation,0.017058048317716023,0.0028691660816077087
-stage2_industry_region_GE10,ai_industry__E_AI_CC,ai industry  E AI CC,0.010496890512630122,0.0013294901030680897
+stage2_industry_region_GE10,ai_industry__E_AI_CC,ai industry  E AI CC,0.010496890512630114,0.001329490103068086
 stage2_industry_region_GE10,nace_r2,Industry heterogeneity,0.00904039584783651,0.0008349318916968252
-stage2_industry_region_GE10,year,Year,0.008314709753615535,0.0012425748204196666
+stage2_industry_region_GE10,year,Year,0.008314709753615526,0.0012425748204196697
 stage2_industry_region_GE10,ai_industry__E_AI_CC1SI_DA,ai industry  E AI CC1SI DA,0.004503231918709068,0.0006651747983222333
 stage2_industry_region_GE10,deployment_readiness_index,Deployment readiness,0.0038747771174063583,0.0007193710752239455
-stage2_industry_region_GE10,isoc_e_diin2__E_DI3_VHI,isoc e diin2  E DI3 VHI,0.0029167157037225297,0.0004365964706666954
+stage2_industry_region_GE10,isoc_e_diin2__E_DI3_VHI,isoc e diin2  E DI3 VHI,0.002916715703722539,0.0004365964706666899
 stage2_industry_region_GE10,ai_industry__E_AI_DA,ai industry  E AI DA,0.0028376736534713363,0.0003521427618131969
 stage2_industry_region_GE10,isoc_cicce_usen2__E_CC1_S,isoc cicce usen2  E CC1 S,0.0025172930320517075,0.0006525027978650153
 stage2_industry_region_GE10,ai_industry__E_AI_PBAM,ai industry  E AI PBAM,0.002458453881803981,0.0004141568330468943
-stage2_industry_region_GE10,ai_industry__E_AI_PITS,ai industry  E AI PITS,0.0022738820335582444,0.0007447448253652812
+stage2_industry_region_GE10,ai_industry__E_AI_PITS,ai industry  E AI PITS,0.0022738820335582353,0.0007447448253652868
 stage2_industry_region_GE10,isoc_e_diin2__E_DI3_GELO,isoc e diin2  E DI3 GELO,0.0020865641758019047,0.00039944139411039146
-stage2_industry_region_GE10,isoc_ec_eseln2__E_AESELL,isoc ec eseln2  E AESELL,0.0020722462225514584,0.0007995539277545972
+stage2_industry_region_GE10,isoc_ec_eseln2__E_AESELL,isoc ec eseln2  E AESELL,0.0020722462225514493,0.0007995539277546051
 stage2_industry_region_GE10,isoc_cicce_usen2__E_CC_PDEV,isoc cicce usen2  E CC PDEV,0.0020223431411865536,0.0003111064475737154
-stage2_industry_region_GE10,isoc_cicce_usen2__E_CC_PERP,isoc cicce usen2  E CC PERP,0.0013101725581171897,0.0002863126048924726
+stage2_industry_region_GE10,isoc_cicce_usen2__E_CC_PERP,isoc cicce usen2  E CC PERP,0.0013101725581171897,0.0002863126048924689
 stage2_industry_region_GE10,market_digitization_index,market digitization index,0.0013080737058453844,0.0003628819687072363
 stage2_industry_region_GE10,isoc_ec_eseln2__E_AWS_CMP,isoc ec eseln2  E AWS CMP,0.001213939813883606,0.00017337808272663966
-stage2_industry_region_GE10,governance_maturity_proxy,governance maturity proxy,0.0011397947592806008,0.00019847835252458104
-stage2_industry_region_GE10,isoc_ec_eseln2__E_AWSELL,isoc ec eseln2  E AWSELL,0.001114252890441314,0.0004425497972507862
+stage2_industry_region_GE10,governance_maturity_proxy,governance maturity proxy,0.0011397947592805917,0.00019847835252456044
+stage2_industry_region_GE10,isoc_ec_eseln2__E_AWSELL,isoc ec eseln2  E AWSELL,0.0011142528904413047,0.0004425497972507767
 stage2_industry_region_GE10,ai_industry__E_AI_BLEG,ai industry  E AI BLEG,0.0010142947727575329,0.00013135293816601357
 stage2_industry_region_GE10,isoc_cicce_usen2__E_CC_PCPU,isoc cicce usen2  E CC PCPU,0.0009797006973859546,0.0001505763731999072
-stage2_industry_region_GE10,isoc_ec_eseln2__E_AWSFOR,isoc ec eseln2  E AWSFOR,0.0009192542668181869,0.0002469783271227814
+stage2_industry_region_GE10,isoc_ec_eseln2__E_AWSFOR,isoc ec eseln2  E AWSFOR,0.0009192542668181961,0.0002469783271227754
 stage2_industry_region_GE10,isoc_cicce_usen2__E_CC,isoc cicce usen2  E CC,0.0008857663390019291,0.00016433663001101263
-stage2_industry_region_GE10,isoc_cicce_usen2__E_CC1_SI,isoc cicce usen2  E CC1 SI,0.0008717783863128233,0.00011965325366424239
-stage2_industry_region_GE10,isoc_e_diin2__E_DI4_VHI,isoc e diin2  E DI4 VHI,0.0007730447140242569,0.0004909759827159829
+stage2_industry_region_GE10,isoc_cicce_usen2__E_CC1_SI,isoc cicce usen2  E CC1 SI,0.0008717783863128326,0.00011965325366424066
+stage2_industry_region_GE10,isoc_e_diin2__E_DI4_VHI,isoc e diin2  E DI4 VHI,0.0007730447140242477,0.0004909759827159644
 stage2_industry_region_GE10,ai_industry__E_AI_BINC,ai industry  E AI BINC,0.0007687163073336519,0.0001234745331777972
-stage2_industry_region_GE10,isoc_cicce_usen2__E_CC_PCRM,isoc cicce usen2  E CC PCRM,0.0007616253805807771,0.0002212166849476059
+stage2_industry_region_GE10,isoc_cicce_usen2__E_CC_PCRM,isoc cicce usen2  E CC PCRM,0.0007616253805807863,0.00022121668494759898
 stage2_industry_region_GE10,isoc_ec_eseln2__E_AWS_COWN,isoc ec eseln2  E AWS COWN,0.0007378513038578486,0.0002211391607793653
 stage2_industry_region_GE10,ai_industry__E_AI_BDDT,ai industry  E AI BDDT,0.0007247497608808459,0.00020690529446007726
-stage2_industry_region_GE10,isoc_eb_dan2__E_DASSDS,isoc eb dan2  E DASSDS,0.000717324100149482,0.00019590946170216613
+stage2_industry_region_GE10,isoc_eb_dan2__E_DASSDS,isoc eb dan2  E DASSDS,0.0007173241001494912,0.00019590946170215464
 stage2_industry_region_GE10,isoc_ec_eseln2__E_ESELL,isoc ec eseln2  E ESELL,0.0006666919515891471,0.0002518046201967525
 stage2_industry_region_GE10,ai_industry__E_AI_BEC,ai industry  E AI BEC,0.0006567683746540598,8.773180664556628e-05
 stage2_industry_region_GE10,isoc_eb_dan2__E_DA,isoc eb dan2  E DA,0.0006277097156006753,9.195495319369487e-05
-stage2_industry_region_GE10,isoc_e_diin2__E_DI3_HI,isoc e diin2  E DI3 HI,0.0005833817423019083,9.060880590146435e-05
+stage2_industry_region_GE10,isoc_e_diin2__E_DI3_HI,isoc e diin2  E DI3 HI,0.0005833817423019175,9.060880590147598e-05
 stage2_industry_region_GE10,ai_industry__E_AI_BCDP,ai industry  E AI BCDP,0.0005802237718239475,0.00018417744513553064
-stage2_industry_region_GE10,ai_industry__E_AI_BNU,ai industry  E AI BNU,0.0005063972940889394,0.00012241005217318828
-stage2_industry_region_GE10,ai_industry__E_AI_BLE,ai industry  E AI BLE,0.00046492464036544207,0.00016950291787339294
+stage2_industry_region_GE10,ai_industry__E_AI_BNU,ai industry  E AI BNU,0.000506397294088958,0.00012241005217317012
+stage2_industry_region_GE10,ai_industry__E_AI_BLE,ai industry  E AI BLE,0.0004649246403654235,0.0001695029178733913
 stage2_industry_region_GE10,isoc_eb_dan2__E_DASWEB,isoc eb dan2  E DASWEB,0.0004422801511044794,0.0001119827111685542
-stage2_industry_region_GE10,isoc_cicce_usen2__E_CC_PSEC,isoc cicce usen2  E CC PSEC,0.0004386432190338259,0.00016427276938404085
+stage2_industry_region_GE10,isoc_cicce_usen2__E_CC_PSEC,isoc cicce usen2  E CC PSEC,0.0004386432190338167,0.0001642727693840464
 stage2_industry_region_GE10,ai_industry__E_AI_BCST,ai industry  E AI BCST,0.0003880361810180699,0.00011000015228023388
 stage2_industry_region_GE10,security_concern_index,Security concern,0.0003110003475492636,0.0001624048378425897
-stage2_industry_region_GE10,isoc_ske_itrcrn2__E_ITSPDSAL,isoc ske itrcrn2  E ITSPDSAL,0.0003093399800263019,6.1331164695798e-05
-stage2_industry_region_GE10,isoc_ske_itrcrn2__E_ITSPDLA,isoc ske itrcrn2  E ITSPDLA,0.0003068756192384596,2.7105277099947303e-05
-stage2_industry_region_GE10,isoc_eb_dan2__E_DASCRM,isoc eb dan2  E DASCRM,0.00029564887338582685,2.8998667256225688e-05
-stage2_industry_region_GE10,isoc_eb_dan2__E_DASANY,isoc eb dan2  E DASANY,0.0002538149121109982,3.78808446841473e-05
+stage2_industry_region_GE10,isoc_ske_itrcrn2__E_ITSPDSAL,isoc ske itrcrn2  E ITSPDSAL,0.00030933998002629265,6.133116469579379e-05
+stage2_industry_region_GE10,isoc_ske_itrcrn2__E_ITSPDLA,isoc ske itrcrn2  E ITSPDLA,0.0003068756192384688,2.7105277099951616e-05
+stage2_industry_region_GE10,isoc_eb_dan2__E_DASCRM,isoc eb dan2  E DASCRM,0.00029564887338583606,2.8998667256229585e-05
+stage2_industry_region_GE10,isoc_eb_dan2__E_DASANY,isoc eb dan2  E DASANY,0.00025381491211098894,3.788084468414603e-05
 stage2_industry_region_GE10,data_maturity_index,Data maturity,0.00021247757138835124,4.933070887245101e-05
-stage2_industry_region_GE10,isoc_e_diin2__E_DI4_HI,isoc e diin2  E DI4 HI,0.00015458401374092898,0.00015621325719440482
-stage2_industry_region_GE10,isoc_eb_dan2__E_DASERP,isoc eb dan2  E DASERP,0.00012492595963349099,5.463087804466965e-05
+stage2_industry_region_GE10,isoc_e_diin2__E_DI4_HI,isoc e diin2  E DI4 HI,0.0001545840137409197,0.00015621325719441357
+stage2_industry_region_GE10,isoc_eb_dan2__E_DASERP,isoc eb dan2  E DASERP,0.0001249259596334725,5.4630878044685954e-05
 stage2_industry_region_GE10,isoc_ske_itrcrn2__E_ITSPDLET,isoc ske itrcrn2  E ITSPDLET,9.648715747696361e-05,2.4106601677319542e-05
-stage2_industry_region_GE10,isoc_cicce_usen2__E_CC_DA,isoc cicce usen2  E CC DA,7.96755125372454e-05,6.0195362039399405e-05
+stage2_industry_region_GE10,isoc_cicce_usen2__E_CC_DA,isoc cicce usen2  E CC DA,7.96755125372639e-05,6.019536203938208e-05
 stage2_industry_region_GE10,isoc_r_eb_ain2_regionmean__E_AI_TML,isoc r eb ain2 regionmean  E AI TML,7.869910517325589e-05,1.3986252676440512e-05
-stage2_industry_region_GE10,isoc_ske_itrcrn2__E_ITSPDLWE,isoc ske itrcrn2  E ITSPDLWE,5.208855542837565e-05,1.8043127487485514e-05
+stage2_industry_region_GE10,isoc_ske_itrcrn2__E_ITSPDLWE,isoc ske itrcrn2  E ITSPDLWE,5.208855542837565e-05,1.8043127487459625e-05
 stage2_industry_region_GE10,isoc_r_eb_ain2_regionmean__E_AI_TNLG,isoc r eb ain2 regionmean  E AI TNLG,4.8321071740298205e-05,8.813089164215567e-06
 stage2_industry_region_GE10,isoc_ske_ittn2__E_ITUST2,isoc ske ittn2  E ITUST2,4.301998938186872e-05,6.623822599519437e-05
-stage2_industry_region_GE10,isoc_eb_dan2__E_DASGE3,isoc eb dan2  E DASGE3,1.5815312098275507e-05,4.539353843049716e-05
+stage2_industry_region_GE10,isoc_eb_dan2__E_DASGE3,isoc eb dan2  E DASGE3,1.5815312098266254e-05,4.539353843049004e-05
 stage2_industry_region_GE10,size_emp,size emp,0.0,0.0
-stage2_industry_region_GE10,ict_constraint_index,ict constraint index,-2.634632301037887e-05,4.26218750765209e-05
+stage2_industry_region_GE10,ict_constraint_index,ict constraint index,-2.6346323010388122e-05,4.262187507652451e-05
 stage2_industry_region_GE10,isoc_e_diin2__E_DI4_GELO,isoc e diin2  E DI4 GELO,-6.980929446342062e-05,0.00012952521606332713
-stage2_industry_region_GE10,isoc_ske_itrcrn2__E_ITSPVAC2,isoc ske itrcrn2  E ITSPVAC2,-0.0001550866809258792,6.584150448220506e-05
-stage2_industry_region_GE10,isoc_ske_itrcrn2__E_ITSPRCR2,isoc ske itrcrn2  E ITSPRCR2,-0.0006669250011178962,0.0008515884175752728
+stage2_industry_region_GE10,isoc_ske_itrcrn2__E_ITSPVAC2,isoc ske itrcrn2  E ITSPVAC2,-0.00015508668092588848,6.5841504482217e-05
+stage2_industry_region_GE10,isoc_ske_itrcrn2__E_ITSPRCR2,isoc ske itrcrn2  E ITSPRCR2,-0.0006669250011179054,0.0008515884175752873
 stage2_industry_region_GE10,isoc_ske_ittn2__E_ITT2,isoc ske ittn2  E ITT2,-0.0007685496317785534,0.00012106984391658425
-stage2_industry_region_GE10,isoc_ske_ittn2__E_ITSPT2,isoc ske ittn2  E ITSPT2,-0.0020253046673601636,0.00020520263081860428
+stage2_industry_region_GE10,isoc_ske_ittn2__E_ITSPT2,isoc ske ittn2  E ITSPT2,-0.0020253046673601727,0.00020520263081860713

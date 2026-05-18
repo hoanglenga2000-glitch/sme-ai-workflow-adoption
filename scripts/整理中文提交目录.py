@@ -41,6 +41,8 @@ TARGETS = {
         "src/course_ml_diagnostics.py",
         "src/render_academic_figures.py",
         "src/render_svg_charts.py",
+        "src/build_academic_image_brief.py",
+        "src/build_course_report_docx.py",
     ],
     "04_分析结果表格": [
         "outputs/tables",
@@ -74,18 +76,33 @@ def copy_item(src: Path, dest_root: Path) -> None:
 def main() -> None:
     for folder, items in TARGETS.items():
         out = ROOT / folder
-        preserved: list[tuple[str, bytes]] = []
+        preserved_files: list[tuple[str, bytes]] = []
+        preserved_dirs: list[tuple[str, Path]] = []
         if folder == "06_结课报告" and out.exists():
             for pattern in ["*.docx", "*.pdf"]:
                 for existing in out.glob(pattern):
-                    preserved.append((existing.name, existing.read_bytes()))
+                    preserved_files.append((existing.name, existing.read_bytes()))
+        if folder == "05_学术图表" and out.exists():
+            brief = out / "汇报图片稿_4K待审核"
+            if brief.exists():
+                tmp = ROOT / ".tmp_preserve_汇报图片稿_4K待审核"
+                if tmp.exists():
+                    shutil.rmtree(tmp)
+                shutil.copytree(brief, tmp)
+                preserved_dirs.append(("汇报图片稿_4K待审核", tmp))
         if out.exists():
             shutil.rmtree(out)
         out.mkdir(parents=True, exist_ok=True)
         for item in items:
             copy_item(ROOT / item, out)
-        for name, data in preserved:
+        for name, data in preserved_files:
             (out / name).write_bytes(data)
+        for name, tmp in preserved_dirs:
+            dest = out / name
+            if dest.exists():
+                shutil.rmtree(dest)
+            shutil.copytree(tmp, dest)
+            shutil.rmtree(tmp)
 
     readme = ROOT / "中文目录说明.md"
     readme.write_text(

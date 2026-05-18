@@ -13,7 +13,15 @@ The final training data are derived from official Eurostat SDMX-CSV sources. The
 - `data/processed/eurostat_multisource_panel.csv`
 - `data/processed/stage2_industry_panel.csv`
 
-Large raw Eurostat files are reproducible from the source manifests and are intentionally ignored by Git. The processed modeling panels are committed because they are small enough for classroom review and reruns.
+The verified raw Eurostat files are stored in GitHub under `data/raw/eurostat/` and `data/raw/eurostat_stage2/`, with SHA256 values recorded in the manifests. The processed modeling panels are also committed for classroom review and reruns.
+
+Primary source verification references:
+
+- Eurostat SDMX2.1 API guide: https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-detailed-guidelines/sdmx2-1/data-query
+- Eurostat `isoc_eb_ai` Data Browser page: https://ec.europa.eu/eurostat/databrowser/view/isoc_eb_ai/default/table?lang=en
+- Eurostat `isoc_eb_ain2` Data Browser page: https://ec.europa.eu/eurostat/databrowser/view/isoc_eb_ain2/default/table?lang=en
+- NIST AI RMF 1.0 governance reference: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
+- scikit-learn GroupKFold method reference: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GroupKFold.html
 
 ## Empirical Layers
 
@@ -69,6 +77,8 @@ This produces more conservative and more defensible metrics than the earlier ran
 - `src/enhanced_training_gpu.py`
 - `src/render_academic_figures.py`
 - `src/pipeline_stage2_large.py`
+- `src/build_academic_image_brief.py`
+- `src/build_course_report_docx.py`
 - `outputs/reports/enhanced_training_report.md`
 - `outputs/reports/stage2_source_profile.md`
 - `outputs/tables/enhanced_cv_results.csv`
