@@ -1,0 +1,21 @@
+﻿dataset,feature,feature_label,vif
+Stage 1 SME规模层,ai__E_AI_TML,机器学习能力,6.963053406470658
+Stage 1 SME规模层,ai__E_AI_TNLG,自然语言生成,3.724127621126476
+Stage 1 SME规模层,deployment_readiness_index,部署准备度,5.194529875769305
+Stage 1 SME规模层,data_maturity_index,数据成熟度,10.930128197034735
+Stage 1 SME规模层,digital_foundation_index,数字基础,4.374653193351235
+Stage 1 SME规模层,market_digitization_index,市场数字化,2.36365439623265
+Stage 1 SME规模层,ict_constraint_index,ICT人才约束,1.3670813222003537
+Stage 1 SME规模层,governance_maturity_proxy,治理成熟度,2.686470607573941
+Stage 1 SME规模层,cloud__E_CC_PDEV,云开发能力,3.7531657996931553
+Stage 1 SME规模层,cloud__E_CC_DA,云数据分析,14.402622093622549
+Stage 2 行业验证层,deployment_readiness_index,部署准备度,5.603779453902272
+Stage 2 行业验证层,data_maturity_index,数据成熟度,1.3859130445305958
+Stage 2 行业验证层,digital_foundation_index,数字基础,2.1933329244974957
+Stage 2 行业验证层,market_digitization_index,市场数字化,1.1414753477879016
+Stage 2 行业验证层,ict_constraint_index,ICT人才约束,1.0996420616115161
+Stage 2 行业验证层,governance_maturity_proxy,治理成熟度,1.8188943555190875
+Stage 2 行业验证层,ai_industry__E_AI_TML,行业机器学习能力,2.6339582785991125
+Stage 2 行业验证层,ai_industry__E_AI_TNLG,行业自然语言生成,2.493254045859159
+Stage 2 行业验证层,security_concern_index,安全顾虑指数,1.0390368938797556
+Stage 2 行业验证层,isoc_cicce_usen2__E_CC,行业云使用,3.8606326957490933
