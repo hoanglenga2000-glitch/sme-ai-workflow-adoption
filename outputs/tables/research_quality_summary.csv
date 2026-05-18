@@ -1,0 +1,3 @@
+﻿dataset,rows,columns,geo_count,country_count,year_min,year_max,year_count,size_classes,nace_count,target_nonnull,target_coverage,duplicate_keys,mean_numeric_missing_rate,target_min,target_p25,target_median,target_p75,target_max
+stage1_size_class_panel,2323,100,42,42,2010,2025,16,4,,544,0.23417993973310375,0,0.6808117835539715,0.0,2.3187499999999996,4.4125,9.955,57.3
+stage2_industry_panel_GE10,5814,80,36,36,2021,2025,4,1,50.0,5814,1.0,0,0.4681757282783843,0.0,1.56625,3.455,7.0675,100.0
