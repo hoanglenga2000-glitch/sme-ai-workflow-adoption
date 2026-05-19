@@ -2,7 +2,7 @@
 
 研究主题：基于中小企业 AI 流程自动化采纳机制研究：效率需求、安全顾虑与部署偏好的实证分析。
 
-本项目将课程中的数据挖掘与机器学习流程落到真实公开数据：数据获取、生命周期治理、清洗、特征工程、建模、解释、可视化与复现实验。A10 GPU 服务器用于加速训练与核验；GitHub 仓库保存源数据、清洗后数据、代码、数据来源、元数据、哈希、结果表格、学术图表和结课报告。
+本项目将课程中的数据挖掘与机器学习流程落到真实公开数据：数据获取、生命周期治理、清洗、特征工程、建模、解释、可视化与复现实验。当前最终口径以本地 CPU 可复现结果为准；A10 GPU 服务器仅作为历史加速与深度学习基线记录，不再作为复现依赖。GitHub 仓库保存源数据、清洗后数据、代码、数据来源、元数据、哈希、结果表格、学术图表和结课/投稿材料。
 
 ## 核心研究问题
 
@@ -40,21 +40,26 @@ python scripts/整理中文提交目录.py
 
 
 
-## Current Verified Run (2026-05-18)
+## Final Research Position (2026-05-19)
 
-- Remote compute: A10 GPU server, Ubuntu 22.04, Python 3.10, PyTorch CUDA available.
-- Verified official dataset: Eurostat `isoc_eb_ai` Artificial intelligence by size class of enterprise.
-- Raw official file: `data/raw/eurostat/isoc_eb_ai_sdmx.csv`, 7,143,934 bytes, SHA256 `58b0ca3c982d90449dbfe9f63900e6e485eb49db7fc53a71900d9c86e5061f20`.
-- Filtered observations: 28,519 long-form rows; 553 country-year-size panel rows; 544 modeling rows.
-- Best first-pass model: Ridge regression, R2=0.912, MAE=1.458 percentage points for workflow automation adoption.
-- Outputs for PPT/report: `outputs/reports/model_results.md`, `outputs/tables/*.csv`, `outputs/figures/*.svg`.
+The current final research version is the journal-oriented package under `19_科技管理研究投稿定稿包/`. It replaces earlier classroom/PPT-oriented wording and uses the following locked facts:
+
+- Target journal style: `科技管理研究`.
+- Stage 1, SME mechanism interpretation layer: 553 panel rows, 544 modeling rows, 36 geo groups, 2021-2025.
+- Stage 1 champion model: Ridge, country-level GroupKFold R2=0.8680, MAE=1.8342.
+- Stage 2, industry / region external validation layer: 5,814 modeling rows, 36 geo groups, 50 industries, 2021-2025.
+- Stage 2 champion model: ExtraTrees, country-level GroupKFold R2=0.7137, Time holdout R2=0.7019, Industry holdout R2=0.9521.
+- Stage 2 source scale: 17 verified Eurostat official files, 12,770,332 raw source rows, 856,880 feature-filtered rows, aggregated into a 5,814-row modeling panel.
+- Agent validation: 54 evaluation cases, tool success 1.0, citation proxy 1.0, hallucination rate 0.0.
+- Important wording rule: do not write that tens of millions of rows were directly trained. The accurate statement is that official source rows were filtered and aggregated into modeling panels.
+- Important scope rule: Stage 2 is an industry / region external validation layer, not an SME-only sample.
 
 ## Why This Fits The Course
 
 The project follows a complete data mining lifecycle: source verification, acquisition manifest, data cleaning, feature construction, supervised learning, clustering, interpretation, visualization, and deployment-strategy translation. The target variable is not a generic AI score; it is the official Eurostat indicator for enterprises using AI to automate workflows or assist decision making, which directly matches the research topic.
 
 
-## Multi-Source Verified Run (2026-05-18)
+## Historical Multi-Source Run (2026-05-18)
 
 The current main result uses 10 verified Eurostat official datasets: AI adoption, cloud computing, digital intensity, data analytics, big data, e-commerce sales, e-commerce value, ICT specialists, ICT training, and ICT recruitment constraints.
 
@@ -66,10 +71,10 @@ The current main result uses 10 verified Eurostat official datasets: AI adoption
 - Leakage-control rule: the model excludes the target `E_AI_TPA`, direct aggregate AI adoption `E_AI_TANY`, ever-considered AI `E_AI_EC`, and target-derived gap/interaction variables from the supervised feature set.
 - Best leakage-controlled model: Ridge regression, R2=0.889, MAE=1.636 percentage points.
 
-This is the recommended version for the final course report because it is both richer and more defensible than the earlier single-table model.
+This run is retained as a historical intermediate result. For final reporting and journal-style writing, use the locked Stage 1 / Stage 2 results in `19_科技管理研究投稿定稿包/`.
 
 
-## Stage 2 Large-Scale Data Mining Run (2026-05-18)
+## Historical Stage 2 Large-Scale Data Mining Run (2026-05-18)
 
 The upgraded research run adds 17 larger official Eurostat datasets covering industry, regional, structural business statistics, and high-growth enterprise dimensions. The compressed raw stage-2 files are committed under `data/raw/eurostat_stage2/` and mirrored under `01_源数据/` for classroom verification.
 
@@ -81,11 +86,11 @@ The upgraded research run adds 17 larger official Eurostat datasets covering ind
 - Integrated GE10 industry panel rows: 5,814.
 - Modeling rows: 5,814.
 - Leakage-controlled feature count: 66.
-- Best model: ExtraTreesRegressor, R2=0.833, MAE=1.457 percentage points.
+- Earlier random/less strict validation reported ExtraTreesRegressor R2=0.833, MAE=1.457 percentage points.
 
-Interpretation note: stage-2 industry tables use `GE10` rather than SME size splits, so they complement rather than replace the SME size-class model. The final report should present stage 1 as SME size-class adoption modeling and stage 2 as industry/region large-scale validation.
+Interpretation note: stage-2 industry tables use `GE10` rather than SME size splits, so they complement rather than replace the SME size-class model. The final report presents Stage 1 as SME mechanism interpretation and Stage 2 as industry / region external validation.
 
-## Enhanced Training Run With A10 GPU (2026-05-18)
+## Historical A10 GPU Training Run (2026-05-18)
 
 The enhanced run adds stricter validation and academic-style figures:
 
@@ -100,7 +105,7 @@ Main enhanced results:
 - Stage 2 GE10 industry/region validation layer: best GroupKFold model = ExtraTrees, mean R²=0.724, MAE=1.967.
 - A10 GPU MLP baseline under country-group holdout: Stage 1 R²=0.806, Stage 2 R²=0.662.
 
-These numbers are more conservative than the earlier random holdout results and should be preferred in the final academic discussion because they better reflect external generalization.
+These A10 results are retained as historical training logs only. The A10 server is no longer required, and the final reproducible results are the CPU-first journal package results listed above.
 
 ## What Is Stored In GitHub
 
@@ -114,5 +119,6 @@ These numbers are more conservative than the earlier random holdout results and 
 - `src/build_academic_image_brief.py`: 16:9 4K 汇报图片稿与配套 PNG/SVG 学术图表生成脚本。
 - `src/build_course_report_docx.py`: 机器学习结课 Word 报告生成脚本。
 - `01_源数据` to `06_结课报告`: Chinese submission folders separating source data, cleaned data, code, results, figures and report.
+- `19_科技管理研究投稿定稿包/`: journal-oriented package with sober black-and-white DOCX manuscript, supplementary material, source-data workbook, journal figures, reproducibility note and quality gate.
 
-The A10 server remains the accelerated compute environment; GitHub now includes the verified raw Eurostat files used by the final training run so the teacher can inspect the source data directly.
+The A10 server is not a current dependency. GitHub includes verified raw Eurostat files and processed modeling panels so teachers, reviewers, or collaborators can inspect the evidence chain directly.

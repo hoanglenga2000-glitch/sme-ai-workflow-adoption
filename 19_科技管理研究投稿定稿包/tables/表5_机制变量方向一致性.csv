@@ -1,0 +1,9 @@
+﻿stage,feature,mechanism,expected_direction,observed_direction,delta_prediction,verdict
+stage1,E_AI_TANY,Efficiency Demand,positive,positive,14.77915795735961,consistent
+stage1,E_AI_TML,Efficiency Demand,positive,positive,13.293915444085329,consistent
+stage1,deployment_readiness_index,Deployment Readiness,positive,positive,7.702437816170279,consistent
+stage1,security_concern_index,Context Controls,contextual,positive,2.7247011917690136,contextual_control
+stage2,ai_industry__E_AI_TML,Efficiency Demand,positive,positive,9.428725027777778,consistent
+stage2,ai_industry__E_AI_TNLG,Efficiency Demand,positive,positive,2.2510555046296297,consistent
+stage2,deployment_readiness_index,Deployment Readiness,positive,positive,0.3538547847222215,consistent
+stage2,digital_foundation_index,Deployment Readiness,positive,positive,0.6736494054232791,consistent

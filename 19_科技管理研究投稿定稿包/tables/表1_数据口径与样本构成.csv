@@ -1,0 +1,3 @@
+﻿阶段,研究定位,数据文件,面板样本/行,建模样本/行,国家或地区组数,行业组数,年份
+Stage 1,中小企业机制解释层,data/processed/eurostat_ai_panel.csv,553,544,36,—,2021—2025
+Stage 2,行业/区域外部验证层,data/processed/stage2_industry_panel.csv,5814,5814,36,50,2021—2025
