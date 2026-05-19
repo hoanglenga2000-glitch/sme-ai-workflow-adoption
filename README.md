@@ -2,7 +2,7 @@
 
 研究主题：基于中小企业 AI 流程自动化采纳机制研究：效率需求、安全顾虑与部署偏好的实证分析。
 
-本项目将课程中的数据挖掘与机器学习流程落到真实公开数据：数据获取、生命周期治理、清洗、特征工程、建模、解释、可视化与复现实验。当前最终口径以本地 CPU 可复现结果为准；A10 GPU 服务器仅作为历史加速与深度学习基线记录，不再作为复现依赖。GitHub 仓库保存源数据、清洗后数据、代码、数据来源、元数据、哈希、结果表格、学术图表和结课/投稿材料。
+本项目将课程中的数据挖掘与机器学习流程落到真实公开数据：数据获取、生命周期治理、清洗、特征工程、建模、解释、可视化与复现实验。当前最终口径以本地 CPU 可复现结果为准；A10 GPU 服务器仅作为历史加速与深度学习基线记录，不再作为复现依赖。GitHub 仓库保存源数据、清洗后数据、代码、数据来源、元数据、哈希、结果表格、学术图表和结课复现材料；投稿论文、补充材料和期刊定稿包暂时保留在本地私密区，不进入公开仓库。
 
 ## 核心研究问题
 
@@ -42,9 +42,9 @@ python scripts/整理中文提交目录.py
 
 ## Final Research Position (2026-05-19)
 
-The current final research version is the journal-oriented package under `19_科技管理研究投稿定稿包/`. It replaces earlier classroom/PPT-oriented wording and uses the following locked facts:
+The current public repository is a reproducible research and coursework evidence base. Journal-oriented manuscripts and submission packages are maintained privately outside this public repository. Publicly shareable locked facts are:
 
-- Target journal style: `科技管理研究`.
+- Current private journal target: management / digital transformation journal style, with `现代管理科学` as the preferred working target.
 - Stage 1, SME mechanism interpretation layer: 553 panel rows, 544 modeling rows, 36 geo groups, 2021-2025.
 - Stage 1 champion model: Ridge, country-level GroupKFold R2=0.8680, MAE=1.8342.
 - Stage 2, industry / region external validation layer: 5,814 modeling rows, 36 geo groups, 50 industries, 2021-2025.
@@ -71,7 +71,7 @@ The current main result uses 10 verified Eurostat official datasets: AI adoption
 - Leakage-control rule: the model excludes the target `E_AI_TPA`, direct aggregate AI adoption `E_AI_TANY`, ever-considered AI `E_AI_EC`, and target-derived gap/interaction variables from the supervised feature set.
 - Best leakage-controlled model: Ridge regression, R2=0.889, MAE=1.636 percentage points.
 
-This run is retained as a historical intermediate result. For final reporting and journal-style writing, use the locked Stage 1 / Stage 2 results in `19_科技管理研究投稿定稿包/`.
+This run is retained as a historical intermediate result. For journal-style writing, use the locked Stage 1 / Stage 2 results listed in this README and the private manuscript workspace, not historical intermediate scores.
 
 
 ## Historical Stage 2 Large-Scale Data Mining Run (2026-05-18)
@@ -119,6 +119,4 @@ These A10 results are retained as historical training logs only. The A10 server 
 - `src/build_academic_image_brief.py`: 16:9 4K 汇报图片稿与配套 PNG/SVG 学术图表生成脚本。
 - `src/build_course_report_docx.py`: 机器学习结课 Word 报告生成脚本。
 - `01_源数据` to `06_结课报告`: Chinese submission folders separating source data, cleaned data, code, results, figures and report.
-- `19_科技管理研究投稿定稿包/`: journal-oriented package with sober black-and-white DOCX manuscript, supplementary material, source-data workbook, journal figures, reproducibility note and quality gate.
-
-The A10 server is not a current dependency. GitHub includes verified raw Eurostat files and processed modeling panels so teachers, reviewers, or collaborators can inspect the evidence chain directly.
+The A10 server is not a current dependency. GitHub includes verified raw Eurostat files and processed modeling panels so teachers, reviewers, or collaborators can inspect the public evidence chain directly. Journal manuscripts, submission drafts, supplementary materials, and private target-journal adaptation files are intentionally kept outside the public repository until the author decides otherwise.

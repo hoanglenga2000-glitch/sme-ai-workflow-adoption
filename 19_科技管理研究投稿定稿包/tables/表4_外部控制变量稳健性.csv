@@ -1,5 +1,0 @@
-﻿stage,specification,model,rows,group_count,feature_count,wb_feature_count,r2_mean,r2_std,mae_mean,mae_std,interpretation
-stage1,baseline_diagnostic,ridge,544,36,25,0,0.8679582057636404,0.0452432843583312,1.834161397861314,0.3247335351347845,diagnostic robustness only; does not replace final champion metrics
-stage1,with_world_bank_controls,ridge,544,36,29,4,0.8483580027766362,0.0600395822889657,2.046602769670989,0.230996319864001,diagnostic robustness only; does not replace final champion metrics
-stage2,baseline_diagnostic,extra_trees_cpu_submission,5814,36,67,0,0.7116588994260709,0.0088835246275944,2.058838136082455,0.1662745182999817,diagnostic robustness only; does not replace final champion metrics
-stage2,with_world_bank_controls,extra_trees_cpu_submission,5814,36,71,4,0.7091150758917716,0.0051966124928143,2.091526673359251,0.1373956757211762,diagnostic robustness only; does not replace final champion metrics

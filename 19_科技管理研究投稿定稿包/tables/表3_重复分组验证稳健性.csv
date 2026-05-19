@@ -1,3 +1,0 @@
-﻿阶段,稳健性检验,模型,重复次数,R2均值,R2标准差,MAE均值,MAE标准差
-Stage 1,Repeated GroupKFold,Ridge,5,0.8735,0.0679,1.8468,0.4064
-Stage 2,Repeated GroupKFold,ExtraTrees,5,0.6979,0.0512,2.0629,0.1652
