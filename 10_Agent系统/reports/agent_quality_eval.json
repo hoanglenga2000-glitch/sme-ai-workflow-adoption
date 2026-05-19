@@ -3,7 +3,7 @@
   "cases": [
     {
       "name": "stage_boundary_answer",
-      "latency_seconds": 0.0016,
+      "latency_seconds": 0.0015,
       "payload": {
         "answer": "该回答应基于工具结果和检索证据生成；当前工具返回了可追溯证据文件，数值结论需调用对应查询或预测工具确认。",
         "tool_calls": [
@@ -55,7 +55,7 @@
     },
     {
       "name": "indicator_lookup",
-      "latency_seconds": 0.0434,
+      "latency_seconds": 0.0537,
       "payload": {
         "status": "ok",
         "stage": "stage2",
@@ -77,7 +77,7 @@
     },
     {
       "name": "prediction",
-      "latency_seconds": 0.2152,
+      "latency_seconds": 0.2842,
       "payload": {
         "status": "ok",
         "stage": "stage2",
@@ -150,7 +150,7 @@
     "tool_success_rate": 1.0,
     "citation_accuracy_proxy": 1.0,
     "hallucination_rate": 0.0,
-    "average_latency_seconds": 0.0436,
+    "average_latency_seconds": 0.0568,
     "token_cost_policy": "large tables never enter prompts; tools return bounded JSON and evidence paths"
   }
 }
