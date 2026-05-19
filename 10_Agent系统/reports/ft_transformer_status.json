@@ -1,0 +1,6 @@
+{
+  "status": "skipped",
+  "reason": "torch not installed",
+  "detail": "No module named 'torch'",
+  "recommended_environment": "A10 server with CUDA-enabled PyTorch"
+}

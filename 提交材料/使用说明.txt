@@ -1,0 +1,50 @@
+项目使用说明
+
+一、本地验证
+
+进入项目根目录后，可以运行以下命令检查测试：
+
+python -m unittest discover -s 10_Agent系统/tests -p "test_*.py"
+python 10_Agent系统/evaluation/evaluate_agent.py
+
+二、训练冠军模型
+
+如果只需要使用已有指标和注册表，可以直接查看 10_Agent系统/reports/model_registry.json。
+
+如果需要重新训练，可以运行：
+
+python 10_Agent系统/training/train_champion.py --force
+
+训练结束后会输出 champion_model.joblib、model_registry.json 和相关评估报告。
+
+三、A10 服务器验证
+
+在 A10 服务器项目根目录运行：
+
+bash 10_Agent系统/scripts/a10_bootstrap.sh
+source .venv-a10/bin/activate
+python 10_Agent系统/training/train_champion.py --force
+python 10_Agent系统/evaluation/evaluate_agent.py
+
+四、启动接口服务
+
+安装依赖后运行：
+
+uvicorn 10_Agent系统.api.app:app --host 0.0.0.0 --port 8000
+
+五、启动网页演示
+
+安装依赖后运行：
+
+streamlit run 10_Agent系统/web_demo/streamlit_app.py
+
+六、提交检查
+
+提交前应确认：
+
+没有 GitHub token、服务器密码或私钥进入仓库。
+单元测试通过。
+数据哈希审计通过。
+特征泄漏审计通过。
+智能体在缺少证据时返回“无法确认”。
+大型模型二进制文件可以复现生成，不建议作为主要课堂提交材料。
