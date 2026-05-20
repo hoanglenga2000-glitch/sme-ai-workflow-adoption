@@ -31,3 +31,13 @@ __pycache__/
 !outputs/reports/.gitkeep
 !outputs/figures/.gitkeep
 !outputs/tables/.gitkeep
+
+# Private manuscript and submission packages
+14_CPU研究增强包/
+15_核心论文研究包/
+16_论文级实证增强包/
+17_投稿级研究完善包/
+18_投稿成稿与复现发布包/
+private_research_archive/
+~$*
+*.tmp
