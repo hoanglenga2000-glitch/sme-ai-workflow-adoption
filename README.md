@@ -48,7 +48,7 @@ The current public repository is a reproducible research and coursework evidence
 - Stage 1, SME mechanism interpretation layer: 553 panel rows, 544 modeling rows, 36 geo groups, 2021-2025.
 - Stage 1 champion model: Ridge, country-level GroupKFold R2=0.8680, MAE=1.8342.
 - Stage 2, industry / region external validation layer: 5,814 modeling rows, 36 geo groups, 50 industries, 2021-2025.
-- Stage 2 champion model: ExtraTrees, country-level GroupKFold R2=0.7137, Time holdout R2=0.7019, Industry holdout R2=0.9521.
+- Stage 2 champion model: ExtraTrees, country-level GroupKFold R2=0.7245 (long-run 500 trees x 3 seeds), MAE=1.9646.
 - Stage 2 source scale: 17 verified Eurostat official files, 12,770,332 raw source rows, 856,880 feature-filtered rows, aggregated into a 5,814-row modeling panel.
 - Agent validation: 54 evaluation cases, tool success 1.0, citation proxy 1.0, hallucination rate 0.0.
 - Important wording rule: do not write that tens of millions of rows were directly trained. The accurate statement is that official source rows were filtered and aggregated into modeling panels.

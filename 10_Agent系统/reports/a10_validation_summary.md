@@ -3,7 +3,7 @@
 Validation date: 2026-05-19
 
 Environment:
-- Host: ai03
+- Host: [REDACTED]
 - GPU: NVIDIA A10, 23028 MiB, driver 580.126.09
 - Runtime: `/root/research/sme-ai-workflow-adoption/.venv-a10`
 - Python: 3.10.12
