@@ -1,4 +1,6 @@
-﻿# SME AI Workflow Automation Adoption Research
+﻿# 企业AI部署偏好与治理机制研究
+
+Enterprise AI Deployment Preferences and Governance Mechanisms: Mixed Evidence on Efficiency Needs, Security Concerns, and Deployment Readiness
 
 研究主题：企业 AI 部署偏好与治理机制研究：效率需求、安全顾虑与部署准备度的混合证据分析。中小企业是重要样本场景，不是全部研究边界。
 

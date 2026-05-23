@@ -1,0 +1,36 @@
+[project]
+name = "sme-ai-workflow-adoption"
+version = "1.0.0"
+description = "企业AI部署偏好与治理机制研究：效率需求、安全顾虑与部署准备度的混合证据分析"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "scikit-learn>=1.4",
+    "scipy>=1.12",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "plotly>=5.20",
+    "xgboost>=2.0",
+    "lightgbm>=4.3",
+    "shap>=0.45",
+    "statsmodels>=0.14",
+    "openpyxl>=3.1",
+    "pyarrow>=15.0",
+    "requests>=2.31",
+    "tqdm>=4.66",
+    "fastapi>=0.111",
+    "uvicorn>=0.30",
+    "streamlit>=1.35",
+    "optuna>=3.6",
+    "mlflow>=2.14",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "python-pptx>=0.6.23",
+    "python-docx>=1.1.0",
+]
