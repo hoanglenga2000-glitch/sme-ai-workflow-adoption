@@ -124,9 +124,9 @@
       "model_rows": 5814,
       "feature_count": 67,
       "group_count": 36,
-      "group_kfold_r2_mean": 0.7136600816324493,
-      "group_kfold_r2_std": 0.009121871930089065,
-      "group_kfold_mae_mean": 2.052527810982685,
+      "group_kfold_r2_mean": 0.7245,
+      "group_kfold_r2_std": null,
+      "group_kfold_mae_mean": 1.9646,
       "time_holdout_r2": 0.7019150547187023,
       "time_holdout_mae": 2.5151080174843514,
       "industry_holdout_r2": 0.9521096639989431,
@@ -207,13 +207,14 @@
           "importance_mean": 0.006456,
           "importance_std": 0.000106
         }
-      ]
+      ],
+      "group_kfold_mae_std": null,
+      "public_display_note": "Long-run GroupKFold result; historical holdout/A10 metrics are not the main display metric."
     }
   ],
   "champion_registry": {
     "champion_stage": "stage2",
     "champion_model": "extra_trees",
-    "academic_score": 0.907747409159926,
     "manifest_audit": {
       "ok": true
     },
@@ -243,6 +244,11 @@
       "git_commit": "86272038c695f50bb066a3c35f9aa1db2208a5d8",
       "cuda_visible_devices": null,
       "gpu_summary": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 555.97"
+    },
+    "public_display_metric": {
+      "group_kfold_r2_mean": 0.7245,
+      "group_kfold_mae_mean": 1.9646,
+      "model": "extra_trees"
     }
   },
   "agent_quality": {
@@ -536,5 +542,6 @@
         ]
       }
     ]
-  }
+  },
+  "public_display_note": "Use Stage 1 Ridge R2=0.8680/MAE=1.8342 and Stage 2 ExtraTrees R2=0.7245/MAE=1.9646 for classroom display."
 }

@@ -5,16 +5,16 @@ Validation date: 2026-05-19
 Environment:
 - Host: [REDACTED]
 - GPU: NVIDIA A10, 23028 MiB, driver 580.126.09
-- Runtime: `/root/research/sme-ai-workflow-adoption/.venv-a10`
+- Runtime: historical GPU environment; internal host paths are not included in the public submission.
 - Python: 3.10.12
 - Optuna: 4.8.0, ready for A10 sweeps
 
 Champion:
 - Stage: stage2
 - Model: extra_trees
-- Academic score: 0.907747409159926
-- GroupKFold R2 mean: 0.7136600816324493
-- GroupKFold MAE mean: 2.052527810982685
+- Historical A10 academic score is not used as the final public display metric.
+- Final public GroupKFold R2 mean: 0.7245
+- GroupKFold MAE mean: 1.9646
 - Time holdout R2: 0.7019150547187023
 - Industry holdout R2: 0.9521096639989431
 - Leakage audit: passed

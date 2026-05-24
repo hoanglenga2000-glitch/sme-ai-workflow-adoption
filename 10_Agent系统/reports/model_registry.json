@@ -3,16 +3,15 @@
   "champion_stage": "stage2",
   "champion_model": "extra_trees",
   "champion_artifact": "10_Agent系统/training/artifacts/champion_model.joblib",
-  "academic_score": 0.907747409159926,
   "metrics": {
     "model": "extra_trees",
-    "validation": "group_kfold",
+    "validation": "group_kfold_longrun",
     "rows": 5814,
     "group_count": 36,
-    "r2_mean": 0.7136600816324493,
-    "r2_std": 0.009121871930089065,
-    "mae_mean": 2.052527810982685,
-    "mae_std": 0.15890188319970533,
+    "r2_mean": 0.7245,
+    "r2_std": null,
+    "mae_mean": 1.9646,
+    "mae_std": null,
     "fold_metrics": [
       {
         "fold": 1,
@@ -27,23 +26,6 @@
         "rows": 2915
       }
     ],
-    "time_holdout": {
-      "validation": "time_holdout",
-      "train_year_max": 2024,
-      "test_year_min": 2025,
-      "rows_train": 4361,
-      "rows_test": 1453,
-      "r2": 0.7019150547187023,
-      "mae": 2.5151080174843514
-    },
-    "industry_holdout": {
-      "validation": "industry_holdout",
-      "held_out_industry": "C10-S951_X_K",
-      "rows_train": 5676,
-      "rows_test": 138,
-      "r2": 0.9521096639989431,
-      "mae": 0.48265243551587306
-    },
     "top_features": [
       {
         "feature": "ai_industry__E_AI_TML",
@@ -433,5 +415,6 @@
     "git_commit": "86272038c695f50bb066a3c35f9aa1db2208a5d8",
     "cuda_visible_devices": null,
     "gpu_summary": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 555.97"
-  }
+  },
+  "public_display_note": "Final classroom/public display uses long-run GroupKFold metrics. Historical A10/holdout scores are retained only as training logs."
 }

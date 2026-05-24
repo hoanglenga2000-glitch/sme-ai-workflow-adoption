@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "pptx": "12_机械学习完整案例展示PPT\\企业AI部署偏好与治理机制研究_机械学习完整案例展示.pptx",
+  "pdf": "12_机械学习完整案例展示PPT\\企业AI部署偏好与治理机制研究_机械学习完整案例展示.pdf",
+  "preview_count": 14,
+  "contact_sheet": "12_机械学习完整案例展示PPT\\contact_sheet.png",
+  "contact_sheet_build": {
+    "ok": true,
+    "contact_sheet": "12_机械学习完整案例展示PPT\\contact_sheet.png",
+    "slides": 14
+  },
+  "figures": {
+    "waterfall": "12_机械学习完整案例展示PPT\\figures\\fig_waterfall.png",
+    "validation": "12_机械学习完整案例展示PPT\\figures\\fig_model_validation.png",
+    "importance": "12_机械学习完整案例展示PPT\\figures\\fig_feature_importance.png",
+    "agent": "12_机械学习完整案例展示PPT\\figures\\fig_agent_eval.png",
+    "workflow": "12_机械学习完整案例展示PPT\\figures\\fig_workflow.png",
+    "cover": "12_机械学习完整案例展示PPT\\assets_imagegen\\cover_enterprise_ai_data_pipeline.png"
+  },
+  "build": {
+    "returncode": 0,
+    "materialized": true,
+    "slide_count": 14,
+    "pptx_bytes": 1912848
+  },
+  "build_warning": null,
+  "pdf_export": {
+    "attempted": true,
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "pdf_exists": true
+  },
+  "notes": [
+    "Statistical charts are data-driven from repository CSV/JSON.",
+    "No imagegen-generated image is used as statistical evidence.",
+    "Gamma outline and imagegen prompts are provided as optional auxiliary materials."
+  ]
+}

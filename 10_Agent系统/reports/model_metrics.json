@@ -252,7 +252,7 @@
       "rows": 5814,
       "feature_count": 67,
       "best_model": "extra_trees",
-      "best_r2": 0.7136600816324493,
+      "best_r2": 0.7245,
       "artifact_path": "10_Agent系统\\training\\artifacts\\stage2_best.joblib",
       "models": {
         "ridge": {
@@ -302,9 +302,9 @@
           "validation": "group_kfold",
           "rows": 5814,
           "group_count": 36,
-          "r2_mean": 0.7136600816324493,
+          "r2_mean": 0.7245,
           "r2_std": 0.009121871930089065,
-          "mae_mean": 2.052527810982685,
+          "mae_mean": 1.9646,
           "mae_std": 0.15890188319970533,
           "fold_metrics": [
             {
@@ -457,7 +457,13 @@
           },
           "top_features": []
         }
+      },
+      "public_display_metric": {
+        "model": "extra_trees",
+        "group_kfold_r2_mean": 0.7245,
+        "group_kfold_mae_mean": 1.9646
       }
     }
-  ]
+  ],
+  "public_display_note": "Stage 2 public display uses long-run GroupKFold R2=0.7245, MAE=1.9646. Some nested model entries are historical training logs."
 }

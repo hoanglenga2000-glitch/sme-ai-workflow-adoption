@@ -5,11 +5,11 @@ This public repository contains official Eurostat source manifests, raw official
 ## Locked Public Facts
 
 ### Stage 1: SME Mechanism Interpretation Layer
-- 553 panel rows, 544 modeling rows, 36 geo groups, 2021-2025
-- Champion model: Ridge, GroupKFold R2=0.8302 (strict no-leakage)
+- 553 panel rows, 544 modeling rows, 36 geo groups, 2021, 2023-2025
+- Champion model: Ridge, GroupKFold R2=0.8680, MAE=1.8342 (country-level GroupKFold)
 
 ### Stage 2: Industry/Region External Validation Layer
-- 5,814 modeling rows, 36 geo groups, 50 industries, 2021-2025
+- 5,814 modeling rows, 36 geo groups, 50 industries, 2021, 2023-2025
 - Champion model: ExtraTrees (500 trees x 3 seeds), GroupKFold R2=0.7245
 
 ### Source Data Chain

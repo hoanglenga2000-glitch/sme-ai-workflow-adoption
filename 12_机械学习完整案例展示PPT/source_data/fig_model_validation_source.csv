@@ -1,0 +1,4 @@
+﻿layer,r2,mae,rows
+Stage 1 Ridge,0.868,1.8342,544
+Stage 2 ExtraTrees,0.7245,1.9646,5814
+Stage 2 time holdout,0.7019,2.5151,1453
