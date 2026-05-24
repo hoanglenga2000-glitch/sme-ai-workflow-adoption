@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "assets": [
+    {
+      "key": "cover",
+      "path": "12_机械学习完整案例展示PPT_v2_imagegen\\assets_imagegen_v2\\01_cover_enterprise_ai_data_pipeline.png",
+      "status": "reused",
+      "bytes": 1931428
+    },
+    {
+      "key": "data_upgrade",
+      "path": "12_机械学习完整案例展示PPT_v2_imagegen\\assets_imagegen_v2\\02_data_upgrade_official_sources.png",
+      "status": "generated",
+      "attempt": 1,
+      "bytes": 1350753
+    },
+    {
+      "key": "lifecycle",
+      "path": "12_机械学习完整案例展示PPT_v2_imagegen\\assets_imagegen_v2\\03_data_lifecycle_pipeline.png",
+      "status": "reused",
+      "bytes": 1553843
+    },
+    {
+      "key": "stage_boundary",
+      "path": "12_机械学习完整案例展示PPT_v2_imagegen\\assets_imagegen_v2\\04_stage1_stage2_boundary.png",
+      "status": "reused",
+      "bytes": 1299242
+    },
+    {
+      "key": "ml_task",
+      "path": "12_机械学习完整案例展示PPT_v2_imagegen\\assets_imagegen_v2\\05_ml_task_tabular_modeling.png",
+      "status": "generated",
+      "attempt": 1,
+      "bytes": 1136201
+    },
+    {
+      "key": "agent",
+      "path": "12_机械学习完整案例展示PPT_v2_imagegen\\assets_imagegen_v2\\06_agent_evidence_constrained.png",
+      "status": "reused",
+      "bytes": 1125495
+    },
+    {
+      "key": "github_boundary",
+      "path": "12_机械学习完整案例展示PPT_v2_imagegen\\assets_imagegen_v2\\07_github_public_private_boundary.png",
+      "status": "reused",
+      "bytes": 1249282
+    },
+    {
+      "key": "summary",
+      "path": "12_机械学习完整案例展示PPT_v2_imagegen\\assets_imagegen_v2\\08_summary_reproducible_research.png",
+      "status": "reused",
+      "bytes": 1337217
+    }
+  ]
+}

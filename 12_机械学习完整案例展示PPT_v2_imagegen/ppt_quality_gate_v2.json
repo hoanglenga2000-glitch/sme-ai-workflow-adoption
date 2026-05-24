@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "pptx": "12_机械学习完整案例展示PPT_v2_imagegen\\企业AI部署偏好与治理机制研究_机械学习完整案例展示_v2_imagegen.pptx",
+  "pdf": "12_机械学习完整案例展示PPT_v2_imagegen\\企业AI部署偏好与治理机制研究_机械学习完整案例展示_v2_imagegen.pdf",
+  "preview_count": 14,
+  "contact_sheet": "12_机械学习完整案例展示PPT_v2_imagegen\\contact_sheet_v2.png",
+  "imagegen_assets": 8,
+  "imagegen_asset_qa": "12_机械学习完整案例展示PPT_v2_imagegen\\imagegen_asset_qa.json",
+  "prompt_manifest": "12_机械学习完整案例展示PPT_v2_imagegen\\imagegen_prompt_manifest.csv",
+  "slide_to_evidence_map": "12_机械学习完整案例展示PPT_v2_imagegen\\slide_to_evidence_map_v2.csv",
+  "build": {
+    "returncode": 0,
+    "slide_count": 14,
+    "pptx_bytes": 10459361,
+    "materialized": true
+  },
+  "pdf_export": {
+    "attempted": true,
+    "returncode": 0,
+    "pdf_exists": true,
+    "stderr": ""
+  },
+  "rules": [
+    "GPT image 2 assets are used only for conceptual and scene visuals.",
+    "Statistical/model/data-chain figures are copied from data-driven v1 artifacts.",
+    "No API keys are stored in output files."
+  ]
+}
