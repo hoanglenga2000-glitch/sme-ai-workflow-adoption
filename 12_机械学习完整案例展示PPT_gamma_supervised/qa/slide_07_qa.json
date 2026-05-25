@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "slide": 7,
+  "title": "GroupKFold 按国家分组降低泄漏",
+  "local_visual_exists": true,
+  "visual_url": "https://raw.githubusercontent.com/hoanglenga2000-glitch/sme-ai-workflow-adoption/main/12_%E6%9C%BA%E6%A2%B0%E5%AD%A6%E4%B9%A0%E5%AE%8C%E6%95%B4%E6%A1%88%E4%BE%8B%E5%B1%95%E7%A4%BAPPT_v2_imagegen/figures/fig_model_validation.png",
+  "payload": "12_机械学习完整案例展示PPT_gamma_supervised\\payloads\\slide_07_payload.json",
+  "mode": "dry_run",
+  "note": "API key is read from GAMMA_API_KEY only and is never written to output files.",
+  "blocked": "GAMMA_API_KEY missing or dry-run requested"
+}

@@ -1,0 +1,21 @@
+{
+  "inputText": "# 真实数据、严格验证、可复现展示\n\nhttps://raw.githubusercontent.com/hoanglenga2000-glitch/sme-ai-workflow-adoption/main/12_%E6%9C%BA%E6%A2%B0%E5%AD%A6%E4%B9%A0%E5%AE%8C%E6%95%B4%E6%A1%88%E4%BE%8B%E5%B1%95%E7%A4%BAPPT_v2_imagegen/assets_imagegen_v2/08_summary_reproducible_research.png\n\n**本页结论：** 最终展示交付包括 PPTX、PDF、预览、证据映射和 QA 报告。\n\n**证据对象：** Final PPTX/PDF; 14 previews; contact sheet; slide_to_evidence_map.\n\n**边界说明：** 课程展示版不是投稿论文终稿。\n",
+  "additionalInstructions": "你是机器学习课程展示 PPT 设计师。只生成这一页。必须使用 inputText 中给出的唯一图片 URL 作为本页主视觉或证据图，不要把 URL 字符串显示在页面上，不要生成任何额外图片，不要搜索网络图片。白底、深灰正文、低饱和蓝、少量橙色强调。每页只保留一个清晰 claim 和一个 proof object。严禁新增或改写数值；严禁说千万样本直接训练、机器学习证明因果、Stage 2 是 SME-only。",
+  "textMode": "preserve",
+  "format": "presentation",
+  "numCards": 1,
+  "cardSplit": "auto",
+  "exportAs": "pptx",
+  "textOptions": {
+    "language": "zh-cn",
+    "tone": "professional",
+    "audience": "college machine learning course instructor",
+    "amount": "brief"
+  },
+  "imageOptions": {
+    "source": "noImages"
+  },
+  "cardOptions": {
+    "dimensions": "wide"
+  }
+}

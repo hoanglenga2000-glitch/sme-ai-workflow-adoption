@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "slide": 1,
+  "title": "企业 AI 部署偏好与治理机制：完整机器学习案例",
+  "local_visual_exists": true,
+  "visual_url": "https://raw.githubusercontent.com/hoanglenga2000-glitch/sme-ai-workflow-adoption/main/12_%E6%9C%BA%E6%A2%B0%E5%AD%A6%E4%B9%A0%E5%AE%8C%E6%95%B4%E6%A1%88%E4%BE%8B%E5%B1%95%E7%A4%BAPPT_v2_imagegen/assets_imagegen_v2/01_cover_enterprise_ai_data_pipeline.png",
+  "payload": "12_机械学习完整案例展示PPT_gamma_supervised\\payloads\\slide_01_payload.json",
+  "mode": "gamma_api",
+  "note": "API key is read from GAMMA_API_KEY only and is never written to output files.",
+  "first_error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+  "retryWithModelField": true,
+  "generationId": "tbHHFMjpzMhM2Q6jhSO8h",
+  "status": "completed",
+  "gammaUrl": "https://gamma.app/docs/ozb958ttnmfnrdj",
+  "exportUrlPresent": true,
+  "pptx": "12_机械学习完整案例展示PPT_gamma_supervised\\single_page_pptx\\slide_01_gamma.pptx",
+  "pptx_info": {
+    "exists": true,
+    "bytes": 5997803,
+    "slide_count": 1,
+    "media_count": 3
+  },
+  "render_preview": {
+    "attempted": true,
+    "returncode": 0,
+    "png_exists": true,
+    "stderr": ""
+  },
+  "preview_png": "12_机械学习完整案例展示PPT_gamma_supervised\\preview_png\\slide_01_gamma.png"
+}
