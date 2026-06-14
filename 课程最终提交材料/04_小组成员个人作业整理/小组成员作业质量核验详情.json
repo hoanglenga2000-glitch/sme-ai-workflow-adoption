@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "members": [
+    {
+      "member": "01_张新通_202321054027",
+      "homework_source_count": 10,
+      "summary_pdf": "D:\\桌面\\codex\\作业\\机械学习\\sme-ai-workflow-adoption\\课程最终提交材料\\04_小组成员个人作业整理\\01_张新通_202321054027\\00_平时作业汇总PDF\\信管2301张新通202321054027平时作业汇总.pdf",
+      "summary_pages": 102,
+      "summary_exists": true,
+      "report_folder": "D:\\桌面\\codex\\作业\\机械学习\\sme-ai-workflow-adoption\\课程最终提交材料\\04_小组成员个人作业整理\\01_张新通_202321054027\\02_个人案例总结",
+      "report_docx_count": 1,
+      "report_pdf_count": 1,
+      "report_ok": true,
+      "ok": true
+    },
+    {
+      "member": "02_刘子涵_202321054014",
+      "homework_source_count": 10,
+      "summary_pdf": "D:\\桌面\\codex\\作业\\机械学习\\sme-ai-workflow-adoption\\课程最终提交材料\\04_小组成员个人作业整理\\02_刘子涵_202321054014\\00_平时作业汇总PDF\\信管2301刘子涵202321054014平时作业汇总.pdf",
+      "summary_pages": 75,
+      "summary_exists": true,
+      "report_folder": "D:\\桌面\\codex\\作业\\机械学习\\sme-ai-workflow-adoption\\课程最终提交材料\\04_小组成员个人作业整理\\02_刘子涵_202321054014\\02_个人案例总结",
+      "report_docx_count": 1,
+      "report_pdf_count": 1,
+      "report_ok": true,
+      "ok": true
+    },
+    {
+      "member": "03_黄陈熙_202321054011",
+      "homework_source_count": 10,
+      "summary_pdf": "D:\\桌面\\codex\\作业\\机械学习\\sme-ai-workflow-adoption\\课程最终提交材料\\04_小组成员个人作业整理\\03_黄陈熙_202321054011\\00_平时作业汇总PDF\\信管2301黄陈熙202321054011平时作业汇总.pdf",
+      "summary_pages": 83,
+      "summary_exists": true,
+      "report_folder": "D:\\桌面\\codex\\作业\\机械学习\\sme-ai-workflow-adoption\\课程最终提交材料\\04_小组成员个人作业整理\\03_黄陈熙_202321054011\\02_个人案例总结",
+      "report_docx_count": 1,
+      "report_pdf_count": 1,
+      "report_ok": true,
+      "ok": true
+    },
+    {
+      "member": "04_景浩伟_202321054012",
+      "homework_source_count": 10,
+      "summary_pdf": "D:\\桌面\\codex\\作业\\机械学习\\sme-ai-workflow-adoption\\课程最终提交材料\\04_小组成员个人作业整理\\04_景浩伟_202321054012\\00_平时作业汇总PDF\\信管2301景浩伟202321054012平时作业汇总.pdf",
+      "summary_pages": 110,
+      "summary_exists": true,
+      "report_folder": "D:\\桌面\\codex\\作业\\机械学习\\sme-ai-workflow-adoption\\课程最终提交材料\\04_小组成员个人作业整理\\04_景浩伟_202321054012\\02_个人案例总结",
+      "report_docx_count": 1,
+      "report_pdf_count": 1,
+      "report_ok": true,
+      "ok": true
+    }
+  ]
+}

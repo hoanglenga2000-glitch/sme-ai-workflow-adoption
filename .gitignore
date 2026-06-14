@@ -41,3 +41,8 @@ __pycache__/
 private_research_archive/
 ~$*
 *.tmp
+
+# Local final-submission backups and Windows preview helpers
+*备份_*/
+*重写备份_*/
+*.cmd

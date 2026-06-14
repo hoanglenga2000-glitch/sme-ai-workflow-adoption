@@ -1,0 +1,547 @@
+{
+  "stage_sources": [
+    {
+      "stage": "stage1",
+      "description": "SME mechanism interpretation layer",
+      "source_file": "data/processed/eurostat_ai_panel.csv",
+      "panel_rows": 553,
+      "model_rows": 544,
+      "geo_count": 36,
+      "year_min": 2021,
+      "year_max": 2025
+    },
+    {
+      "stage": "stage2",
+      "description": "GE10 industry and region external validation layer",
+      "source_file": "data/processed/stage2_industry_panel.csv",
+      "panel_rows": 5814,
+      "model_rows": 5814,
+      "geo_count": 36,
+      "year_min": 2021,
+      "year_max": 2025,
+      "industry_count": 50
+    }
+  ],
+  "stage_metrics": [
+    {
+      "stage": "stage1",
+      "description": "SME mechanism interpretation layer",
+      "best_model": "ridge",
+      "panel_rows": 553,
+      "model_rows": 544,
+      "feature_count": 25,
+      "group_count": 36,
+      "group_kfold_r2_mean": 0.8679582057636404,
+      "group_kfold_r2_std": 0.04524328435833128,
+      "group_kfold_mae_mean": 1.834161397861314,
+      "time_holdout_r2": 0.9312201576813901,
+      "time_holdout_mae": 1.865031127594297,
+      "industry_holdout_r2": null,
+      "industry_holdout_mae": null,
+      "top_features": [
+        {
+          "feature": "E_AI_TANY",
+          "importance_mean": 0.59701,
+          "importance_std": 0.021653
+        },
+        {
+          "feature": "E_AI_TML",
+          "importance_mean": 0.530275,
+          "importance_std": 0.013124
+        },
+        {
+          "feature": "E_AI_DA",
+          "importance_mean": 0.140894,
+          "importance_std": 0.004706
+        },
+        {
+          "feature": "E_AI_CC1SI_DA",
+          "importance_mean": 0.121978,
+          "importance_std": 0.006008
+        },
+        {
+          "feature": "E_AI_CC",
+          "importance_mean": 0.114176,
+          "importance_std": 0.004181
+        },
+        {
+          "feature": "deployment_readiness_index",
+          "importance_mean": 0.095155,
+          "importance_std": 0.004415
+        },
+        {
+          "feature": "E_AI_TNLG",
+          "importance_mean": 0.037708,
+          "importance_std": 0.001736
+        },
+        {
+          "feature": "E_AI_BLEG",
+          "importance_mean": 0.026324,
+          "importance_std": 0.002392
+        },
+        {
+          "feature": "geo",
+          "importance_mean": 0.01991,
+          "importance_std": 0.001223
+        },
+        {
+          "feature": "country",
+          "importance_mean": 0.01991,
+          "importance_std": 0.001223
+        },
+        {
+          "feature": "E_AI_PITS",
+          "importance_mean": 0.017479,
+          "importance_std": 0.001377
+        },
+        {
+          "feature": "security_concern_index",
+          "importance_mean": 0.012986,
+          "importance_std": 0.001518
+        },
+        {
+          "feature": "year",
+          "importance_mean": 0.00354,
+          "importance_std": 0.001045
+        },
+        {
+          "feature": "E_AI_BINC",
+          "importance_mean": 0.003307,
+          "importance_std": 0.000734
+        },
+        {
+          "feature": "E_AI_BDDT",
+          "importance_mean": 0.001962,
+          "importance_std": 0.000551
+        }
+      ]
+    },
+    {
+      "stage": "stage2",
+      "description": "GE10 industry and region external validation layer",
+      "best_model": "extra_trees",
+      "panel_rows": 5814,
+      "model_rows": 5814,
+      "feature_count": 67,
+      "group_count": 36,
+      "group_kfold_r2_mean": 0.7245,
+      "group_kfold_r2_std": null,
+      "group_kfold_mae_mean": 1.9646,
+      "time_holdout_r2": 0.7019150547187023,
+      "time_holdout_mae": 2.5151080174843514,
+      "industry_holdout_r2": 0.9521096639989431,
+      "industry_holdout_mae": 0.48265243551587306,
+      "top_features": [
+        {
+          "feature": "ai_industry__E_AI_TML",
+          "importance_mean": 0.494969,
+          "importance_std": 0.005976
+        },
+        {
+          "feature": "ai_industry__E_AI_TNLG",
+          "importance_mean": 0.088643,
+          "importance_std": 0.002582
+        },
+        {
+          "feature": "digital_foundation_index",
+          "importance_mean": 0.035307,
+          "importance_std": 0.001754
+        },
+        {
+          "feature": "ai_industry__E_AI_CC",
+          "importance_mean": 0.022003,
+          "importance_std": 0.000457
+        },
+        {
+          "feature": "country",
+          "importance_mean": 0.020641,
+          "importance_std": 0.000269
+        },
+        {
+          "feature": "geo",
+          "importance_mean": 0.020431,
+          "importance_std": 0.000224
+        },
+        {
+          "feature": "nace_r2",
+          "importance_mean": 0.020219,
+          "importance_std": 0.000178
+        },
+        {
+          "feature": "deployment_readiness_index",
+          "importance_mean": 0.011671,
+          "importance_std": 0.000323
+        },
+        {
+          "feature": "ai_industry__E_AI_CC1SI_DA",
+          "importance_mean": 0.011297,
+          "importance_std": 0.000328
+        },
+        {
+          "feature": "ai_industry__E_AI_PITS",
+          "importance_mean": 0.009777,
+          "importance_std": 0.000225
+        },
+        {
+          "feature": "isoc_cicce_usen2__E_CC_PDEV",
+          "importance_mean": 0.009696,
+          "importance_std": 0.000364
+        },
+        {
+          "feature": "isoc_cicce_usen2__E_CC1_S",
+          "importance_mean": 0.009349,
+          "importance_std": 0.000273
+        },
+        {
+          "feature": "year",
+          "importance_mean": 0.008453,
+          "importance_std": 0.000439
+        },
+        {
+          "feature": "ai_industry__E_AI_DA",
+          "importance_mean": 0.007033,
+          "importance_std": 0.000169
+        },
+        {
+          "feature": "governance_maturity_proxy",
+          "importance_mean": 0.006456,
+          "importance_std": 0.000106
+        }
+      ],
+      "group_kfold_mae_std": null,
+      "public_display_note": "Long-run GroupKFold result; historical holdout/A10 metrics are not the main display metric."
+    }
+  ],
+  "champion_registry": {
+    "champion_stage": "stage2",
+    "champion_model": "extra_trees",
+    "manifest_audit": {
+      "ok": true
+    },
+    "leakage_audit": {
+      "stage": "stage2",
+      "ok": true,
+      "leaked_features": [],
+      "banned_features": [
+        "ai_industry__E_AI_TPA",
+        "target_workflow_automation"
+      ]
+    },
+    "dataset_fingerprint": {
+      "data/processed/eurostat_ai_panel.csv": {
+        "sha256": "ac57bfd3c4c9fe3802d5d6170bca8b0882244028e567550804dcb7d6c3752f13",
+        "bytes": 141756
+      },
+      "data/processed/stage2_industry_panel.csv": {
+        "sha256": "c1081508492ada1e43d19b42d590235ff1834310718299790b87acdc1ca40e72",
+        "bytes": 2968960
+      }
+    },
+    "runtime": {
+      "created_at_utc": "2026-05-18T16:26:07.574502+00:00",
+      "python": "3.12.13",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "git_commit": "86272038c695f50bb066a3c35f9aa1db2208a5d8",
+      "cuda_visible_devices": null,
+      "gpu_summary": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 555.97"
+    },
+    "public_display_metric": {
+      "group_kfold_r2_mean": 0.7245,
+      "group_kfold_mae_mean": 1.9646,
+      "model": "extra_trees"
+    }
+  },
+  "agent_quality": {
+    "tool_success_rate": 1.0,
+    "citation_accuracy_proxy": 1.0,
+    "hallucination_rate": 0.0,
+    "average_latency_seconds": 0.0504,
+    "token_cost_policy": "large tables never enter prompts; tools return bounded JSON and evidence paths",
+    "stage_boundary_answer": "0.0013s",
+    "metric_citation": "0.0s",
+    "indicator_lookup": "0.0616s",
+    "prediction": "0.2374s",
+    "deployment_recommendation": "0.0001s",
+    "unknown_claim": "0.0018s"
+  },
+  "manifest_audit_current": {
+    "ok": true,
+    "manifests": [
+      {
+        "manifest": "data/raw/manifest.jsonl",
+        "records": 14,
+        "hash_ok": 10,
+        "hash_bad": 0,
+        "missing": 0,
+        "skipped": 4,
+        "ok": true,
+        "items": [
+          {
+            "source_id": "eurostat_isoc_eb_ai",
+            "path": "data/raw/eurostat/isoc_eb_ai_sdmx.csv",
+            "exists": true,
+            "expected_sha256": "58b0ca3c982d90449dbfe9f63900e6e485eb49db7fc53a71900d9c86e5061f20",
+            "actual_sha256": "58b0ca3c982d90449dbfe9f63900e6e485eb49db7fc53a71900d9c86e5061f20",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_cicce_use",
+            "path": "data/raw/eurostat/isoc_cicce_use_sdmx.csv",
+            "exists": true,
+            "expected_sha256": "434db8789dafce2db096d9334d13f1bc2062ea2bc9442a84761474ea9c0afc2a",
+            "actual_sha256": "434db8789dafce2db096d9334d13f1bc2062ea2bc9442a84761474ea9c0afc2a",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_e_dii",
+            "path": "data/raw/eurostat/isoc_e_dii_sdmx.csv",
+            "exists": true,
+            "expected_sha256": "8f3856c749671d947602bee56d2a78ca149c10c584b7c56397485aabfb2a4490",
+            "actual_sha256": "8f3856c749671d947602bee56d2a78ca149c10c584b7c56397485aabfb2a4490",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_eb_das",
+            "path": "data/raw/eurostat/isoc_eb_das_sdmx.csv",
+            "exists": true,
+            "expected_sha256": "f30ef272959092a870f898e222f71d687fd7e47d0dd252302d8e0e8d15a588c5",
+            "actual_sha256": "f30ef272959092a870f898e222f71d687fd7e47d0dd252302d8e0e8d15a588c5",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_eb_bd",
+            "path": "data/raw/eurostat/isoc_eb_bd_sdmx.csv",
+            "exists": true,
+            "expected_sha256": "7d7b71d7e30ae7b66267be2fdff2ce0e8d7db839a50605113e0c441090942490",
+            "actual_sha256": "7d7b71d7e30ae7b66267be2fdff2ce0e8d7db839a50605113e0c441090942490",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_ec_esels",
+            "path": "data/raw/eurostat/isoc_ec_esels_sdmx.csv",
+            "exists": true,
+            "expected_sha256": "3b10f46cf4f0273872a3e6da2c9f732366f8fa5f9f9e7e63ef6190e71181bd6a",
+            "actual_sha256": "3b10f46cf4f0273872a3e6da2c9f732366f8fa5f9f9e7e63ef6190e71181bd6a",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_ec_evals",
+            "path": "data/raw/eurostat/isoc_ec_evals_sdmx.csv",
+            "exists": true,
+            "expected_sha256": "ad8074fa7c27e758f875cef71fc0225111f46b7ff792659a1270745587dfd479",
+            "actual_sha256": "ad8074fa7c27e758f875cef71fc0225111f46b7ff792659a1270745587dfd479",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_ske_itspe",
+            "path": "data/raw/eurostat/isoc_ske_itspe_sdmx.csv",
+            "exists": true,
+            "expected_sha256": "2b70c336ba888f6727bad0bb5d71caeb138637979c43739eb776b15df3748c7f",
+            "actual_sha256": "2b70c336ba888f6727bad0bb5d71caeb138637979c43739eb776b15df3748c7f",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_ske_itts",
+            "path": "data/raw/eurostat/isoc_ske_itts_sdmx.csv",
+            "exists": true,
+            "expected_sha256": "5616e955b0a2cac648f251b657e97b697347d7d42e764b697d837ddb2d90cbda",
+            "actual_sha256": "5616e955b0a2cac648f251b657e97b697347d7d42e764b697d837ddb2d90cbda",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_ske_itrcrs",
+            "path": "data/raw/eurostat/isoc_ske_itrcrs_sdmx.csv",
+            "exists": true,
+            "expected_sha256": "5328d712a6e8d2f916e76785b093390aff7b363632b587e6210a1264bafa3d63",
+            "actual_sha256": "5328d712a6e8d2f916e76785b093390aff7b363632b587e6210a1264bafa3d63",
+            "ok": true
+          },
+          {
+            "source_id": "census_btos_ai_supplement_2026",
+            "path": null,
+            "exists": false,
+            "expected_sha256": null,
+            "actual_sha256": null,
+            "ok": null,
+            "status": "skipped_no_hash_path"
+          },
+          {
+            "source_id": "census_btos_ai_core_questions",
+            "path": null,
+            "exists": false,
+            "expected_sha256": null,
+            "actual_sha256": null,
+            "ok": null,
+            "status": "skipped_no_hash_path"
+          },
+          {
+            "source_id": "census_btos_sector_by_employment_size",
+            "path": null,
+            "exists": false,
+            "expected_sha256": null,
+            "actual_sha256": null,
+            "ok": null,
+            "status": "skipped_no_hash_path"
+          },
+          {
+            "source_id": "census_btos_core_ai_content_pdf",
+            "path": null,
+            "exists": false,
+            "expected_sha256": null,
+            "actual_sha256": null,
+            "ok": null,
+            "status": "skipped_no_hash_path"
+          }
+        ]
+      },
+      {
+        "manifest": "data/raw/manifest_stage2.jsonl",
+        "records": 17,
+        "hash_ok": 17,
+        "hash_bad": 0,
+        "missing": 0,
+        "skipped": 0,
+        "ok": true,
+        "items": [
+          {
+            "source_id": "eurostat_isoc_eb_ain2",
+            "path": "data/raw/eurostat_stage2/isoc_eb_ain2_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "6f9501eabe185912a187dba34388ada7a28649cce583f09b5bc3f8f4afe0d3d5",
+            "actual_sha256": "6f9501eabe185912a187dba34388ada7a28649cce583f09b5bc3f8f4afe0d3d5",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_cicce_usen2",
+            "path": "data/raw/eurostat_stage2/isoc_cicce_usen2_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "e81b074f4cfd0a7cb85c972005ff5682a7ee0a9f58a14333f111fb7c9eae8acf",
+            "actual_sha256": "e81b074f4cfd0a7cb85c972005ff5682a7ee0a9f58a14333f111fb7c9eae8acf",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_e_diin2",
+            "path": "data/raw/eurostat_stage2/isoc_e_diin2_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "93aab0e2b6f017a2686444f7e09b767b63ea4559a32c69645461213ab14989f2",
+            "actual_sha256": "93aab0e2b6f017a2686444f7e09b767b63ea4559a32c69645461213ab14989f2",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_eb_dan2",
+            "path": "data/raw/eurostat_stage2/isoc_eb_dan2_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "4c259dbad3a6ac254262c5ecdfa69e4b5fff6094a0cb2b68ddc16e6b7e518ece",
+            "actual_sha256": "4c259dbad3a6ac254262c5ecdfa69e4b5fff6094a0cb2b68ddc16e6b7e518ece",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_eb_bdn2",
+            "path": "data/raw/eurostat_stage2/isoc_eb_bdn2_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "6dcd867f82d8133abc1225391b11cada91178bbc21599d95c5226879599e6943",
+            "actual_sha256": "6dcd867f82d8133abc1225391b11cada91178bbc21599d95c5226879599e6943",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_ec_eseln2",
+            "path": "data/raw/eurostat_stage2/isoc_ec_eseln2_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "2f86496bce69761f7989ffa51a742cb1aac4899646fde94cdcba48d2c41deacd",
+            "actual_sha256": "2f86496bce69761f7989ffa51a742cb1aac4899646fde94cdcba48d2c41deacd",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_ec_evaln2",
+            "path": "data/raw/eurostat_stage2/isoc_ec_evaln2_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "2a62dc32b31a2c533c190d91fdd7e82be53bab82f2034b15077361125658bdb7",
+            "actual_sha256": "2a62dc32b31a2c533c190d91fdd7e82be53bab82f2034b15077361125658bdb7",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_ske_itspen2",
+            "path": "data/raw/eurostat_stage2/isoc_ske_itspen2_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "1662b6d914a164fa988cf74a70cc401972a84415178cb102857caca06d49bad7",
+            "actual_sha256": "1662b6d914a164fa988cf74a70cc401972a84415178cb102857caca06d49bad7",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_ske_ittn2",
+            "path": "data/raw/eurostat_stage2/isoc_ske_ittn2_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "0fea9327ccd172325dbfa1bc594a4807bb76109d92858162b70b1ecf825a0c83",
+            "actual_sha256": "0fea9327ccd172325dbfa1bc594a4807bb76109d92858162b70b1ecf825a0c83",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_ske_itrcrn2",
+            "path": "data/raw/eurostat_stage2/isoc_ske_itrcrn2_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "de5220591dbf4cfdd4f1725b2c86198a452735a4139fd0efb5c99f7beb15cd2f",
+            "actual_sha256": "de5220591dbf4cfdd4f1725b2c86198a452735a4139fd0efb5c99f7beb15cd2f",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_r_eb_ain2",
+            "path": "data/raw/eurostat_stage2/isoc_r_eb_ain2_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "bb219c341d884eb7d739b5a2af6b8c68d1622f1f3b303ef5fabafd7cd26cee72",
+            "actual_sha256": "bb219c341d884eb7d739b5a2af6b8c68d1622f1f3b303ef5fabafd7cd26cee72",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_r_cicce_usen2",
+            "path": "data/raw/eurostat_stage2/isoc_r_cicce_usen2_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "3811ccdc015c0cf9cabaa8d1103d3d4d39f513ff3ea16e5dcc73c5c81335a0b1",
+            "actual_sha256": "3811ccdc015c0cf9cabaa8d1103d3d4d39f513ff3ea16e5dcc73c5c81335a0b1",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_isoc_r_eb_dan2",
+            "path": "data/raw/eurostat_stage2/isoc_r_eb_dan2_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "22780ac41f801200e9364ca6905e92c8c89359e6178a5c82891f5a2c4fd17675",
+            "actual_sha256": "22780ac41f801200e9364ca6905e92c8c89359e6178a5c82891f5a2c4fd17675",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_sbs_sc_ovw",
+            "path": "data/raw/eurostat_stage2/sbs_sc_ovw_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "011ecce2fa15220d25f3278189f3fec6a769993f7053bdf561aa89fcfe53a3f3",
+            "actual_sha256": "011ecce2fa15220d25f3278189f3fec6a769993f7053bdf561aa89fcfe53a3f3",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_sbs_ovw_act",
+            "path": "data/raw/eurostat_stage2/sbs_ovw_act_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "52ac16dcb7c2e3a20fbcb7e6573846e437c6160e2ac4344249d2104970a9f30b",
+            "actual_sha256": "52ac16dcb7c2e3a20fbcb7e6573846e437c6160e2ac4344249d2104970a9f30b",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_bd_9pm_r2",
+            "path": "data/raw/eurostat_stage2/bd_9pm_r2_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "8e89595912857453db853263cc50f94d15f3633dd25154232f2bedee4c0d40a4",
+            "actual_sha256": "8e89595912857453db853263cc50f94d15f3633dd25154232f2bedee4c0d40a4",
+            "ok": true
+          },
+          {
+            "source_id": "eurostat_bd_hg",
+            "path": "data/raw/eurostat_stage2/bd_hg_sdmx.csv.gz",
+            "exists": true,
+            "expected_sha256": "845987715f0f15ab5e2fb55adcb4920a112fced8f36c608e9c70901bc84adf46",
+            "actual_sha256": "845987715f0f15ab5e2fb55adcb4920a112fced8f36c608e9c70901bc84adf46",
+            "ok": true
+          }
+        ]
+      }
+    ]
+  },
+  "public_display_note": "Use Stage 1 Ridge R2=0.8680/MAE=1.8342 and Stage 2 ExtraTrees R2=0.7245/MAE=1.9646 for classroom display."
+}

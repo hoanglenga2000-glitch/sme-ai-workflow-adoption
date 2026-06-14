@@ -1,0 +1,15 @@
+default_stage1_model: random_forest
+default_stage2_model: extra_trees
+candidate_models:
+  - ridge
+  - random_forest
+  - extra_trees
+  - hist_gradient_boosting
+  - xgboost
+  - lightgbm
+  - catboost
+optional_gpu_models:
+  - ft_transformer
+artifacts:
+  stage1_bundle: 10_Agent系统/training/artifacts/stage1_best.joblib
+  stage2_bundle: 10_Agent系统/training/artifacts/stage2_best.joblib

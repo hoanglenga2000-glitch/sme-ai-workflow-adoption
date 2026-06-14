@@ -1,8 +1,0 @@
-﻿slide,claim,proof_object,boundary
-1,完整机器学习课程案例,README.md; DATA_CARD.md; 12_PPT package,不展示私密论文包
-2,官方数据替代弱来源作为主证据,data/raw/manifest*.jsonl; data_sources.md,问卷/访谈只作辅助
-5,源数据经筛选聚合形成面板,source_data/fig_waterfall_source.csv,禁止写千万样本直接训练
-7,GroupKFold 是主验证口径,source_data/fig_model_validation_source.csv,历史 holdout 只作日志
-10,机制解释来自特征组和模型结果,outputs/tables/stage2_feature_importance.csv,不写因果证明
-11,Agent 使用证据约束,10_Agent系统/reports/agent_quality_eval.json,无模型二进制时不伪预测
-12,公开/私密边界清晰,SECURITY.md; .gitignore; quarantine audit,不公开投稿包和模型二进制

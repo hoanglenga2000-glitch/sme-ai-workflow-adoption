@@ -1,0 +1,161 @@
+{
+  "status": "ok",
+  "cases": [
+    {
+      "name": "stage_boundary_answer",
+      "latency_seconds": 0.0014,
+      "payload": {
+        "answer": "该回答应基于工具结果和检索证据生成；当前工具返回了可追溯证据文件，数值结论需调用对应查询或预测工具确认。",
+        "tool_calls": [
+          {
+            "tool": "search_evidence",
+            "args": {
+              "query": "Why is Stage 2 not an SME-only sample?",
+              "top_k": 5
+            },
+            "status": "ok"
+          },
+          {
+            "tool": "cite_source",
+            "args": {
+              "claim": "Why is Stage 2 not an SME-only sample?"
+            },
+            "status": "ok"
+          }
+        ],
+        "metrics_used": {
+          "champion_model": "extra_trees",
+          "champion_stage": "stage2",
+          "group_kfold_r2_mean": 0.7245,
+          "group_kfold_mae_mean": 1.9646,
+          "public_display_note": "Long-run GroupKFold metric; historical A10 metrics are training logs only."
+        },
+        "evidence_files": [
+          "08_Research_Grade_Deck/verified_metrics.json",
+          "09_Agent训练规划/项目总结与Agent训练路线.md",
+          "docs/data_sources.md",
+          "outputs/reports/stage2_large_model_results.md"
+        ],
+        "confidence": 0.75,
+        "limitations": [
+          "This deterministic academic agent does not fabricate unsupported numeric values."
+        ]
+      }
+    },
+    {
+      "name": "metric_citation",
+      "latency_seconds": 0.0,
+      "payload": {
+        "status": "ok",
+        "claim": "Stage 2 model metrics",
+        "evidence_files": [
+          "08_Research_Grade_Deck/verified_metrics.json",
+          "outputs/reports/stage2_large_model_results.md"
+        ]
+      }
+    },
+    {
+      "name": "indicator_lookup",
+      "latency_seconds": 0.0398,
+      "payload": {
+        "status": "ok",
+        "stage": "stage2",
+        "indicator": "ai_industry__E_AI_TML",
+        "row_count": 1,
+        "rows": [
+          {
+            "geo": "DE",
+            "nace_r2": "C26",
+            "year": 2025,
+            "size_emp": "GE10",
+            "ai_industry__E_AI_TML": 12.92
+          }
+        ],
+        "evidence_files": [
+          "data/processed/stage2_industry_panel.csv"
+        ]
+      }
+    },
+    {
+      "name": "prediction",
+      "latency_seconds": 0.19,
+      "payload": {
+        "status": "unavailable_without_local_artifact",
+        "stage": "stage2",
+        "model": "extra_trees",
+        "prediction": null,
+        "feature_count": 67,
+        "evidence_files": [
+          "10_Agent系统/reports/model_comparison_report.md",
+          "10_Agent系统/reports/model_registry.json",
+          "08_Research_Grade_Deck/verified_metrics.json"
+        ],
+        "message": "Public repository excludes .joblib artifacts; rerun training to reproduce predictions.",
+        "reproduce_command": "python 10_Agent??/training/train_champion.py --force"
+      }
+    },
+    {
+      "name": "deployment_recommendation",
+      "latency_seconds": 0.0001,
+      "payload": {
+        "status": "ok",
+        "recommended_mode": "API_or_SaaS",
+        "rationale": "readiness is high and security friction is manageable",
+        "inputs": {
+          "efficiency_need_proxy": 18.0,
+          "security_concern_index": 12.0,
+          "deployment_readiness_index": 68.0
+        },
+        "evidence_files": [
+          "09_Agent训练规划/项目总结与Agent训练路线.md",
+          "outputs/reports/stage2_large_model_results.md"
+        ]
+      }
+    },
+    {
+      "name": "unknown_claim",
+      "latency_seconds": 0.0022,
+      "payload": {
+        "answer": "无法确认：当前研究数据主要来自 Eurostat，不能外推为所有中国中小企业的未来采纳结论。",
+        "tool_calls": [
+          {
+            "tool": "search_evidence",
+            "args": {
+              "query": "Claim that this model proves all Chinese SMEs will adopt AI next year.",
+              "top_k": 5
+            },
+            "status": "ok"
+          },
+          {
+            "tool": "cite_source",
+            "args": {
+              "claim": "Claim that this model proves all Chinese SMEs will adopt AI next year."
+            },
+            "status": "无法确认"
+          }
+        ],
+        "metrics_used": {
+          "champion_model": "extra_trees",
+          "champion_stage": "stage2",
+          "group_kfold_r2_mean": 0.7245,
+          "group_kfold_mae_mean": 1.9646,
+          "public_display_note": "Long-run GroupKFold metric; historical A10 metrics are training logs only."
+        },
+        "evidence_files": [],
+        "confidence": 0.0,
+        "limitations": [
+          "The claim exceeds the verified research boundary."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "case_count": 6,
+    "tool_success_rate": 1.0,
+    "citation_accuracy_proxy": 1.0,
+    "hallucination_rate": 0.0,
+    "average_latency_seconds": 0.0389,
+    "token_cost_policy": "large tables never enter prompts; tools return bounded JSON and evidence paths",
+    "public_display_metric": "Stage 2 ExtraTrees GroupKFold R2=0.7245, MAE=1.9646"
+  }
+}

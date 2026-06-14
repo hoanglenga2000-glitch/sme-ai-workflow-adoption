@@ -1,0 +1,18 @@
+agent_name: SME AI Workflow Adoption Research Agent
+default_stage: stage2
+prediction_tool: predict_adoption
+explanation_tool: explain_prediction
+retrieval_tool: cite_source
+chart_tool: render_chart
+response_contract:
+  require_evidence_files: true
+  no_evidence_label: 无法确认
+  structured_output: true
+token_budget:
+  max_evidence_chunks: 5
+  max_indicator_rows: 20
+  max_feature_items: 10
+latency_targets_seconds:
+  indicator_query: 2.0
+  prediction: 3.0
+  chart_render: 6.0

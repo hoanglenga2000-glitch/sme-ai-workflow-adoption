@@ -1,0 +1,139 @@
+{
+  "Stage 2 cannot be stated as SME-only evidence": {
+    "status": "ok",
+    "query": "Stage 2 cannot be stated as SME-only evidence",
+    "chunks": [
+      {
+        "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+        "chunk_id": 99,
+        "score": 0.894427,
+        "text": "研究表达边界：\n- Stage 1 支撑 SME 机制解释。\n- Stage 2 支撑 GE10 行业/区域外部验证，不要说成 SME 专属样本。\n- 树模型优于 MLP 是当前结构化官方统计数据的实证结果。\n- Agent 的价值是把真实数据、模型预测、可解释分析和部署建议连接起来，而不是凭空聊天。\n```"
+      },
+      {
+        "file": "docs/data_sources.md",
+        "chunk_id": 3,
+        "score": 0.816497,
+        "text": "## Stage 1: SME Size-Class Mechanism Layer"
+      },
+      {
+        "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+        "chunk_id": 21,
+        "score": 0.666667,
+        "text": "- Stage 1：544 行，36 个国家/地区，偏 SME size-class 机制分析，适合做“中小企业机制层”解释。\n- Stage 2：5,814 行，36 个国家/地区，50 个 NACE 行业，用于 GE10 行业/区域外部验证。注意：Stage 2 不是 SME size split，不能把 Stage 2 结论直接说成 SME 专属结论。"
+      },
+      {
+        "file": "outputs/reports/stage2_large_model_results.md",
+        "chunk_id": 10,
+        "score": 0.57735,
+        "text": "## SME Persona Clusters"
+      },
+      {
+        "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+        "chunk_id": 26,
+        "score": 0.57735,
+        "text": "- 树模型优于 MLP，并不说明 GPU 没价值，而是说明当前数据是典型结构化表格统计数据，Random Forest、ExtraTrees、HistGradientBoosting 等模型更适合。\n- A10 GPU 的价值应放在深度学习基线、FT-Transformer/TabTransformer 对比实验、嵌入构建、批量特征检索、超参数搜索和 Agent 服务推理加速上，而不是盲目训练大语言模型。\n- Stage 1 与 Stage 2 的边界必须清楚：Stage 1 支撑 SME 机制解释，Stage 2 支撑跨行业/跨国家的外部验证。"
+      }
+    ],
+    "evidence_files": [
+      "09_Agent训练规划/项目总结与Agent训练路线.md",
+      "docs/data_sources.md",
+      "outputs/reports/stage2_large_model_results.md"
+    ],
+    "ragas_proxy": {
+      "context_precision": 1.0,
+      "faithfulness_guard": "answer must quote only retrieved files",
+      "answer_relevance_proxy": 1.0
+    }
+  },
+  "manifest hash verification": {
+    "status": "ok",
+    "query": "manifest hash verification",
+    "chunks": [
+      {
+        "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+        "chunk_id": 14,
+        "score": 0.666667,
+        "text": "- Stage 1 manifest：14 条记录，其中 10 个成功下载文件完成哈希校验，未发现 hash 错误。\n- Stage 2 manifest：17 个压缩源文件全部完成哈希校验，未发现 hash 错误。\n- Stage 2 官方源数据总行数：12,770,332 行。\n- Stage 2 非空观测值：10,453,354 条。\n- 机制相关过滤后保留观测：856,880 条。"
+      },
+      {
+        "file": "docs/data_sources.md",
+        "chunk_id": 2,
+        "score": 0.365148,
+        "text": "This project uses official Eurostat SDMX-CSV sources as the final empirical basis. Each raw download is recorded in `data/raw/manifest.jsonl` or `data/raw/manifest_stage2.jsonl` with URL, HTTP status, byte size, timestamp, and SHA256 hash."
+      },
+      {
+        "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+        "chunk_id": 12,
+        "score": 0.333333,
+        "text": "- `01_源数据/`：镜像保存的原始数据与 manifest。\n- `data/raw/`：标准源数据目录。\n- `data/raw/manifest.jsonl`：Stage 1 数据下载与哈希校验记录。\n- `data/raw/manifest_stage2.jsonl`：Stage 2 大规模数据下载与哈希校验记录。\n- `docs/data_sources.md`、`data_sources.md`：数据来源说明。"
+      },
+      {
+        "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+        "chunk_id": 90,
+        "score": 0.162221,
+        "text": "请严格遵守：\n1. 不要编造数据，不要生成假指标。所有数据、模型结果、图表必须能追溯到仓库文件或官方来源。\n2. 不要把 GitHub token、服务器密码、SSH 私钥写入任何文件或提交记录。认证使用 gh auth login、环境变量、SSH config 或 GitHub Secrets。\n3. 先完整审查仓库结构，重点查看：\n   - data/raw/manifest.jsonl\n   - data/raw/manifest_stage2.jsonl\n   - docs/data_sources.md\n   - outputs/reports/stage2_source_profile.md\n   - outputs/reports/stage2_large_model_results.md\n   - 08_Research_Grade_Deck/verified_metrics.json\n   - src/pipeline.py\n   - src/pipeline_multisource.py\n   - src/pipeline_stage2_large.py\n4. 先验证数据真实性：\n   - 检查 manifest 中的哈希记录。\n   - 统计源数据行数、非空观测数、过滤后样本数。\n   - 明确 Stage 1 与 Stage 2 的研究边界。\n5. 不要直接把 1000 多万表格行训练成大语言模型。推荐架构是：\n   表格机器学习模型 + RAG 检索 + 工具调用 Agent。\n6. A10 GPU 应用于：\n   - PyTorch MLP、FT-Transformer、TabTransformer、TabNet 等表格深度学习基线；\n   - embedding/RAG 索引构建；\n   - 超参数搜索和批量推理；\n   - 不要从零训练 LLM。"
+      },
+      {
+        "file": "08_Research_Grade_Deck/verified_metrics.json",
+        "chunk_id": 1,
+        "score": 0.145865,
+        "text": "{\n  \"stage1_rf_r2\": 0.8495172115199375,\n  \"stage1_rf_mae\": 1.7899876665858987,\n  \"stage2_et_r2\": 0.7238307880159607,\n  \"stage2_et_mae\": 1.9670936511619748,\n  \"stage1_mlp_r2\": 0.8060439229011536,\n  \"stage2_mlp_r2\": 0.6620737314224243,\n  \"stage1_rows\": 544,\n  \"stage2_rows\": 5814,\n  \"stage1_geo_count\": 36,\n  \"stage2_geo_count\": 36,\n  \"stage2_nace_count\": 50,\n  \"stage2_raw_rows\": 12770332,\n  \"stage2_nonnull\": 10453354,\n  \"stage2_retained\": 856880,\n  \"max_vif\": 14.402622093622549,\n  \"top_persona_cluster\": 3,\n  \"top_persona_workflow\": 13.36,\n  \"top_persona_readiness\": 54.72,\n  \"stage1_top_importance\": \"ML capability\",\n  \"stage2_top_importance\": \"ML capability\",\n  \"manifest_stage1\": {\n    \"manifest\": \"data/raw/manifest.jsonl\",\n    \"records\": 14,\n    \"hash_ok\": 10,\n    \"hash_bad\": 0,\n    \"missing\": 0,\n    \"failed_status_records\": 0,\n    \"verified_bytes\": 41504788\n  },\n  \"manifest_stage2\": {\n    "
+      }
+    ],
+    "evidence_files": [
+      "08_Research_Grade_Deck/verified_metrics.json",
+      "09_Agent训练规划/项目总结与Agent训练路线.md",
+      "docs/data_sources.md"
+    ],
+    "ragas_proxy": {
+      "context_precision": 1.0,
+      "faithfulness_guard": "answer must quote only retrieved files",
+      "answer_relevance_proxy": 1.0
+    }
+  },
+  "tree models better than mlp": {
+    "status": "ok",
+    "query": "tree models better than mlp",
+    "chunks": [
+      {
+        "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+        "chunk_id": 5,
+        "score": 0.707107,
+        "text": "- 研究问题：中小企业在什么条件下更可能采纳 AI 流程自动化工具？\n- 核心机制：效率需求、数据/安全顾虑、部署准备度共同影响 AI 自动化采纳。\n- 课程关联：特征提取、数据清洗、因子构造、多元回归、随机森林、ExtraTrees、MLP 深度学习基线、交叉验证、特征重要性、客户画像聚类。\n- 数字生命周期：数据采集 → 哈希校验 → 清洗整合 → 特征工程 → 机器学习建模 → 可解释分析 → 部署策略建议 → 产品落地。"
+      },
+      {
+        "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+        "chunk_id": 99,
+        "score": 0.447214,
+        "text": "研究表达边界：\n- Stage 1 支撑 SME 机制解释。\n- Stage 2 支撑 GE10 行业/区域外部验证，不要说成 SME 专属样本。\n- 树模型优于 MLP 是当前结构化官方统计数据的实证结果。\n- Agent 的价值是把真实数据、模型预测、可解释分析和部署建议连接起来，而不是凭空聊天。\n```"
+      },
+      {
+        "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+        "chunk_id": 37,
+        "score": 0.408248,
+        "text": "1. AI 流程自动化采纳不是单纯技术问题，而是效率收益、安全风险和部署准备度之间的组织决策问题。\n2. 在 SME 机制层数据中，机器学习能力、数字基础、部署准备度等变量对 AI 自动化采纳具有重要解释力。\n3. 在更大规模 Eurostat 行业/区域官方数据中，树模型仍能保持较好泛化，说明模型捕捉到的是跨国家、跨行业的结构性机制，而不是简单记忆样本。\n4. GPU MLP 能作为深度学习课程基线，但在当前结构化官方统计数据上不是最优模型。\n5. SaaS、API、本地化、混合部署不应被看作单纯技术偏好，而应被解释为企业在效率需求、安全顾虑和治理成熟度之间权衡后的结果。"
+      },
+      {
+        "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+        "chunk_id": 43,
+        "score": 0.333333,
+        "text": "1. 当前数据主要是官方统计表格，不是自然语言语料。直接训练 Transformer 语言模型会浪费 token、成本高，而且不一定提高预测准确率。\n2. 已有结果表明，Random Forest、ExtraTrees 等树模型在结构化数据上优于 GPU MLP。下一步应优先加强表格模型，而不是盲目微调大语言模型。\n3. 研究要求强调数据真实性和可解释性。Agent 应该通过工具查询真实数据、调用模型预测、引用来源和生成图表，而不是把数据“记忆”在模型参数里。\n4. 低成本高准确率的路线是：让 LLM 负责理解问题和组织回答，让可复现代码负责取数、预测、解释和画图。"
+      },
+      {
+        "file": "10_Agent系统/reports/model_comparison_report.md",
+        "chunk_id": 2,
+        "score": 0.316228,
+        "text": "This report compares verified tabular models for the research agent."
+      }
+    ],
+    "evidence_files": [
+      "09_Agent训练规划/项目总结与Agent训练路线.md",
+      "10_Agent系统/reports/model_comparison_report.md"
+    ],
+    "ragas_proxy": {
+      "context_precision": 1.0,
+      "faithfulness_guard": "answer must quote only retrieved files",
+      "answer_relevance_proxy": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "generated_at": "2026-06-14 16:12:56",
+  "docx": "D:\\桌面\\codex\\作业\\机械学习\\sme-ai-workflow-adoption\\课程最终提交材料\\04_小组成员个人作业整理\\04_景浩伟_202321054012\\02_个人案例总结\\信管2301景浩伟202321054012个人总结报告.docx",
+  "pdf": "D:\\桌面\\codex\\作业\\机械学习\\sme-ai-workflow-adoption\\课程最终提交材料\\04_小组成员个人作业整理\\04_景浩伟_202321054012\\02_个人案例总结\\信管2301景浩伟202321054012个人总结报告.pdf",
+  "pages": 10,
+  "blank_pages": [],
+  "non_black_color_count": 0,
+  "text_audit": {
+    "char_count": 5378,
+    "paragraph_count": 52,
+    "first_person_count": 52,
+    "ai_phrase_hits": {},
+    "ok": true
+  },
+  "skills_applied": [
+    "Word / DOCX: OOXML生成、黑色字体、PDF round-trip转换",
+    "Word中文格式标准化: A4、微软雅黑、标题层级、正文1.5倍行距",
+    "avoid-ai-writing: 增加第一人称工作细节，减少套话和泛泛判断",
+    "academic-paper-reviewer: 用方法、证据、边界、可复现性检查内容质量"
+  ]
+}

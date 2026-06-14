@@ -1,0 +1,19 @@
+﻿slide,主题,证据来源
+1,封面与研究主题,小组课程汇报报告、投稿稿仅作选题参考
+2,研究核心与目标,报告第一、二节
+3,SME现实约束,报告第二节
+4,课程化研究框架,报告第二、四节
+5,数据生命周期,manifest、数据来源说明、报告第三节
+6,数据清洗规模,cleaning_retention_summary.csv
+7,变量体系,报告第四节
+8,Stage 1设计,course_algorithm_comparison.csv、报告第五节
+9,Stage 1结果,course_algorithm_comparison.csv
+10,Stage 2设计,stage2_source_profile.json、报告第六节
+11,Stage 2结果,course_algorithm_comparison.csv
+12,特征权重解释,feature_importance表与报告第六节
+13,采纳演化路径,报告第七节
+14,SME采纳建议,报告第七节
+15,Agent原型,10_Agent系统源码与测试结果
+16,课程项目产出,最终提交目录与GitHub复核说明
+17,方法边界,报告第十二节
+18,结束页,小组课程汇报结论

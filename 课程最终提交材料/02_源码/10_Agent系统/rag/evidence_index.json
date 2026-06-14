@@ -1,0 +1,2067 @@
+[
+  {
+    "file": "docs/data_sources.md",
+    "chunk_id": 1,
+    "text": "# Data Sources",
+    "created_at_utc": "2026-05-18T16:36:32.857456+00:00",
+    "terms": [
+      "data",
+      "sources"
+    ]
+  },
+  {
+    "file": "docs/data_sources.md",
+    "chunk_id": 2,
+    "text": "This project uses official Eurostat SDMX-CSV sources as the final empirical basis. Each raw download is recorded in `data/raw/manifest.jsonl` or `data/raw/manifest_stage2.jsonl` with URL, HTTP status, byte size, timestamp, and SHA256 hash.",
+    "created_at_utc": "2026-05-18T16:36:32.857986+00:00",
+    "terms": [
+      "and",
+      "basis",
+      "byte",
+      "csv",
+      "data",
+      "download",
+      "each",
+      "empirical",
+      "eurostat",
+      "final",
+      "hash",
+      "http",
+      "jsonl",
+      "manifest",
+      "manifest_stage2",
+      "official",
+      "project",
+      "raw",
+      "recorded",
+      "sdmx",
+      "sha256",
+      "size",
+      "sources",
+      "status",
+      "the",
+      "this",
+      "timestamp",
+      "url",
+      "uses",
+      "with"
+    ]
+  },
+  {
+    "file": "docs/data_sources.md",
+    "chunk_id": 3,
+    "text": "## Stage 1: SME Size-Class Mechanism Layer",
+    "created_at_utc": "2026-05-18T16:36:32.857986+00:00",
+    "terms": [
+      "class",
+      "layer",
+      "mechanism",
+      "size",
+      "sme",
+      "stage"
+    ]
+  },
+  {
+    "file": "docs/data_sources.md",
+    "chunk_id": 4,
+    "text": "| Source code | Role in study |\n|---|---|\n| `isoc_eb_ai` | AI technology adoption by enterprise size class; provides the target `E_AI_TPA` for AI workflow automation / decision support. |\n| `isoc_cicce_use` | Cloud computing service use; proxy for deployment readiness and SaaS/cloud capability. |\n| `isoc_e_dii` | Digital intensity; proxy for digital foundation. |\n| `isoc_eb_das` | Data analytics use; proxy for data maturity. |\n| `isoc_eb_bd` | Big data analytics; proxy for advanced analytics capability. |\n| `isoc_ec_esels` | E-commerce sales; proxy for market digitization. |\n| `isoc_ec_evals` | Value of e-commerce sales; proxy for digital transaction intensity. |\n| `isoc_ske_itspe` | ICT specialists; proxy for internal technical capacity. |\n| `isoc_ske_itts` | ICT training; proxy for workforce readiness. |\n| `isoc_ske_itrcrs` | ICT recruitment difficulty; proxy for talent constraint. |",
+    "created_at_utc": "2026-05-18T16:36:32.857986+00:00",
+    "terms": [
+      "adoption",
+      "advanced",
+      "analytics",
+      "and",
+      "automation",
+      "big",
+      "capability",
+      "capacity",
+      "class",
+      "cloud",
+      "code",
+      "commerce",
+      "computing",
+      "constraint",
+      "data",
+      "decision",
+      "deployment",
+      "difficulty",
+      "digital",
+      "digitization",
+      "e_ai_tpa",
+      "enterprise",
+      "for",
+      "foundation",
+      "ict",
+      "intensity",
+      "internal",
+      "isoc_cicce_use",
+      "isoc_e_dii",
+      "isoc_eb_ai",
+      "isoc_eb_bd",
+      "isoc_eb_das",
+      "isoc_ec_esels",
+      "isoc_ec_evals",
+      "isoc_ske_itrcrs",
+      "isoc_ske_itspe",
+      "isoc_ske_itts",
+      "market",
+      "maturity",
+      "provides",
+      "proxy",
+      "readiness",
+      "recruitment",
+      "role",
+      "saas",
+      "sales",
+      "service",
+      "size",
+      "source",
+      "specialists",
+      "study",
+      "support",
+      "talent",
+      "target",
+      "technical",
+      "technology",
+      "the",
+      "training",
+      "transaction",
+      "use",
+      "value",
+      "workflow",
+      "workforce"
+    ]
+  },
+  {
+    "file": "docs/data_sources.md",
+    "chunk_id": 5,
+    "text": "## Stage 2: Industry/Region External Validation Layer",
+    "created_at_utc": "2026-05-18T16:36:32.857986+00:00",
+    "terms": [
+      "external",
+      "industry",
+      "layer",
+      "region",
+      "stage",
+      "validation"
+    ]
+  },
+  {
+    "file": "docs/data_sources.md",
+    "chunk_id": 6,
+    "text": "| Source code | Role in study |\n|---|---|\n| `isoc_eb_ain2` | AI technology adoption by NACE industry; external validation target and AI capability features. |\n| `isoc_cicce_usen2` | Cloud computing by NACE industry. |\n| `isoc_e_diin2` | Digital intensity by NACE industry. |\n| `isoc_eb_dan2` | Data analytics by NACE industry. |\n| `isoc_eb_bdn2` | Big data analysis by NACE industry. |\n| `isoc_ec_eseln2` | E-commerce sales by NACE industry. |\n| `isoc_ec_evaln2` | E-commerce sales value by NACE industry. |\n| `isoc_ske_itspen2` | ICT specialists by NACE industry. |\n| `isoc_ske_ittn2` | ICT training by NACE industry. |\n| `isoc_ske_itrcrn2` | ICT recruitment constraints by NACE industry. |\n| `isoc_r_eb_ain2` | Regional AI indicators aggregated to country-industry features. |\n| `isoc_r_cicce_usen2` | Regional cloud indicators aggregated to country-industry features. |\n| `isoc_r_eb_dan2` | Regional data analytics indicators aggregated to country-industry features. |\n| `sbs_sc_ovw` | Structural business statistics by size class. |\n| `sbs_ovw_act` | Structural business statistics by activity. |\n| `bd_9pm_r2` | High-growth enterprises and employment by NACE industry. |\n| `bd_hg` | High-growth ",
+    "created_at_utc": "2026-05-18T16:36:32.857986+00:00",
+    "terms": [
+      "activity",
+      "adoption",
+      "aggregated",
+      "analysis",
+      "analytics",
+      "and",
+      "bd_9pm_r2",
+      "bd_hg",
+      "big",
+      "business",
+      "capability",
+      "class",
+      "cloud",
+      "code",
+      "commerce",
+      "computing",
+      "constraints",
+      "country",
+      "data",
+      "digital",
+      "employment",
+      "enterprises",
+      "external",
+      "features",
+      "growth",
+      "high",
+      "ict",
+      "indicators",
+      "industry",
+      "intensity",
+      "isoc_cicce_usen2",
+      "isoc_e_diin2",
+      "isoc_eb_ain2",
+      "isoc_eb_bdn2",
+      "isoc_eb_dan2",
+      "isoc_ec_eseln2",
+      "isoc_ec_evaln2",
+      "isoc_r_cicce_usen2",
+      "isoc_r_eb_ain2",
+      "isoc_r_eb_dan2",
+      "isoc_ske_itrcrn2",
+      "isoc_ske_itspen2",
+      "isoc_ske_ittn2",
+      "nace",
+      "recruitment",
+      "regional",
+      "role",
+      "sales",
+      "sbs_ovw_act",
+      "sbs_sc_ovw",
+      "size",
+      "source",
+      "specialists",
+      "statistics",
+      "structural",
+      "study",
+      "target",
+      "technology",
+      "training",
+      "validation",
+      "value"
+    ]
+  },
+  {
+    "file": "docs/data_sources.md",
+    "chunk_id": 7,
+    "text": "## Figure Style References",
+    "created_at_utc": "2026-05-18T16:36:32.857986+00:00",
+    "terms": [
+      "figure",
+      "references",
+      "style"
+    ]
+  },
+  {
+    "file": "docs/data_sources.md",
+    "chunk_id": 8,
+    "text": "The academic figures in `outputs/figures/academic/` follow a restrained scientific plotting style:",
+    "created_at_utc": "2026-05-18T16:36:32.857986+00:00",
+    "terms": [
+      "academic",
+      "figures",
+      "follow",
+      "outputs",
+      "plotting",
+      "restrained",
+      "scientific",
+      "style",
+      "the"
+    ]
+  },
+  {
+    "file": "docs/data_sources.md",
+    "chunk_id": 9,
+    "text": "- `SciencePlots` for Matplotlib scientific paper/presentation styling.\n- Nature figure guidance principles: labelled axes and tick marks, accessible colours, editable vector outputs, and avoiding small overlapping labels.",
+    "created_at_utc": "2026-05-18T16:36:32.857986+00:00",
+    "terms": [
+      "accessible",
+      "and",
+      "avoiding",
+      "axes",
+      "colours",
+      "editable",
+      "figure",
+      "for",
+      "guidance",
+      "labelled",
+      "labels",
+      "marks",
+      "matplotlib",
+      "nature",
+      "outputs",
+      "overlapping",
+      "paper",
+      "presentation",
+      "principles",
+      "scienceplots",
+      "scientific",
+      "small",
+      "styling",
+      "tick",
+      "vector"
+    ]
+  },
+  {
+    "file": "docs/data_sources.md",
+    "chunk_id": 10,
+    "text": "Both PNG and SVG outputs are provided so the PPT can use raster images while the report/repository keeps editable vector figures.",
+    "created_at_utc": "2026-05-18T16:36:32.857986+00:00",
+    "terms": [
+      "and",
+      "are",
+      "both",
+      "can",
+      "editable",
+      "figures",
+      "images",
+      "keeps",
+      "outputs",
+      "png",
+      "ppt",
+      "provided",
+      "raster",
+      "report",
+      "repository",
+      "svg",
+      "the",
+      "use",
+      "vector",
+      "while"
+    ]
+  },
+  {
+    "file": "outputs/reports/stage2_large_model_results.md",
+    "chunk_id": 1,
+    "text": "# Stage 2 Large-Scale Data Mining Results",
+    "created_at_utc": "2026-05-18T16:36:32.858513+00:00",
+    "terms": [
+      "data",
+      "large",
+      "mining",
+      "results",
+      "scale",
+      "stage"
+    ]
+  },
+  {
+    "file": "outputs/reports/stage2_large_model_results.md",
+    "chunk_id": 2,
+    "text": "Official stage-2 source rows profiled: 12,770,332; non-null observations: 10,453,354; source files: 17.",
+    "created_at_utc": "2026-05-18T16:36:32.858513+00:00",
+    "terms": [
+      "332",
+      "354",
+      "453",
+      "770",
+      "files",
+      "non",
+      "null",
+      "observations",
+      "official",
+      "profiled",
+      "rows",
+      "source",
+      "stage"
+    ]
+  },
+  {
+    "file": "outputs/reports/stage2_large_model_results.md",
+    "chunk_id": 3,
+    "text": "Rows scanned in feature extraction: 12,341,630; rows kept after indicator filtering: 856,880.",
+    "created_at_utc": "2026-05-18T16:36:32.858513+00:00",
+    "terms": [
+      "341",
+      "630",
+      "856",
+      "880",
+      "after",
+      "extraction",
+      "feature",
+      "filtering",
+      "indicator",
+      "kept",
+      "rows",
+      "scanned"
+    ]
+  },
+  {
+    "file": "outputs/reports/stage2_large_model_results.md",
+    "chunk_id": 4,
+    "text": "Integrated GE10 industry panel rows: 5,814; modeling rows: 5,814; features after coverage/leakage control: 66.",
+    "created_at_utc": "2026-05-18T16:36:32.858513+00:00",
+    "terms": [
+      "814",
+      "after",
+      "control",
+      "coverage",
+      "features",
+      "ge10",
+      "industry",
+      "integrated",
+      "leakage",
+      "modeling",
+      "panel",
+      "rows"
+    ]
+  },
+  {
+    "file": "outputs/reports/stage2_large_model_results.md",
+    "chunk_id": 5,
+    "text": "## Model Metrics",
+    "created_at_utc": "2026-05-18T16:36:32.858513+00:00",
+    "terms": [
+      "metrics",
+      "model"
+    ]
+  },
+  {
+    "file": "outputs/reports/stage2_large_model_results.md",
+    "chunk_id": 6,
+    "text": "Best model: `extra_trees`.",
+    "created_at_utc": "2026-05-18T16:36:32.858513+00:00",
+    "terms": [
+      "best",
+      "extra_trees",
+      "model"
+    ]
+  },
+  {
+    "file": "outputs/reports/stage2_large_model_results.md",
+    "chunk_id": 7,
+    "text": "- ridge: R2=0.746, MAE=1.919, n_test=1454\n- random_forest: R2=0.801, MAE=1.642, n_test=1454\n- extra_trees: R2=0.833, MAE=1.457, n_test=1454\n- hist_gradient_boosting: R2=0.823, MAE=1.561, n_test=1454",
+    "created_at_utc": "2026-05-18T16:36:32.858513+00:00",
+    "terms": [
+      "1454",
+      "457",
+      "561",
+      "642",
+      "746",
+      "801",
+      "823",
+      "833",
+      "919",
+      "extra_trees",
+      "hist_gradient_boosting",
+      "mae",
+      "n_test",
+      "random_forest",
+      "ridge"
+    ]
+  },
+  {
+    "file": "outputs/reports/stage2_large_model_results.md",
+    "chunk_id": 8,
+    "text": "## Top Features",
+    "created_at_utc": "2026-05-18T16:36:32.859065+00:00",
+    "terms": [
+      "features",
+      "top"
+    ]
+  },
+  {
+    "file": "outputs/reports/stage2_large_model_results.md",
+    "chunk_id": 9,
+    "text": "| feature                     |   importance_mean |   importance_std |\n|:----------------------------|------------------:|-----------------:|\n| ai_industry__E_AI_TML       |            0.4381 |           0.0235 |\n| ai_industry__E_AI_TNLG      |            0.0851 |           0.0051 |\n| geo                         |            0.0445 |           0.0037 |\n| ai_industry__E_AI_CC        |            0.0171 |           0.0018 |\n| digital_foundation_index    |            0.0132 |           0.0015 |\n| nace_r2                     |            0.0076 |           0.0011 |\n| year                        |            0.0075 |           0.0012 |\n| ai_industry__E_AI_CC1SI_DA  |            0.007  |           0.0012 |\n| deployment_readiness_index  |            0.0048 |           0.0008 |\n| ai_industry__E_AI_DA        |            0.0046 |           0.0007 |\n| isoc_cicce_usen2__E_CC_PDEV |            0.0038 |           0.0004 |\n| isoc_cicce_usen2__E_CC1_S   |            0.0032 |           0.0005 |\n| isoc_ec_eseln2__E_AWSFOR    |            0.003  |           0.0004 |\n| ai_industry__E_AI_PITS      |            0.003  |           0.0007 |\n| isoc_cicce_usen2__E_CC1_SI  |            0.0029 |           0.",
+    "created_at_utc": "2026-05-18T16:36:32.859065+00:00",
+    "terms": [
+      "0004",
+      "0005",
+      "0007",
+      "0008",
+      "0011",
+      "0012",
+      "0015",
+      "0018",
+      "0029",
+      "003",
+      "0032",
+      "0037",
+      "0038",
+      "0046",
+      "0048",
+      "0051",
+      "007",
+      "0075",
+      "0076",
+      "0132",
+      "0171",
+      "0235",
+      "0445",
+      "0851",
+      "4381",
+      "ai_industry__e_ai_cc",
+      "ai_industry__e_ai_cc1si_da",
+      "ai_industry__e_ai_da",
+      "ai_industry__e_ai_pits",
+      "ai_industry__e_ai_tml",
+      "ai_industry__e_ai_tnlg",
+      "deployment_readiness_index",
+      "digital_foundation_index",
+      "feature",
+      "geo",
+      "importance_mean",
+      "importance_std",
+      "isoc_cicce_usen2__e_cc1_s",
+      "isoc_cicce_usen2__e_cc1_si",
+      "isoc_cicce_usen2__e_cc_pdev",
+      "isoc_ec_eseln2__e_awsfor",
+      "nace_r2",
+      "year"
+    ]
+  },
+  {
+    "file": "outputs/reports/stage2_large_model_results.md",
+    "chunk_id": 10,
+    "text": "## SME Persona Clusters",
+    "created_at_utc": "2026-05-18T16:36:32.859065+00:00",
+    "terms": [
+      "clusters",
+      "persona",
+      "sme"
+    ]
+  },
+  {
+    "file": "outputs/reports/stage2_large_model_results.md",
+    "chunk_id": 11,
+    "text": "|   persona_cluster |   target_workflow_automation |   security_concern_index |   deployment_readiness_index |   data_maturity_index |   digital_foundation_index |   market_digitization_index |   ict_constraint_index |   governance_maturity_proxy |    n |\n|------------------:|-----------------------------:|-------------------------:|-----------------------------:|----------------------:|---------------------------:|----------------------------:|-----------------------:|----------------------------:|-----:|\n|                 2 |                        17.18 |                    15.37 |                        68.96 |                 57.79 |                      55.46 |                       34.61 |                  29.7  |                       42.21 |  659 |\n|                 4 |                        11.93 |                    17.05 |                        60.23 |                nan    |                      53.4  |                       34.93 |                  40.9  |                       15.97 |  290 |\n|                 5 |                         4.98 |                    14.31 |                        49.85 |                 40.74 |                      37.38 |             ",
+    "created_at_utc": "2026-05-18T16:36:32.859065+00:00",
+    "terms": [
+      "290",
+      "659",
+      "data_maturity_index",
+      "deployment_readiness_index",
+      "digital_foundation_index",
+      "governance_maturity_proxy",
+      "ict_constraint_index",
+      "market_digitization_index",
+      "nan",
+      "persona_cluster",
+      "security_concern_index",
+      "target_workflow_automation"
+    ]
+  },
+  {
+    "file": "08_Research_Grade_Deck/verified_metrics.json",
+    "chunk_id": 1,
+    "text": "{\n  \"stage1_rf_r2\": 0.8495172115199375,\n  \"stage1_rf_mae\": 1.7899876665858987,\n  \"stage2_et_r2\": 0.7238307880159607,\n  \"stage2_et_mae\": 1.9670936511619748,\n  \"stage1_mlp_r2\": 0.8060439229011536,\n  \"stage2_mlp_r2\": 0.6620737314224243,\n  \"stage1_rows\": 544,\n  \"stage2_rows\": 5814,\n  \"stage1_geo_count\": 36,\n  \"stage2_geo_count\": 36,\n  \"stage2_nace_count\": 50,\n  \"stage2_raw_rows\": 12770332,\n  \"stage2_nonnull\": 10453354,\n  \"stage2_retained\": 856880,\n  \"max_vif\": 14.402622093622549,\n  \"top_persona_cluster\": 3,\n  \"top_persona_workflow\": 13.36,\n  \"top_persona_readiness\": 54.72,\n  \"stage1_top_importance\": \"ML capability\",\n  \"stage2_top_importance\": \"ML capability\",\n  \"manifest_stage1\": {\n    \"manifest\": \"data/raw/manifest.jsonl\",\n    \"records\": 14,\n    \"hash_ok\": 10,\n    \"hash_bad\": 0,\n    \"missing\": 0,\n    \"failed_status_records\": 0,\n    \"verified_bytes\": 41504788\n  },\n  \"manifest_stage2\": {\n    \"manifest\": \"data/raw/manifest_stage2.jsonl\",\n    \"records\": 17,\n    \"hash_ok\": 17,\n    \"hash_bad\": 0,\n    \"missing\": 0,\n    \"failed_status_records\": 0,\n    \"verified_bytes\": 75115663\n  }\n}",
+    "created_at_utc": "2026-05-18T16:36:32.859065+00:00",
+    "terms": [
+      "10453354",
+      "12770332",
+      "402622093622549",
+      "41504788",
+      "544",
+      "5814",
+      "6620737314224243",
+      "7238307880159607",
+      "75115663",
+      "7899876665858987",
+      "8060439229011536",
+      "8495172115199375",
+      "856880",
+      "9670936511619748",
+      "capability",
+      "data",
+      "failed_status_records",
+      "hash_bad",
+      "hash_ok",
+      "jsonl",
+      "manifest",
+      "manifest_stage1",
+      "manifest_stage2",
+      "max_vif",
+      "missing",
+      "raw",
+      "records",
+      "stage1_geo_count",
+      "stage1_mlp_r2",
+      "stage1_rf_mae",
+      "stage1_rf_r2",
+      "stage1_rows",
+      "stage1_top_importance",
+      "stage2_et_mae",
+      "stage2_et_r2",
+      "stage2_geo_count",
+      "stage2_mlp_r2",
+      "stage2_nace_count",
+      "stage2_nonnull",
+      "stage2_raw_rows",
+      "stage2_retained",
+      "stage2_rows",
+      "stage2_top_importance",
+      "top_persona_cluster",
+      "top_persona_readiness",
+      "top_persona_workflow",
+      "verified_bytes"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 1,
+    "text": "# 中小企业 AI 流程自动化采纳机制研究：项目总结与 Agent 训练路线",
+    "created_at_utc": "2026-05-18T16:36:32.859595+00:00",
+    "terms": [
+      "agent"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 2,
+    "text": "> 当前文档用于承接下一阶段工作：在已有真实数据、清洗代码、模型结果、学术图表和答辩 PPT 的基础上，继续利用 A10 GPU 服务器构建一个可查询、可解释、可复现实验的研究型 AI Agent。",
+    "created_at_utc": "2026-05-18T16:36:32.859595+00:00",
+    "terms": [
+      "a10",
+      "agent",
+      "gpu",
+      "ppt"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 3,
+    "text": "## 1. 项目当前状态",
+    "created_at_utc": "2026-05-18T16:36:32.859595+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 4,
+    "text": "本项目围绕“基于中小企业 AI 流程自动化采纳机制研究：效率需求、安全顾虑与部署偏好的实证分析”展开，目标不是单纯做一个 PPT，而是形成一套可复现的数据挖掘案例：",
+    "created_at_utc": "2026-05-18T16:36:32.859595+00:00",
+    "terms": [
+      "ppt"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 5,
+    "text": "- 研究问题：中小企业在什么条件下更可能采纳 AI 流程自动化工具？\n- 核心机制：效率需求、数据/安全顾虑、部署准备度共同影响 AI 自动化采纳。\n- 课程关联：特征提取、数据清洗、因子构造、多元回归、随机森林、ExtraTrees、MLP 深度学习基线、交叉验证、特征重要性、客户画像聚类。\n- 数字生命周期：数据采集 → 哈希校验 → 清洗整合 → 特征工程 → 机器学习建模 → 可解释分析 → 部署策略建议 → 产品落地。",
+    "created_at_utc": "2026-05-18T16:36:32.859595+00:00",
+    "terms": [
+      "extratrees",
+      "mlp"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 6,
+    "text": "目前仓库已经推送到 GitHub：",
+    "created_at_utc": "2026-05-18T16:36:32.859595+00:00",
+    "terms": [
+      "github"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 7,
+    "text": "- 仓库地址：https://github.com/hoanglenga2000-glitch/sme-ai-workflow-adoption.git\n- 最近一次已知提交：`ef5d98f Add research-grade academic defense deck`\n- 注意：GitHub token、服务器密码等敏感信息不能写入仓库或文档。后续连接仓库应使用 `gh auth login`、环境变量 `GITHUB_TOKEN`、GitHub Actions Secrets 或服务器本地 `.env`。",
+    "created_at_utc": "2026-05-18T16:36:32.859595+00:00",
+    "terms": [
+      "academic",
+      "actions",
+      "add",
+      "adoption",
+      "auth",
+      "com",
+      "deck",
+      "defense",
+      "ef5d98f",
+      "env",
+      "git",
+      "github",
+      "github_token",
+      "glitch",
+      "grade",
+      "hoanglenga2000",
+      "https",
+      "login",
+      "research",
+      "secrets",
+      "sme",
+      "token",
+      "workflow"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 8,
+    "text": "## 2. 已完成的主要任务",
+    "created_at_utc": "2026-05-18T16:36:32.860118+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 9,
+    "text": "### 2.1 数据获取与来源整理",
+    "created_at_utc": "2026-05-18T16:36:32.860118+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 10,
+    "text": "已建立源数据目录和数据来源说明，重点使用 Eurostat 官方统计数据，保证数据真实、可查询、可复现。",
+    "created_at_utc": "2026-05-18T16:36:32.860118+00:00",
+    "terms": [
+      "eurostat"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 11,
+    "text": "主要目录：",
+    "created_at_utc": "2026-05-18T16:36:32.860118+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 12,
+    "text": "- `01_源数据/`：镜像保存的原始数据与 manifest。\n- `data/raw/`：标准源数据目录。\n- `data/raw/manifest.jsonl`：Stage 1 数据下载与哈希校验记录。\n- `data/raw/manifest_stage2.jsonl`：Stage 2 大规模数据下载与哈希校验记录。\n- `docs/data_sources.md`、`data_sources.md`：数据来源说明。",
+    "created_at_utc": "2026-05-18T16:36:32.860118+00:00",
+    "terms": [
+      "01_",
+      "data",
+      "data_sources",
+      "docs",
+      "jsonl",
+      "manifest",
+      "manifest_stage2",
+      "raw",
+      "stage"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 13,
+    "text": "已验证结果：",
+    "created_at_utc": "2026-05-18T16:36:32.860118+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 14,
+    "text": "- Stage 1 manifest：14 条记录，其中 10 个成功下载文件完成哈希校验，未发现 hash 错误。\n- Stage 2 manifest：17 个压缩源文件全部完成哈希校验，未发现 hash 错误。\n- Stage 2 官方源数据总行数：12,770,332 行。\n- Stage 2 非空观测值：10,453,354 条。\n- 机制相关过滤后保留观测：856,880 条。",
+    "created_at_utc": "2026-05-18T16:36:32.860118+00:00",
+    "terms": [
+      "332",
+      "354",
+      "453",
+      "770",
+      "856",
+      "880",
+      "hash",
+      "manifest",
+      "stage"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 15,
+    "text": "### 2.2 数据清洗、特征工程与模型训练",
+    "created_at_utc": "2026-05-18T16:36:32.860118+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 16,
+    "text": "已建立清洗与训练代码：",
+    "created_at_utc": "2026-05-18T16:36:32.860118+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 17,
+    "text": "- `src/pipeline.py`\n- `src/pipeline_multisource.py`\n- `src/pipeline_stage2_large.py`\n- `src/cleaning/profile_stage2_sources.py`\n- `03_清洗与训练代码/` 中保存了课程提交用代码副本。",
+    "created_at_utc": "2026-05-18T16:36:32.860118+00:00",
+    "terms": [
+      "03_",
+      "cleaning",
+      "pipeline",
+      "pipeline_multisource",
+      "pipeline_stage2_large",
+      "profile_stage2_sources",
+      "src"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 18,
+    "text": "已生成清洗后数据：",
+    "created_at_utc": "2026-05-18T16:36:32.860118+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 19,
+    "text": "- `02_清洗后数据/`\n- `data/processed/`\n- `data/samples/`",
+    "created_at_utc": "2026-05-18T16:36:32.860118+00:00",
+    "terms": [
+      "02_",
+      "data",
+      "processed",
+      "samples"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 20,
+    "text": "关键建模样本：",
+    "created_at_utc": "2026-05-18T16:36:32.860118+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 21,
+    "text": "- Stage 1：544 行，36 个国家/地区，偏 SME size-class 机制分析，适合做“中小企业机制层”解释。\n- Stage 2：5,814 行，36 个国家/地区，50 个 NACE 行业，用于 GE10 行业/区域外部验证。注意：Stage 2 不是 SME size split，不能把 Stage 2 结论直接说成 SME 专属结论。",
+    "created_at_utc": "2026-05-18T16:36:32.860118+00:00",
+    "terms": [
+      "544",
+      "814",
+      "class",
+      "ge10",
+      "nace",
+      "size",
+      "sme",
+      "split",
+      "stage"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 22,
+    "text": "### 2.3 已完成模型与指标",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 23,
+    "text": "当前严格核验指标来自 `08_Research_Grade_Deck/verified_metrics.json`：",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": [
+      "08_research_grade_deck",
+      "json",
+      "verified_metrics"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 24,
+    "text": "| 模型/阶段 | 验证方式 | R2 | MAE | 解释 |\n|---|---:|---:|---:|---|\n| Stage 1 Random Forest | 国家组留出/GroupKFold 思路 | 0.8495 | 1.7900 | 对 SME 采纳机制的预测解释力较强 |\n| Stage 2 ExtraTrees | 行业/国家外部验证 | 0.7238 | 1.9671 | 在更大范围官方统计数据上仍有较强泛化 |\n| Stage 1 GPU MLP | A10 加速深度学习基线 | 0.8060 | 未列入主表 | 深度学习能跑通，但没有超过树模型 |\n| Stage 2 GPU MLP | A10 加速深度学习基线 | 0.6621 | 未列入主表 | 结构化统计数据上 MLP 不是最优解 |",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": [
+      "6621",
+      "7238",
+      "7900",
+      "8060",
+      "8495",
+      "9671",
+      "a10",
+      "extratrees",
+      "forest",
+      "gpu",
+      "groupkfold",
+      "mae",
+      "mlp",
+      "random",
+      "sme",
+      "stage"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 25,
+    "text": "重要解释：",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 26,
+    "text": "- 树模型优于 MLP，并不说明 GPU 没价值，而是说明当前数据是典型结构化表格统计数据，Random Forest、ExtraTrees、HistGradientBoosting 等模型更适合。\n- A10 GPU 的价值应放在深度学习基线、FT-Transformer/TabTransformer 对比实验、嵌入构建、批量特征检索、超参数搜索和 Agent 服务推理加速上，而不是盲目训练大语言模型。\n- Stage 1 与 Stage 2 的边界必须清楚：Stage 1 支撑 SME 机制解释，Stage 2 支撑跨行业/跨国家的外部验证。",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": [
+      "a10",
+      "agent",
+      "extratrees",
+      "forest",
+      "gpu",
+      "histgradientboosting",
+      "mlp",
+      "random",
+      "sme",
+      "stage",
+      "tabtransformer",
+      "transformer"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 27,
+    "text": "### 2.4 图表、报告与 PPT 资产",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": [
+      "ppt"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 28,
+    "text": "已完成学术图表、课程报告和研究型答辩 PPT。",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": [
+      "ppt"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 29,
+    "text": "主要目录：",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 30,
+    "text": "- `05_学术图表/`：数据挖掘图表、SVG/PNG 图。\n- `06_结课报告/`：Word/PDF 课程报告。\n- `07_PPT正式版/`：上一版正式 PPT。\n- `08_Research_Grade_Deck/`：研究级重构 PPT。",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": [
+      "05_",
+      "06_",
+      "07_ppt",
+      "08_research_grade_deck",
+      "pdf",
+      "png",
+      "ppt",
+      "svg",
+      "word"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 31,
+    "text": "最新研究级 PPT 文件：",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": [
+      "ppt"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 32,
+    "text": "- `08_Research_Grade_Deck/中小企业AI流程自动化采纳机制研究_Research_Grade_学术答辩版.pptx`\n- `08_Research_Grade_Deck/中小企业AI流程自动化采纳机制研究_Research_Grade_学术答辩版.pdf`\n- `08_Research_Grade_Deck/revision_report.md`\n- `08_Research_Grade_Deck/speaker_notes/slide_by_slide_speaker_notes.md`",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": [
+      "08_research_grade_deck",
+      "_research_grade_",
+      "pdf",
+      "pptx",
+      "revision_report",
+      "slide_by_slide_speaker_notes",
+      "speaker_notes"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 33,
+    "text": "已完成质量检查：",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 34,
+    "text": "- 15 页 PPT 全部完成非空渲染检查。\n- 已导出 PDF 和 Office PNG 预览图。\n- 布局 QA 检查结果：0 errors，0 warnings。",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": [
+      "errors",
+      "office",
+      "pdf",
+      "png",
+      "ppt",
+      "warnings"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 35,
+    "text": "## 3. 当前研究结论的可靠边界",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 36,
+    "text": "本项目现在可以严谨表达以下结论：",
+    "created_at_utc": "2026-05-18T16:36:32.860641+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 37,
+    "text": "1. AI 流程自动化采纳不是单纯技术问题，而是效率收益、安全风险和部署准备度之间的组织决策问题。\n2. 在 SME 机制层数据中，机器学习能力、数字基础、部署准备度等变量对 AI 自动化采纳具有重要解释力。\n3. 在更大规模 Eurostat 行业/区域官方数据中，树模型仍能保持较好泛化，说明模型捕捉到的是跨国家、跨行业的结构性机制，而不是简单记忆样本。\n4. GPU MLP 能作为深度学习课程基线，但在当前结构化官方统计数据上不是最优模型。\n5. SaaS、API、本地化、混合部署不应被看作单纯技术偏好，而应被解释为企业在效率需求、安全顾虑和治理成熟度之间权衡后的结果。",
+    "created_at_utc": "2026-05-18T16:36:32.861174+00:00",
+    "terms": [
+      "api",
+      "eurostat",
+      "gpu",
+      "mlp",
+      "saas",
+      "sme"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 38,
+    "text": "不能过度表达的内容：",
+    "created_at_utc": "2026-05-18T16:36:32.861174+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 39,
+    "text": "- 不能说 Stage 2 是“中小企业专属样本”，因为 Stage 2 是 GE10 行业/区域外部验证层。\n- 不能说模型已经代表所有中国中小企业，因为主要公开数据来自 Eurostat，问卷数据与国内产品场景应作为机制映射和案例落地，而不是无限外推。\n- 不能把 1000 多万原始行数直接等同于训练样本数。严谨说法是：官方源数据扫描 12,770,332 行，经指标过滤、面板整合、缺失控制和泄漏控制后，形成 5,814 行严格建模样本。",
+    "created_at_utc": "2026-05-18T16:36:32.861174+00:00",
+    "terms": [
+      "1000",
+      "332",
+      "770",
+      "814",
+      "eurostat",
+      "ge10",
+      "stage"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 40,
+    "text": "## 4. 是否建议使用简单 Transformer 框架训练 Agent？",
+    "created_at_utc": "2026-05-18T16:36:32.861174+00:00",
+    "terms": [
+      "agent",
+      "transformer"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 41,
+    "text": "结论：不建议把 1000 多万条表格统计数据直接拿去训练一个 Transformer 大模型。更推荐“表格机器学习模型 + 检索增强 RAG + 工具调用 Agent”的组合。",
+    "created_at_utc": "2026-05-18T16:36:32.861174+00:00",
+    "terms": [
+      "1000",
+      "agent",
+      "rag",
+      "transformer"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 42,
+    "text": "原因如下：",
+    "created_at_utc": "2026-05-18T16:36:32.861174+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 43,
+    "text": "1. 当前数据主要是官方统计表格，不是自然语言语料。直接训练 Transformer 语言模型会浪费 token、成本高，而且不一定提高预测准确率。\n2. 已有结果表明，Random Forest、ExtraTrees 等树模型在结构化数据上优于 GPU MLP。下一步应优先加强表格模型，而不是盲目微调大语言模型。\n3. 研究要求强调数据真实性和可解释性。Agent 应该通过工具查询真实数据、调用模型预测、引用来源和生成图表，而不是把数据“记忆”在模型参数里。\n4. 低成本高准确率的路线是：让 LLM 负责理解问题和组织回答，让可复现代码负责取数、预测、解释和画图。",
+    "created_at_utc": "2026-05-18T16:36:32.861174+00:00",
+    "terms": [
+      "agent",
+      "extratrees",
+      "forest",
+      "gpu",
+      "llm",
+      "mlp",
+      "random",
+      "token",
+      "transformer"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 44,
+    "text": "推荐架构：",
+    "created_at_utc": "2026-05-18T16:36:32.861174+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 45,
+    "text": "```text\n真实数据源\n  ↓\n数据湖 / 原始数据区\n  ↓\n清洗数据 / 特征仓库\n  ↓\n表格模型注册表\n  ↓\n检索索引与来源文档\n  ↓\n工具调用型 Research Agent\n  ↓\n报告生成 / 图表生成 / 部署策略推荐\n```",
+    "created_at_utc": "2026-05-18T16:36:32.861174+00:00",
+    "terms": [
+      "agent",
+      "research",
+      "text"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 46,
+    "text": "如果要使用 Transformer，建议只用于以下场景：",
+    "created_at_utc": "2026-05-18T16:36:32.861174+00:00",
+    "terms": [
+      "transformer"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 47,
+    "text": "- 自然语言问答界面：理解老师或用户提出的问题。\n- RAG 检索：从数据来源说明、模型报告、PPT 讲稿、论文段落中检索证据。\n- 小规模 LoRA/指令微调：基于已验证结果构造“问题 → 工具调用 → 有来源答案”的训练样本。\n- Tabular Transformer 对比实验：例如 FT-Transformer、TabTransformer，作为课程深度学习拓展基线，而不是替代所有树模型。",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": [
+      "lora",
+      "ppt",
+      "rag",
+      "tabtransformer",
+      "tabular",
+      "transformer"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 48,
+    "text": "## 5. 下一阶段 Agent 的目标",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": [
+      "agent"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 49,
+    "text": "建议把下一阶段定义为“SME AI Workflow Adoption Research Agent”，即一个面向本研究的可复现实验 Agent，而不是聊天机器人。",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": [
+      "adoption",
+      "agent",
+      "research",
+      "sme",
+      "workflow"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 50,
+    "text": "Agent 应具备以下能力：",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": [
+      "agent"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 51,
+    "text": "1. 数据来源审计：回答每个数据来自哪里、是否哈希校验、对应哪个文件。\n2. 指标查询：按国家、行业、年份、指标查询清洗后的统计数据。\n3. 模型预测：输入企业/行业画像，预测 AI 自动化采纳强度或部署倾向。\n4. 可解释分析：输出关键变量贡献、特征重要性、回归系数解释。\n5. 图表生成：根据查询结果生成学术图表。\n6. 部署建议：根据效率需求、安全顾虑、部署准备度，推荐 SaaS/API/本地化/混合部署。\n7. 证据引用：每个结论尽量链接到源数据、清洗代码或模型报告。",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": [
+      "api",
+      "saas"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 52,
+    "text": "## 6. A10 GPU 服务器的合理使用方式",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": [
+      "a10",
+      "gpu"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 53,
+    "text": "A10 服务器应该用于加速以下任务：",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": [
+      "a10"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 54,
+    "text": "- PyTorch MLP、FT-Transformer、TabTransformer、TabNet 等深度学习表格模型训练。\n- 大规模特征矩阵处理和批量推理。\n- Optuna / Ray Tune 等超参数搜索。\n- 文档、报告、字段说明的 embedding 构建。\n- RAG 检索索引构建。\n- Agent 后端模型服务推理。",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": [
+      "agent",
+      "embedding",
+      "mlp",
+      "optuna",
+      "pytorch",
+      "rag",
+      "ray",
+      "tabnet",
+      "tabtransformer",
+      "transformer",
+      "tune"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 55,
+    "text": "不建议用于：",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 56,
+    "text": "- 从零训练大语言模型。\n- 把 1000 多万统计表格行直接拼成 prompt。\n- 把未清洗、未解释、无标签的原始表格直接拿去微调 LLM。",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": [
+      "1000",
+      "llm",
+      "prompt"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 57,
+    "text": "## 7. 推荐实验路线",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 58,
+    "text": "### 7.1 表格预测模型增强",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 59,
+    "text": "优先补充以下模型：",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 60,
+    "text": "- LightGBM\n- XGBoost\n- CatBoost\n- HistGradientBoosting\n- FT-Transformer\n- TabTransformer\n- TabNet",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": [
+      "catboost",
+      "histgradientboosting",
+      "lightgbm",
+      "tabnet",
+      "tabtransformer",
+      "transformer",
+      "xgboost"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 61,
+    "text": "验证方式：",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 62,
+    "text": "- GroupKFold by country，避免国家层面信息泄漏。\n- 时间切分验证，例如用较早年份训练、较晚年份测试。\n- 行业留出验证，例如按 NACE 类别留出。\n- 消融实验：分别去掉效率、安全、部署准备度变量，观察 R2/MAE 下降。\n- 稳健性分析：不同缺失率阈值、不同标准化方式、不同目标变量定义下结果是否稳定。",
+    "created_at_utc": "2026-05-18T16:36:32.861700+00:00",
+    "terms": [
+      "country",
+      "groupkfold",
+      "mae",
+      "nace"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 63,
+    "text": "### 7.2 Agent 检索与问答数据集",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": [
+      "agent"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 64,
+    "text": "构建一个小而高质量的指令数据集，而不是追求无意义的大规模。",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 65,
+    "text": "样本来源：",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 66,
+    "text": "- `docs/data_sources.md`\n- `outputs/reports/*.md`\n- `outputs/tables/*.csv`\n- `08_Research_Grade_Deck/source_notes.json`\n- `08_Research_Grade_Deck/verified_metrics.json`\n- Eurostat 指标说明与数据字典",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": [
+      "08_research_grade_deck",
+      "csv",
+      "data_sources",
+      "docs",
+      "eurostat",
+      "json",
+      "outputs",
+      "reports",
+      "source_notes",
+      "tables",
+      "verified_metrics"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 67,
+    "text": "样本格式建议：",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 68,
+    "text": "```json\n{\n  \"question\": \"为什么 Stage 2 不能直接说成中小企业样本？\",\n  \"tool_calls\": [\n    {\n      \"tool\": \"read_metric\",\n      \"args\": {\"file\": \"08_Research_Grade_Deck/verified_metrics.json\"}\n    }\n  ],\n  \"answer\": \"Stage 2 是 GE10 行业/区域外部验证层，建模样本为 5,814 行、50 个 NACE 行业，不能直接解释为 SME size-class 样本。SME 专属机制解释应主要依赖 Stage 1。\",\n  \"citations\": [\n    \"08_Research_Grade_Deck/verified_metrics.json\",\n    \"outputs/reports/stage2_large_model_results.md\"\n  ]\n}\n```",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": [
+      "08_research_grade_deck",
+      "814",
+      "answer",
+      "args",
+      "citations",
+      "class",
+      "file",
+      "ge10",
+      "json",
+      "nace",
+      "outputs",
+      "question",
+      "read_metric",
+      "reports",
+      "size",
+      "sme",
+      "stage",
+      "stage2_large_model_results",
+      "tool",
+      "tool_calls",
+      "verified_metrics"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 69,
+    "text": "### 7.3 Agent 工具设计",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": [
+      "agent"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 70,
+    "text": "建议实现以下工具：",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 71,
+    "text": "- `query_indicator(country, industry, year, indicator)`：查询指标值。\n- `predict_adoption(features)`：调用最佳表格模型预测采纳强度。\n- `explain_prediction(features)`：返回 SHAP、Permutation Importance 或局部解释。\n- `recommend_deployment(features)`：推荐 SaaS/API/本地/混合部署。\n- `render_chart(query_spec)`：生成图表。\n- `cite_source(claim)`：返回支持该结论的源文件、报告和数据表。\n- `audit_data_file(path)`：检查文件哈希、缺失率、字段覆盖。",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": [
+      "api",
+      "audit_data_file",
+      "cite_source",
+      "claim",
+      "country",
+      "explain_prediction",
+      "features",
+      "importance",
+      "indicator",
+      "industry",
+      "path",
+      "permutation",
+      "predict_adoption",
+      "query_indicator",
+      "query_spec",
+      "recommend_deployment",
+      "render_chart",
+      "saas",
+      "shap",
+      "year"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 72,
+    "text": "## 8. 准确率与 token 消耗优化",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": [
+      "token"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 73,
+    "text": "为了同时保证准确率和 token 成本，建议采用以下原则：",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": [
+      "token"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 74,
+    "text": "1. 不把大表直接塞进 prompt。所有大数据查询通过工具完成。\n2. LLM 只接收小规模结构化结果，例如 Top 10 特征、模型指标、数据切片摘要。\n3. 建立 feature store，让模型输入固定为结构化 JSON。\n4. 对来源文档建立 embedding 索引，回答时只检索 3-5 段最相关证据。\n5. 常用指标和模型结果做缓存，避免重复读取和重复推理。\n6. 让 Agent 输出固定 JSON，再由报告层转成中文自然语言，减少跑偏。\n7. 所有回答强制带 `evidence_files` 字段，没有证据就标记为“无法确认”。",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": [
+      "agent",
+      "embedding",
+      "evidence_files",
+      "feature",
+      "json",
+      "llm",
+      "prompt",
+      "store",
+      "top"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 75,
+    "text": "## 9. 后续目录建议",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 76,
+    "text": "建议下一阶段新增：",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 77,
+    "text": "```text\n10_Agent系统/\n  README.md\n  configs/\n    agent.yaml\n    model_registry.yaml\n  data_index/\n    source_catalog.parquet\n    feature_catalog.parquet\n  training/\n    train_lgbm.py\n    train_catboost.py\n    train_ft_transformer.py\n    evaluate_models.py\n  agent_tools/\n    query_indicator.py\n    predict_adoption.py\n    explain_prediction.py\n    recommend_deployment.py\n    cite_source.py\n  rag/\n    build_index.py\n    evaluate_rag.py\n  reports/\n    agent_evaluation_report.md\n    model_comparison_report.md\n  tests/\n    test_no_data_leakage.py\n    test_citation_accuracy.py\n    test_prediction_schema.py\n```",
+    "created_at_utc": "2026-05-18T16:36:32.862228+00:00",
+    "terms": [
+      "10_agent",
+      "agent",
+      "agent_evaluation_report",
+      "agent_tools",
+      "build_index",
+      "cite_source",
+      "configs",
+      "data_index",
+      "evaluate_models",
+      "evaluate_rag",
+      "explain_prediction",
+      "feature_catalog",
+      "model_comparison_report",
+      "model_registry",
+      "parquet",
+      "predict_adoption",
+      "query_indicator",
+      "rag",
+      "readme",
+      "recommend_deployment",
+      "reports",
+      "source_catalog",
+      "test_citation_accuracy",
+      "test_no_data_leakage",
+      "test_prediction_schema",
+      "tests",
+      "text",
+      "train_catboost",
+      "train_ft_transformer",
+      "train_lgbm",
+      "training",
+      "yaml"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 78,
+    "text": "## 10. 评估标准",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 79,
+    "text": "机器学习模型评估：",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 80,
+    "text": "- GroupKFold R2 / MAE\n- 时间外推 R2 / MAE\n- 行业留出 R2 / MAE\n- 特征重要性稳定性\n- SHAP/Permutation Importance 一致性\n- 数据泄漏检查\n- 缺失值敏感性分析",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": [
+      "groupkfold",
+      "importance",
+      "mae",
+      "permutation",
+      "shap"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 81,
+    "text": "Agent 评估：",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": [
+      "agent"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 82,
+    "text": "- 数值准确率：回答中的指标是否与 CSV/JSON 完全一致。\n- 引用准确率：结论是否能追溯到真实文件。\n- 幻觉率：无来源结论占比。\n- 工具调用成功率：工具调用是否返回正确 schema。\n- token 成本：每个问题平均输入/输出 token。\n- 延迟：普通查询、模型预测、图表生成分别统计耗时。\n- 稳定性：同一问题多次回答是否一致。",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": [
+      "csv",
+      "json",
+      "schema",
+      "token"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 83,
+    "text": "## 11. 安全与协作规范",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 84,
+    "text": "必须遵守：",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 85,
+    "text": "- 不要把 GitHub token、服务器 root 密码、SSH 私钥写入任何 Markdown、代码、日志或 commit。\n- 如果 token 已经出现在聊天记录中，应视为已暴露，建议在 GitHub 后台立即 revoke 并重新生成最小权限 token。\n- GitHub 连接使用 `gh auth login` 或服务器环境变量。\n- 服务器连接使用本地 SSH config、密钥或安全密码管理方式。\n- `.env` 必须加入 `.gitignore`。\n- 训练日志可以记录模型参数和指标，但不能记录密钥。",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": [
+      "auth",
+      "commit",
+      "config",
+      "env",
+      "github",
+      "gitignore",
+      "login",
+      "markdown",
+      "revoke",
+      "root",
+      "ssh",
+      "token"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 86,
+    "text": "## 12. 给下一位 Agent 的执行 Prompt",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": [
+      "agent",
+      "prompt"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 87,
+    "text": "下面这段可以直接复制给下一位 Agent，让它继续完成训练系统。",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": [
+      "agent"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 88,
+    "text": "```text\n你现在接手一个已经建立好的研究项目：",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": [
+      "text"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 89,
+    "text": "项目名称：中小企业 AI 流程自动化采纳机制研究\nGitHub 仓库：https://github.com/hoanglenga2000-glitch/sme-ai-workflow-adoption.git\n核心目标：基于真实官方数据和已有清洗训练结果，构建一个可复现、可解释、低 token 成本的 SME AI Workflow Adoption Research Agent。",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": [
+      "adoption",
+      "agent",
+      "com",
+      "git",
+      "github",
+      "glitch",
+      "hoanglenga2000",
+      "https",
+      "research",
+      "sme",
+      "token",
+      "workflow"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 90,
+    "text": "请严格遵守：\n1. 不要编造数据，不要生成假指标。所有数据、模型结果、图表必须能追溯到仓库文件或官方来源。\n2. 不要把 GitHub token、服务器密码、SSH 私钥写入任何文件或提交记录。认证使用 gh auth login、环境变量、SSH config 或 GitHub Secrets。\n3. 先完整审查仓库结构，重点查看：\n   - data/raw/manifest.jsonl\n   - data/raw/manifest_stage2.jsonl\n   - docs/data_sources.md\n   - outputs/reports/stage2_source_profile.md\n   - outputs/reports/stage2_large_model_results.md\n   - 08_Research_Grade_Deck/verified_metrics.json\n   - src/pipeline.py\n   - src/pipeline_multisource.py\n   - src/pipeline_stage2_large.py\n4. 先验证数据真实性：\n   - 检查 manifest 中的哈希记录。\n   - 统计源数据行数、非空观测数、过滤后样本数。\n   - 明确 Stage 1 与 Stage 2 的研究边界。\n5. 不要直接把 1000 多万表格行训练成大语言模型。推荐架构是：\n   表格机器学习模型 + RAG 检索 + 工具调用 Agent。\n6. A10 GPU 应用于：\n   - PyTorch MLP、FT-Transformer、TabTransformer、TabNet 等表格深度学习基线；\n   - embedding/RAG 索引构建；\n   - 超参数搜索和批量推理；\n   - 不要从零训练 LLM。",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": [
+      "08_research_grade_deck",
+      "1000",
+      "a10",
+      "agent",
+      "auth",
+      "config",
+      "data",
+      "data_sources",
+      "docs",
+      "embedding",
+      "github",
+      "gpu",
+      "json",
+      "jsonl",
+      "llm",
+      "login",
+      "manifest",
+      "manifest_stage2",
+      "mlp",
+      "outputs",
+      "pipeline",
+      "pipeline_multisource",
+      "pipeline_stage2_large",
+      "pytorch",
+      "rag",
+      "raw",
+      "reports",
+      "secrets",
+      "src",
+      "ssh",
+      "stage",
+      "stage2_large_model_results",
+      "stage2_source_profile",
+      "tabnet",
+      "tabtransformer",
+      "token",
+      "transformer",
+      "verified_metrics"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 91,
+    "text": "请完成以下任务：",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 92,
+    "text": "A. 新建 `10_Agent系统/` 目录，建立清晰工程结构：\n   - configs/\n   - training/\n   - agent_tools/\n   - rag/\n   - reports/\n   - tests/",
+    "created_at_utc": "2026-05-18T16:36:32.862755+00:00",
+    "terms": [
+      "10_agent",
+      "agent_tools",
+      "configs",
+      "rag",
+      "reports",
+      "tests",
+      "training"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 93,
+    "text": "B. 建立模型增强训练流水线：\n   - 复用已有清洗后数据。\n   - 训练 LightGBM、XGBoost、CatBoost、HistGradientBoosting。\n   - 如果 GPU 环境可用，补充 FT-Transformer 或 TabTransformer。\n   - 使用 GroupKFold by country、时间留出、行业留出验证。\n   - 输出 `reports/model_comparison_report.md` 和机器可读 `model_metrics.json`。",
+    "created_at_utc": "2026-05-18T16:36:32.863287+00:00",
+    "terms": [
+      "catboost",
+      "country",
+      "gpu",
+      "groupkfold",
+      "histgradientboosting",
+      "json",
+      "lightgbm",
+      "model_comparison_report",
+      "model_metrics",
+      "reports",
+      "tabtransformer",
+      "transformer",
+      "xgboost"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 94,
+    "text": "C. 建立 Agent 工具：\n   - query_indicator\n   - predict_adoption\n   - explain_prediction\n   - recommend_deployment\n   - render_chart\n   - cite_source\n   每个工具必须有输入/输出 schema 和测试用例。",
+    "created_at_utc": "2026-05-18T16:36:32.863287+00:00",
+    "terms": [
+      "agent",
+      "cite_source",
+      "explain_prediction",
+      "predict_adoption",
+      "query_indicator",
+      "recommend_deployment",
+      "render_chart",
+      "schema"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 95,
+    "text": "D. 建立 RAG 检索：\n   - 只索引经过验证的报告、来源说明、数据字典和模型结果。\n   - 回答必须返回 evidence_files。\n   - 没有证据的结论必须标记为“无法确认”。",
+    "created_at_utc": "2026-05-18T16:36:32.863287+00:00",
+    "terms": [
+      "evidence_files",
+      "rag"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 96,
+    "text": "E. 建立评估体系：\n   - Agent 数值准确率\n   - 引用准确率\n   - 工具调用成功率\n   - 幻觉率\n   - 平均 token 成本\n   - 平均延迟",
+    "created_at_utc": "2026-05-18T16:36:32.863287+00:00",
+    "terms": [
+      "agent",
+      "token"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 97,
+    "text": "F. 输出最终文件：\n   - `10_Agent系统/README.md`\n   - `10_Agent系统/reports/model_comparison_report.md`\n   - `10_Agent系统/reports/agent_evaluation_report.md`\n   - 可运行训练脚本\n   - 可运行 Agent 工具脚本\n   - 测试结果",
+    "created_at_utc": "2026-05-18T16:36:32.863287+00:00",
+    "terms": [
+      "10_agent",
+      "agent",
+      "agent_evaluation_report",
+      "model_comparison_report",
+      "readme",
+      "reports"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 98,
+    "text": "G. 最后提交到 GitHub：\n   - 先运行测试和关键脚本。\n   - 检查 `git status`，不要提交临时文件、锁文件、密钥文件。\n   - commit message 使用英文简洁描述。\n   - push 到 main。",
+    "created_at_utc": "2026-05-18T16:36:32.863287+00:00",
+    "terms": [
+      "commit",
+      "git",
+      "github",
+      "main",
+      "message",
+      "push",
+      "status"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 99,
+    "text": "研究表达边界：\n- Stage 1 支撑 SME 机制解释。\n- Stage 2 支撑 GE10 行业/区域外部验证，不要说成 SME 专属样本。\n- 树模型优于 MLP 是当前结构化官方统计数据的实证结果。\n- Agent 的价值是把真实数据、模型预测、可解释分析和部署建议连接起来，而不是凭空聊天。\n```",
+    "created_at_utc": "2026-05-18T16:36:32.863287+00:00",
+    "terms": [
+      "agent",
+      "ge10",
+      "mlp",
+      "sme",
+      "stage"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 100,
+    "text": "## 13. 下一步建议",
+    "created_at_utc": "2026-05-18T16:36:32.863287+00:00",
+    "terms": []
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 101,
+    "text": "下一阶段最有价值的不是“训练一个更大的模型”，而是把现有研究变成一个可信的研究型 Agent 系统：",
+    "created_at_utc": "2026-05-18T16:36:32.863287+00:00",
+    "terms": [
+      "agent"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 102,
+    "text": "- 预测靠表格模型。\n- 解释靠 SHAP/Permutation Importance/回归系数。\n- 证据靠 RAG 和文件引用。\n- 汇报靠自动图表与结构化报告生成。\n- 产品落地连接 `ai.zhjjq.tech`，体现 AI 工作站如何根据企业画像给出部署策略。",
+    "created_at_utc": "2026-05-18T16:36:32.863287+00:00",
+    "terms": [
+      "importance",
+      "permutation",
+      "rag",
+      "shap",
+      "tech",
+      "zhjjq"
+    ]
+  },
+  {
+    "file": "09_Agent训练规划/项目总结与Agent训练路线.md",
+    "chunk_id": 103,
+    "text": "这样既能体现机器学习课程的模型训练与数据挖掘要求，也能体现数字生命周期、真实数据治理、企业部署价值和 A10 GPU 的合理使用。",
+    "created_at_utc": "2026-05-18T16:36:32.863287+00:00",
+    "terms": [
+      "a10",
+      "gpu"
+    ]
+  },
+  {
+    "file": "10_Agent系统/reports/model_comparison_report.md",
+    "chunk_id": 1,
+    "text": "# Model Comparison Report",
+    "created_at_utc": "2026-05-18T16:36:32.863810+00:00",
+    "terms": [
+      "comparison",
+      "model",
+      "report"
+    ]
+  },
+  {
+    "file": "10_Agent系统/reports/model_comparison_report.md",
+    "chunk_id": 2,
+    "text": "This report compares verified tabular models for the research agent.",
+    "created_at_utc": "2026-05-18T16:36:32.863810+00:00",
+    "terms": [
+      "agent",
+      "compares",
+      "for",
+      "models",
+      "report",
+      "research",
+      "tabular",
+      "the",
+      "this",
+      "verified"
+    ]
+  },
+  {
+    "file": "10_Agent系统/reports/model_comparison_report.md",
+    "chunk_id": 3,
+    "text": "## stage1\n- description: SME mechanism interpretation layer\n- rows: 553\n- feature_count: 25\n- best_model: `ridge`\n- best_groupkfold_r2: 0.8680",
+    "created_at_utc": "2026-05-18T16:36:32.863810+00:00",
+    "terms": [
+      "553",
+      "8680",
+      "best_groupkfold_r2",
+      "best_model",
+      "description",
+      "feature_count",
+      "interpretation",
+      "layer",
+      "mechanism",
+      "ridge",
+      "rows",
+      "sme",
+      "stage1"
+    ]
+  },
+  {
+    "file": "10_Agent系统/reports/model_comparison_report.md",
+    "chunk_id": 4,
+    "text": "### ridge\n- group_kfold_r2_mean: 0.8680\n- group_kfold_mae_mean: 1.8342\n- time_holdout_r2: 0.9312\n- top_features:\n  - E_AI_TANY: 0.597010\n  - E_AI_TML: 0.530275\n  - E_AI_DA: 0.140894\n  - E_AI_CC1SI_DA: 0.121978\n  - E_AI_CC: 0.114176\n  - deployment_readiness_index: 0.095155\n  - E_AI_TNLG: 0.037708\n  - E_AI_BLEG: 0.026324",
+    "created_at_utc": "2026-05-18T16:36:32.863810+00:00",
+    "terms": [
+      "026324",
+      "037708",
+      "095155",
+      "114176",
+      "121978",
+      "140894",
+      "530275",
+      "597010",
+      "8342",
+      "8680",
+      "9312",
+      "deployment_readiness_index",
+      "e_ai_bleg",
+      "e_ai_cc",
+      "e_ai_cc1si_da",
+      "e_ai_da",
+      "e_ai_tany",
+      "e_ai_tml",
+      "e_ai_tnlg",
+      "group_kfold_mae_mean",
+      "group_kfold_r2_mean",
+      "ridge",
+      "time_holdout_r2",
+      "top_features"
+    ]
+  },
+  {
+    "file": "10_Agent系统/reports/model_comparison_report.md",
+    "chunk_id": 5,
+    "text": "### random_forest\n- group_kfold_r2_mean: 0.8647\n- group_kfold_mae_mean: 1.7212\n- time_holdout_r2: 0.8516\n- top_features:",
+    "created_at_utc": "2026-05-18T16:36:32.863810+00:00",
+    "terms": [
+      "7212",
+      "8516",
+      "8647",
+      "group_kfold_mae_mean",
+      "group_kfold_r2_mean",
+      "random_forest",
+      "time_holdout_r2",
+      "top_features"
+    ]
+  },
+  {
+    "file": "10_Agent系统/reports/model_comparison_report.md",
+    "chunk_id": 6,
+    "text": "### hist_gradient_boosting\n- group_kfold_r2_mean: 0.8338\n- group_kfold_mae_mean: 1.8771\n- time_holdout_r2: 0.8131\n- top_features:",
+    "created_at_utc": "2026-05-18T16:36:32.864330+00:00",
+    "terms": [
+      "8131",
+      "8338",
+      "8771",
+      "group_kfold_mae_mean",
+      "group_kfold_r2_mean",
+      "hist_gradient_boosting",
+      "time_holdout_r2",
+      "top_features"
+    ]
+  },
+  {
+    "file": "10_Agent系统/reports/model_comparison_report.md",
+    "chunk_id": 7,
+    "text": "## stage2\n- description: GE10 industry and region external validation layer\n- rows: 5814\n- feature_count: 67\n- best_model: `extra_trees`\n- best_groupkfold_r2: 0.7137",
+    "created_at_utc": "2026-05-18T16:36:32.864330+00:00",
+    "terms": [
+      "5814",
+      "7137",
+      "and",
+      "best_groupkfold_r2",
+      "best_model",
+      "description",
+      "external",
+      "extra_trees",
+      "feature_count",
+      "ge10",
+      "industry",
+      "layer",
+      "region",
+      "rows",
+      "stage2",
+      "validation"
+    ]
+  },
+  {
+    "file": "10_Agent系统/reports/model_comparison_report.md",
+    "chunk_id": 8,
+    "text": "### ridge\n- group_kfold_r2_mean: 0.6813\n- group_kfold_mae_mean: 2.3492\n- time_holdout_r2: 0.6976\n- industry_holdout_r2: 0.8639\n- top_features:",
+    "created_at_utc": "2026-05-18T16:36:32.864330+00:00",
+    "terms": [
+      "3492",
+      "6813",
+      "6976",
+      "8639",
+      "group_kfold_mae_mean",
+      "group_kfold_r2_mean",
+      "industry_holdout_r2",
+      "ridge",
+      "time_holdout_r2",
+      "top_features"
+    ]
+  },
+  {
+    "file": "10_Agent系统/reports/model_comparison_report.md",
+    "chunk_id": 9,
+    "text": "### extra_trees\n- group_kfold_r2_mean: 0.7137\n- group_kfold_mae_mean: 2.0525\n- time_holdout_r2: 0.7019\n- industry_holdout_r2: 0.9521\n- top_features:\n  - ai_industry__E_AI_TML: 0.494969\n  - ai_industry__E_AI_TNLG: 0.088643\n  - digital_foundation_index: 0.035307\n  - ai_industry__E_AI_CC: 0.022003\n  - country: 0.020641\n  - geo: 0.020431\n  - nace_r2: 0.020219\n  - deployment_readiness_index: 0.011671",
+    "created_at_utc": "2026-05-18T16:36:32.864330+00:00",
+    "terms": [
+      "011671",
+      "020219",
+      "020431",
+      "020641",
+      "022003",
+      "035307",
+      "0525",
+      "088643",
+      "494969",
+      "7019",
+      "7137",
+      "9521",
+      "ai_industry__e_ai_cc",
+      "ai_industry__e_ai_tml",
+      "ai_industry__e_ai_tnlg",
+      "country",
+      "deployment_readiness_index",
+      "digital_foundation_index",
+      "extra_trees",
+      "geo",
+      "group_kfold_mae_mean",
+      "group_kfold_r2_mean",
+      "industry_holdout_r2",
+      "nace_r2",
+      "time_holdout_r2",
+      "top_features"
+    ]
+  },
+  {
+    "file": "10_Agent系统/reports/model_comparison_report.md",
+    "chunk_id": 10,
+    "text": "### hist_gradient_boosting\n- group_kfold_r2_mean: 0.6815\n- group_kfold_mae_mean: 2.1758\n- time_holdout_r2: 0.6955\n- industry_holdout_r2: 0.9471\n- top_features:",
+    "created_at_utc": "2026-05-18T16:36:32.864330+00:00",
+    "terms": [
+      "1758",
+      "6815",
+      "6955",
+      "9471",
+      "group_kfold_mae_mean",
+      "group_kfold_r2_mean",
+      "hist_gradient_boosting",
+      "industry_holdout_r2",
+      "time_holdout_r2",
+      "top_features"
+    ]
+  },
+  {
+    "file": "10_Agent系统/reports/model_registry.json",
+    "chunk_id": 1,
+    "text": "{\n  \"status\": \"ok\",\n  \"champion_stage\": \"stage2\",\n  \"champion_model\": \"extra_trees\",\n  \"champion_artifact\": \"10_Agent系统/training/artifacts/champion_model.joblib\",\n  \"academic_score\": historical_training_score_not_for_public_display,\n  \"metrics\": {\n    \"model\": \"extra_trees\",\n    \"validation\": \"group_kfold\",\n    \"rows\": 5814,\n    \"group_count\": 36,\n    \"r2_mean\": 0.7245,\n    \"r2_std\": 0.009121871930089065,\n    \"mae_mean\": 1.9646,\n    \"mae_std\": 0.15890188319970533,\n    \"fold_metrics\": [\n      {\n        \"fold\": 1,\n        \"r2\": 0.7227819535625384,\n        \"mae\": 1.8936259277829794,\n        \"rows\": 2899\n      },\n      {\n        \"fold\": 2,\n        \"r2\": 0.7045382097023603,\n        \"mae\": 2.21142969418239,\n        \"rows\": 2915\n      }\n    ],\n    \"time_holdout\": {\n      \"validation\": \"time_holdout\",\n      \"train_year_max\": 2024,\n      \"test_year_min\": 2025,\n      \"rows_train\": 4361,\n      \"rows_test\": 1453,\n      \"r2\": 0.7019150547187023,\n      \"mae\": 2.5151080174843514\n    },\n    \"industry_holdout\": {\n      \"validation\": \"industry_holdout\",\n      \"held_out_industry\": \"C10-S951_X_K\",\n      \"rows_train\": 5676,\n      \"rows_test\": 138,\n      \"r2\": 0.9521096639989431,\n      \"mae\": 0.4826524355158730",
+    "created_at_utc": "2026-05-18T16:36:32.864856+00:00",
+    "terms": [
+      "009121871930089065",
+      "052527810982685",
+      "10_agent",
+      "138",
+      "1453",
+      "15890188319970533",
+      "2024",
+      "2025",
+      "21142969418239",
+      "2899",
+      "2915",
+      "4361",
+      "4826524355158730",
+      "5151080174843514",
+      "5676",
+      "5814",
+      "7019150547187023",
+      "7045382097023603",
+      "7136600816324493",
+      "7227819535625384",
+      "8936259277829794",
+      "907747409159926",
+      "9521096639989431",
+      "academic_score",
+      "artifacts",
+      "c10",
+      "champion_artifact",
+      "champion_model",
+      "champion_stage",
+      "extra_trees",
+      "fold",
+      "fold_metrics",
+      "group_count",
+      "group_kfold",
+      "held_out_industry",
+      "industry_holdout",
+      "joblib",
+      "mae",
+      "mae_mean",
+      "mae_std",
+      "metrics",
+      "model",
+      "r2_mean",
+      "r2_std",
+      "rows",
+      "rows_test",
+      "rows_train",
+      "s951_x_k",
+      "stage2",
+      "status",
+      "test_year_min",
+      "time_holdout",
+      "train_year_max",
+      "training",
+      "validation"
+    ]
+  }
+]
